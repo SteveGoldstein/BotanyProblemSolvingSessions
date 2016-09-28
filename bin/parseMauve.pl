@@ -12,21 +12,32 @@ GetOptions (
 
             );
 
+my @outputBlock;
+my @seqsInBlock;
+my $numSeqs = 5;
+my $currentSeqIndex;
+
 while(<>) {
   chomp;
   next if (/^#/);
-  #print "$_\n";
-
-  if (/^> (\d+):/) {
-    # It's a seq header
-    print "$_\n";
-    print "got a header\n";
-  } ## if >
 
   if (/^=/) {
-    print "$_\n";
-    print "got a separator\n";
+    if (scalar @seqsInBlock == $numSeqs) {
+      print join("\n", @outputBlock), "\n";
+    } ## if complete block
+    @seqsInBlock = ();
+    @outputBlock = ();
+    next;
   } ## if =
+
+  push @outputBlock, $_;
+  if (/^> (\d+):/) {
+    # It's a seq header
+    my $seqIndex = $1;
+    push @seqsInBlock, $seqIndex;
+  } ## if >
+
+
   #last;
 } ## while
 
