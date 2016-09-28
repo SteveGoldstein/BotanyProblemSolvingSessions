@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+### Parse LCBs from Mauve output into separate files.
+##  This version only writes out LCBs that have all input .fa seqs represented.
 
 use warnings;
 use strict;
@@ -24,11 +26,13 @@ while(<>) {
 
   if (/^=/) {
     if (scalar @seqsInBlock == $numSeqs) {
+      # Only use complete blocks;
       $lcbIndex ++;
       open OUT, ">$outputDir/lcbBlock$lcbIndex.fa";
       print OUT join("\n", @outputBlock), "\n";
       close OUT;
     } ## if complete block
+    ## Reset
     @seqsInBlock = ();
     @outputBlock = ();
     next;
