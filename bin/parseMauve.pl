@@ -7,7 +7,6 @@ use Carp;
 use English;
 use Getopt::Long;
 
-
 GetOptions (
 
             );
@@ -16,6 +15,8 @@ my @outputBlock;
 my @seqsInBlock;
 my $numSeqs = 5;
 my $currentSeqIndex;
+my $outputDir = 'mauveLCBs';
+my $lcbIndex = 0;
 
 while(<>) {
   chomp;
@@ -23,7 +24,10 @@ while(<>) {
 
   if (/^=/) {
     if (scalar @seqsInBlock == $numSeqs) {
-      print join("\n", @outputBlock), "\n";
+      $lcbIndex ++;
+      open OUT, ">$outputDir/lcbBlock$lcbIndex.fa";
+      print OUT join("\n", @outputBlock), "\n";
+      close OUT;
     } ## if complete block
     @seqsInBlock = ();
     @outputBlock = ();
