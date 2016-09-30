@@ -24,7 +24,7 @@ while(<>) {
   chomp;
   next if (/^#/);
 
-  if (/^=/) {
+  if (/^=/ or eof) {
     if (scalar @seqsInBlock == $numSeqs) {
       # Only use complete blocks;
       $lcbIndex ++;
