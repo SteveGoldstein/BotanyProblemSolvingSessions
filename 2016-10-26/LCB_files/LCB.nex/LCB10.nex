@@ -1,0 +1,2604 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=5;
+	taxlabels
+	metasequoia[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	cryptomeria[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	picea[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	sequoia[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	sequoiadendron[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+;
+end;
+
+begin characters;
+	dimensions nchar=25818;
+	format datatype=dna missing=? gap=- interleave=yes;
+	matrix
+	metasequoia	GAGCCCTTTATCGGGCTTGAACCGATGACTTAC-------------GTTACTCTACCCCT
+	cryptomeria	GAGCCCTTTATCGGGCTTGAACCGATGACTTAC---------------------------
+	picea	GAGCCCTTTATCGGACTTGAACCGATGACTTACGCCTTACCATGGCGTTACTCTACCGCT
+	sequoia	GAGCCCTTTATCGGGCTTGAACCGATGACTTAC-------------GTTACTCTACCCCT
+	sequoiadendron	GAGCCCTTTATCGGGCTTGAACCGATGACTTAC-------------GTTACTCTACCCCT
+
+	metasequoia	GAGTTAAAAGGGC-----------------------------------------------
+	cryptomeria	-----------GC-----------------------------------------------
+	picea	GAGTTAAAAGGGCCCCCCCATCATATATTAATGAGTGAGTCCGATTTACGATATATGGAT
+	sequoia	GAGTTAAAAGGGC-----------------------------------------------
+	sequoiadendron	GAGTTAAAAGGGC-----------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	AACAAATTGGATACATATGATCCATCTATTTTTATAGATATCAAGTTGAGAACATTTATT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	AGTAGCTCGTAGGTTTACATGAGAGGAGGGTGGGGATGGCTATACTGGAAACTCCGGGCT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	GAACTGATACGAAGCGAATGGATACAAGTTATGCCCGGGAACAATCAATATGTTGGTATT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	GCTAGAAGAGCCAAAGGATCAACGGGCCAGGTCTTATTGCAATTACTTGAAATGCGTTCG
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------TTTCTTTTGGTCATGA--------------------------------
+	cryptomeria	------------CTT---------------------------------------------
+	picea	GATAATATTATTTTTCAATTGGGTATGGCTCCCACCATTCCGGGTGCTAGACAATTAGTT
+	sequoia	------------TTTCTTTTGGTCATGA--------------------------------
+	sequoiadendron	------------TTTCTTTTGGTCATGA--------------------------------
+
+	metasequoia	---------------------AATGACCAATGAATAAGTCTACTACAT------------
+	cryptomeria	-----------------------------------------ACCATGT------------
+	picea	AATCATGGACATATCCGGGTCAATGACCATATGGTAGATATACCAAGTTACCTTTGCAAA
+	sequoia	---------------------AATGACCAATGAATAAGTCTACTACAT------------
+	sequoiadendron	---------------------AATGACCAATGAATAAGTCTACTATAT------------
+
+	metasequoia	-----------------------------------------------------ATTC---
+	cryptomeria	-----------------------------------------------------ATTC---
+	picea	CCTATTACTATAAGAGATCAACAAAGATTGAGAGCTAAAAAGATGGATCATCCATTCCAG
+	sequoia	-----------------------------------------------------ATTC---
+	sequoiadendron	-----------------------------------------------------ATTC---
+
+	metasequoia	----------------------------GATAGATATTAATAC-----TTATAATGGGGT
+	cryptomeria	----------------------------G-TAGATATGAATAA------TCTAATGGGGT
+	picea	TCCAGTTTATGGCTCTCAGATCAAGTAAAATAAATATGAACAACCTTTATTTAATGGAAT
+	sequoia	----------------------------GATAGATATTAATAA-----ATATTATGGGGT
+	sequoiadendron	----------------------------AATAGATATGAATAA-----ATAGAATGGGGT
+
+	metasequoia	CT----------------------------------------------------------
+	cryptomeria	GT----------------------------------------------------------
+	picea	CCTCCCTTCTCTCCCGGAAGAGGAAGATCTTTCGAAAATGAATTCTAAATAATTCAATTA
+	sequoia	CT----------------------------------------------------------
+	sequoiadendron	CT----------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	GAAGATTAGAAGATTAGAGGAGTTGAGGAAAAAATTTATTGATAAAGGGAAAGAACAACC
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TATAATTGATAGAATCCTTTCTTCTCTCTCGGAAATGGAAGAGCAATAATTAAGGAATTC
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	CGGAATTGGGATTCAAATGTGGAAGGAAAGGAGTGGCGGAATATTTGTCGATGGGATTGT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	-------------------------------AAATATAAAATACAATATACAA-------
+	cryptomeria	-------------------------------ATATAT-------------TAA-------
+	picea	GGCGTGTATAGTTTGTGAGTGTGATTCGTTAAATTATCAACTCAAATAGTCAAAGGATAT
+	sequoia	-------------------------------AAATATAAAATAGAATATATAA-------
+	sequoiadendron	-------------------------------AACTATAAAATAGAATATACAA-------
+
+	metasequoia	--TATATATATAT-TG---------------TATTTATTAT-------------------
+	cryptomeria	--TACATATATATATG---------------TGT--------------------------
+	picea	TTTACATGGATCTCTGATCCATCCAAAGCTCTATCTATTACTAATGGGCCTGATACGACC
+	sequoia	--TATATATATAT-TG---------------TATTTATTAT-------------------
+	sequoiadendron	--TATATATATAT-TG---------------TATTTATTAT-------------------
+
+	metasequoia	------------------AACTATACAATATCTAATATAT--------------------
+	cryptomeria	--------------------CTATATAAT-------------------------------
+	picea	ATTAGAGTCAGAACAGTAAGCTGTGCAATAACCTCTAGATCCATTTGGTTTTCTTTCACC
+	sequoia	------------------AACTATACAATATCTAATATAT--------------------
+	sequoiadendron	------------------AACTATACAATATCTAATATAT--------------------
+
+	metasequoia	-------------------------------------ATTGTATATTGT-----------
+	cryptomeria	------------------------------------------------------------
+	picea	CCTATGATCCCATCAACTCGATGAACGTATGAATAAAATTTTGTTTTGTTGAGATCAATC
+	sequoia	-------------------------------------ATTGTATATTGT-----------
+	sequoiadendron	-------------------------------------ATTGTATATTGT-----------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	ACTTTTCTTTTCTTCTATTTTCTTTTCTTCTATTTTCTTTTCTTCTATTTTCTCTTCTTC
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TTCCCCATCTGTGTAGTTTCGATCAGGAACCTATAGCCTTGAGCAATTTATATCTTTACA
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	-------ATACAATATATAG----------------------------------------
+	cryptomeria	-----------AGAATATAG----------------------------------------
+	picea	ATAAGACATAAAATAGATAGAGAGTCCATTCATGTATTTCAATATCTAGATATTGAAATT
+	sequoia	-------ATACAATATATAG----------------------------------------
+	sequoiadendron	-------ATACAATATATAG----------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TGAGACTGGAGAGGAATAAATGGACTAATCCGTGTAACTCATTTATTAAAAATGATTGGA
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	---------------TTATAATATA------------TATAG------------------
+	cryptomeria	---------------CTAT-----A------------TATAG------------------
+	picea	GAGGGAATGAAGAGATGATAATAGAGGTTCAATTTTTTATAGCTTTTGTTCTTGCTTTTG
+	sequoia	---------------TTATAATAAA------------TATAG------------------
+	sequoiadendron	---------------TTATAATATA------------TATAG------------------
+
+	metasequoia	-----------------------------------TTCTATTTTTGATTCT---------
+	cryptomeria	-----------------------------------TTATATTGCTGATCCT---------
+	picea	CAACAATTAATTTAGCTATCAAATTAGGTAAAGCATTGTATGATTGATTCTTTCTTTTTT
+	sequoia	-----------------------------------TTATATTGTCGATCCT---------
+	sequoiadendron	-----------------------------------TTCTATTTTTGATTCT---------
+
+	metasequoia	-----------------------GACAAAACAAGAAGAATATGAAAT-------AATGAA
+	cryptomeria	-----------------------GACAATGCAAGAAGAATATTCAAT-------AATGAA
+	picea	CTGACCTGCCTGGCCACTGGCCGGGCAGGTCAGAAAAAAGGCAAAATCTTTTGAAACGAA
+	sequoia	-----------------------GACAACACAAGAAGAATATGAAAT-------AATGAA
+	sequoiadendron	-----------------------GACAACACAAGAAGAATATGTAAT-------AATGAA
+
+	metasequoia	TATGAAGAA-----------AGATTCTTTTT-----ATTGACAAATT-------------
+	cryptomeria	TATGAAGAA-----------AGATTCTTTTT-----ATTGACAAATT-------------
+	picea	-ATGAAAAATACAATTCGCCAGATTCGTTTTTTCTAACTGAATAATTGCAATATTCGTTA
+	sequoia	TATGAAGAA-----------AGATTCTTTTT-----ATTGACAAATT-------------
+	sequoiadendron	TATGAAGAA-----------AGATTCTTTTT-----ATTGACAAATT-------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TATTGTCGATACAATCTGTACATGCTATGGTATACACCTTTACTCCACCATTCATTTTGT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TAAACAAGAACTTTTCCATCTTGGAGAGATGGCTGAGCGGACCAAAGCGGCGGATTGCTA
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	ATCCGTAGTACGGATTATCCGTACCGAGGGTTCGAATCCCTCTCTCTCCGTTCGGTCACT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------CCTAGG------
+	cryptomeria	------------------------------------------------CCTAGG------
+	picea	ATTGCGGATAACTCCGAATCTTTCTACGGAATGGAAAAGACTCATTAACCTAGATACTTT
+	sequoia	------------------------------------------------CCTAGG------
+	sequoiadendron	------------------------------------------------CCTAGG------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TTTTCACTATTCTTTACGTCCGGGATTACGTCCTGGATCGTTCGATAGAAATCCAAAGAT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	AAAAAGAGAAATGAAAAATATCACTACTGTGTAAACGAACAGCTTAAGAGTAAGCATTAC
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	GTAATCTCCGGGATCCTAATTATAAGTACAACAGAATAGATCATCAATCTTTGTACCATA
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TATGAATACTTGAATACCAAACAATAGTATGATTCATAAAAATCACGAAATTATTTCTCC
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	-------------------------------GATTTGAATATTAT---------------
+	cryptomeria	-------------------------------GATTTGAATATTAT---------------
+	picea	GGATCACGTGTGAAAATCAAATTGAAAGAAGGAGATAATTTCTATCTTTGTTTTTCAAAT
+	sequoia	-------------------------------GATTTGAATATTAT---------------
+	sequoiadendron	-------------------------------GATTTGAATATTAT---------------
+
+	metasequoia	----------------------------------------------------------GA
+	cryptomeria	----------------------------------------------------------GA
+	picea	GGTCTTTCTTCATAGATAGGGAAGTTTCTTGAAAACCAATAAGGAAACCAATAAGGAAAA
+	sequoia	----------------------------------------------------------GA
+	sequoiadendron	----------------------------------------------------------GA
+
+	metasequoia	CAATAAGTA---------------------------------------------------
+	cryptomeria	CAATAAGTA---------------------------------------------------
+	picea	CAATAAGAAAATGGAATTCTGGTCATACTATTGACAACTTTCGGGTCACTTTCATAGTAT
+	sequoia	TAATAAGTA---------------------------------------------------
+	sequoiadendron	CAATAAGTA---------------------------------------------------
+
+	metasequoia	----------GGCCCCTATCGTCTAGTGGCCCAGGACATCTCTCTTTCAAGGAGGCAACG
+	cryptomeria	----------GGCCCCTATCGTCTAGTGGCCCAGGACATCTCTCTTTCAAGGAGGCAACG
+	picea	AATTCTTGGCGGCCCCTATCGTCTAGTGGATCAGGACATCTCTCTTTCAAGGAGGCAACG
+	sequoia	----------GGCCCCTATCGTCTAGTGGCCCAGGACATCTCTCTTTCAAGGAGGCAACG
+	sequoiadendron	----------GGCCCCTATCGTCTAGTGGCCCAGGACATCTCTCTTTCAAGGAGGCAACG
+
+	metasequoia	GGGATTCGATTTCCCCTAGGGGTAC--TAGGCTAGGAAAGTAATTA--------TAATAC
+	cryptomeria	GGGATTCGATTTCCCCTAGGGGTAC--TAGGCTAGGAAAGTAATTA--------TAATAC
+	picea	GGGATTCGACTTCCCCTAGGGGTACCATGAAATAGGATATCCATTCGTTTCGTTCGATGT
+	sequoia	GGGATTCGATTTCCCCTAGGGGTAC--TAGGCTAGGAAAGTAATTA--------TAATAC
+	sequoiadendron	GGGATTCGATTTCCCCTAGGGGTAC--TAGGCTAGGAAAGTCATTA--------TAATAC
+
+	metasequoia	CTAA---TTAGGTATTATAATTACTTCCCATTTTTTCCTGGGTCGATGCCCGAGTGGCTA
+	cryptomeria	CTAA---TTAGGTATTATAATTACTTCCCATTTTTTCCTGGGTCGATGCCCGAGTGGCTA
+	picea	CTTAACCTAAAGACTTTGAATTACTTTC---TTGTTCCTGGGTCGATGCCCGAGTGGTTA
+	sequoia	CTAA---TTAGGTATTATAATTACTTCCCATTTTTTTCTGGGTCGATGCCCGAGTGGCTA
+	sequoiadendron	CCAA---TTAGGTATTATAATGACTTCCCATTTTTTTCTGGGTCGATGCCCGAGTGGCTA
+
+	metasequoia	ATGGGGACGGACTGTAAATTCGTTGGCAATATGCCTACGCTGGTTCAAATCCAGCTCGGC
+	cryptomeria	ATGGGGACGGACTGTAAATTCGTTGGCAATATGCCTACGCTGGTTCAAATCCAGCTCGGC
+	picea	ATGAGGACGGACTGTAAATCCGTTGGCAATATGCCTACGCTGGTTCAAATCCAGCTCGAC
+	sequoia	ATGGGGACGGACTGTAAATTCGTTGGCAATATGCCTACGCTGGTTCAAATCCAGCTCGGC
+	sequoiadendron	ATGGGGACGGACTGTAAATTCGTTGGCAATATGCCTACGCTGGTTCAAATCCAGCTCGGC
+
+	metasequoia	CCAA----TACCA--------AAT---TCCATAGATTGATATAGATATCAATT-AATGAT
+	cryptomeria	CCAA----TACCA--------AGTTGATCAATAGATTGAGATTGATACCAATCTATTGAT
+	picea	CCAACCGATATCATCAATATCAATCTATCGGTATGATTATATTCATGCCAATC-------
+	sequoia	CCAA----TACCA--------AAT---TCTATAGATTGATATAGATATCAATC-AATGAT
+	sequoiadendron	CCAA----TACCA--------AAT---TTGATTGATTGATATTTATATCAATC-AATCAT
+
+	metasequoia	ATTGGTAAAAAAGGTAATTGGTTTTTGAATCTCC---------TATACCC----TATATA
+	cryptomeria	ATTGGTAAAAAAGGTAATTGGTTTTTGAATCCCG---------TATACTC----GATATA
+	picea	-ATGGATGAAAAGATAGTGGGTTATTGAACCCCGATATCTATATATATTCATATCATATG
+	sequoia	ATTGGTTAAAAAGGTAATTGGTTTTTGAATATCC---------TATACCC----TATATA
+	sequoiadendron	ATTGGTAAAAAAGGTAATTGGTTTTTGAATATCC---------TATACCC----TATATA
+
+	metasequoia	GAAA-------GAATCGGTCCGAACAGATACTTTCGGAAGATTTGAAAGAGAAA--AGTT
+	cryptomeria	GAAA-------GAATCGGAACGAACAGATACTTTCGGAATATTTGAAATAGAAA--AGTT
+	picea	GATATGTGTCCAATTCCATATGAATTGATAC----------TTTTAAAGATGAAAGAGAA
+	sequoia	GAAA-------GAATCGGAACGAACAGAGACTTTCGGAAGATTTGAAAGAGAAA--AGTT
+	sequoiadendron	GAAA-------GAATCGGAACGAACAGAGACTTTCGGAAGATTTGAAAGAGAAA--AGTT
+
+	metasequoia	TTACAATATGTTTTATCGACCCGGC---------------------------------AC
+	cryptomeria	TTACAACCTGTTTTATCGACCTGGC---------------------------------AC
+	picea	GGATAAGATATTTCATCGACCTAGCACTCACGTAATCTATACGATCTATCTAGCATCTAC
+	sequoia	TTACAATATGTTTTATCGACCCGGC---------------------------------AC
+	sequoiadendron	TTACAATATGTTTTATCAACCCGGC---------------------------------AC
+
+	metasequoia	AGTTGAATTACTATGACTAGTTAGTCAATAAACTGTACCTAG-TGGGATTGTAGTTCAAT
+	cryptomeria	AGTTGAATTACTATGACTAATTAGTAAATAAACTGTACCTAG-TGGGATTGTAGTTCAAT
+	picea	CATAGAATAAATATGAA----TAGTAGGTGAACTGTACTTTATTGGGATTGTAGTTCAAT
+	sequoia	AGTTGAATTACTATGACTAATTAGTCAATAAACTCTACCTAG-TGGGATTGTAGTTCAAT
+	sequoiadendron	AGTTGAATTACTATGACTAATTAGTCAATAAACTGTACCTAG-TGGGATTGTAGTTCAAT
+
+	metasequoia	TGGTTAGAGTACCGCCCTGTCAAGACGGAAGTTGCGGGTTCGAGCCCCGTCAGTCCCGAT
+	cryptomeria	TGGTTAGAGTACCGCCCTGTCAAGACGGAAGTTGCGGGTTCGAGCCCCGTCAGTCCCGAT
+	picea	TGGTTAGAGTACCGCCCTGTCAAGACGGAAGTTGCGGGTTCGAGCCCCGTCAGTCCCGAT
+	sequoia	TGGTTAGAGTACCGCCCTGTCAAGACGGAAGTTGCGGGTTCGAGCCCCGTCAGTCCCGAT
+	sequoiadendron	TGGTTAGAGTACCGCCCTGTCAAGACGGAAGTTGCGGGTTCGAGCCCCGTCAGTCCCGAT
+
+	metasequoia	CCAATAAATTGAACAATT---CTTTGAGCGATCCCTTCCCCAAAGAAAAGCAAAAAAGGA
+	cryptomeria	TCAATAAATTGAACAATT---GTTTGAGCGATCCCTGCCCCAAACAAGAGCAAAAAAGGA
+	picea	CCAATAAGTTAATCAATTAAGCTCTTAATA--------CCCGTAGAAGAGT------GAA
+	sequoia	CCAATAAATTGAACAATT---CTTTGAGCGATCCCCGCCCCAAAGAAAAGCAAAAAAGGA
+	sequoiadendron	CCAATAAATTGAACAATT---CTTTGAGCGATCCCTCCCCCAAAGAAAAGCAAAAAAGGA
+
+	metasequoia	AAAGAGAGTAGACTAGAATAGATTT--------------------------ACTAGGGAT
+	cryptomeria	AAAGAGAGTAGACTAGAATAGATTTGATTATTTCTTTTTTTTCACATTTTGAATGTGGAT
+	picea	AAAAATAATAGGGTTGAATAGATAT--------------------------ACTAGATAT
+	sequoia	AAAGAGAATAGACTAGAATAGATTT--------------------------ACTAGGGAT
+	sequoiadendron	AAAGAGAATAGACTAGAATAGATTT--------------------------ACTAGGGAT
+
+	metasequoia	TTT---GTAGATCTATC----TGAATCTACA-----------------------------
+	cryptomeria	TATACCACCGATCTATCAGCATAGATCTGCAATCCTCTTTTATCCATACTGCGCTATAGC
+	picea	TTA---GTATATCTATC-------------------------------------------
+	sequoia	TAT---GTAGATCTATC----TGGATCTACA-----------------------------
+	sequoiadendron	TAT---GTAGATCTATC----TGGATCTACA-----------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	TCTATGCTCTGCGGTCATCTCTCATATTTTTGTTTGCTCGGAAATAAATAAAATATTTCA
+	picea	------------------------------------------------------------
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	AATTTGCTAGTTCCCCGTTTTTCAGAAACGAAAAGAACGTTTTTTCATTTTTTTAAATAA
+	picea	------------------------------------------------------------
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	--------------TAATTAA-------------------CCAAATCTAT----------
+	cryptomeria	ATAAAAAAGATTCCTAATTAATTATCCTTAAAATAAGAATTCAATTCTATTTCTTTTACT
+	picea	------------------------------------------------------------
+	sequoia	--------------TAATTAA-------------------CCAAATCTAT----------
+	sequoiadendron	--------------TAATTAA-------------------CCAAATCTAT----------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	ATTCAAAGAATTCTGCTCATTCCAGGGTCATGGTCTTATCTTAGGATAAGATAATTTTGG
+	picea	------------------------------------------------------------
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	GCAAAAAGAAAAAAGAAATAATTACCCTTTTCAGGGTTTCAATCGACTTAGATTGATTGA
+	picea	------------------------------------------------------------
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	ACTTATCAATATATTAGAAAAAAAGGTTGTCCTTTTTTCTAATATATTGATAATTTTGAA
+	picea	------------------------------------------------------------
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	----------------------------------------------------AATGGTTA
+	cryptomeria	AATGAAAATGAAATACCTTTAGCGAGCCAAAGTTTTTTTTTTACAAAATTTGAATGGATA
+	picea	------------------------------------------------------------
+	sequoia	----------------------------------------------------AATGGTTA
+	sequoiadendron	----------------------------------------------------AATGATTC
+
+	metasequoia	TT---------------------------------------------------TTTGTCG
+	cryptomeria	TTATAATAGAGGATGGCTGCTAATTAAAAAGGAAGCAACCATATTATGGCCAATTTTTCA
+	picea	------------------------------------------------------------
+	sequoia	TT---------------------------------------------------TTTGTCG
+	sequoiadendron	TT---------------------------------------------------TTTGTCG
+
+	metasequoia	A---------CATGATAGATCTT-------------------------------------
+	cryptomeria	AAAACATCTTCAGAACAGAAATTCATTATGTATTTA------TTGAGTGAATAACTCGGG
+	picea	----------CATTAGATACATTCACCAGATCAATAATTCAGTTTGGAAAAAGACCCTTC
+	sequoia	A---------CAAGATAGATCTT-------------------------------------
+	sequoiadendron	A---------CATGATAGATCTT-------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	CGATTCGCATCAACAACATCACTAGGACTTTGTACCCCCTCCCCCTTTTTTTAGCCCCAG
+	picea	TTTCGGGGAGAAAATCTAATAATCAGATTGAATCTGCAAGAAATATTCTTCCCTCCCCGA
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	---------------TGTTA-----------------------GCAAGAATAACACAGGG
+	cryptomeria	TTACCCCCAGTGATTTGTTC-----------------------TCTAAAATAAGGTAAAA
+	picea	AGAATCAAATTCTCTTATCAAAAACATAGGAAGATCAATAGATTTTAGGATGACACAGAG
+	sequoia	---------------TGTTA-----------------------GCAAGAATAAGACAGGG
+	sequoiadendron	---------------TGTTA-----------------------GCAAGAATAAGACAGGG
+
+	metasequoia	GTAT-----TCTTGCTTGCCCGGAA----ATAAAA----------------TATTTAAAA
+	cryptomeria	GCTTCGGCACCTTTCTCACCCGAAC----AAAAGAATTCATTCTTTTTTTTCGTTTTATC
+	picea	GTAG-----TCCTCCTAGGTCAAAATCCCACAGAGATCCCTATAGAGAATTCCCCCCAAT
+	sequoia	GTAT-----TAGTACGTGCCCGGAA----ATAAAA----------------TATTTCAAA
+	sequoiadendron	GTAT-----TCTTGCTTGCCCGAAA----ATAAAA----------------CATTTCAAA
+
+	metasequoia	TG-T---GCTAGTTCCCCGTTTTTT-------TAGA------------A----ACGAAAA
+	cryptomeria	TATT---ATTATATCCCCGTATTGC-------GAGGGGGATTTTTTCTA----ATGAAGG
+	picea	AATTTACAGTAGATCTCCCTTCTGTTGCTCCCCAGGAATATTGTGAGTATTTCATGCTAA
+	sequoia	TG-T---GCTAGTTCCCCATTTTTT-------CAGA------------A----ACGAAAA
+	sequoiadendron	TG-T---GTTAGTTCCCCATTTTTT-------CAGA------------A----ACGAAAA
+
+	metasequoia	TAAGGGTTTTTAATGAT-----------------------------------TTATAAAA
+	cryptomeria	TAA--GTTTTTAATTATTAGT----------------------------TAGTCCTATTA
+	picea	TACTTCTTTTTCATGATCGATAACCAGTGGATTTCTAGACACTCTATTGTCTTTCTAATA
+	sequoia	TAAGGGTTTTTAATGAT-----------------------------------TTCTAAAA
+	sequoiadendron	TAAGGGTTTTTAATTAT-----------------------------------TTCTAAAA
+
+	metasequoia	A-AACTAGAAAAGATTC-------------------------------------------
+	cryptomeria	A-AATAACAAATCAATCAGTATAATCC---------------------------------
+	picea	ATGATCAGATCAGGATCTGGATGGACTAGTCCTTCTCATTCCAGGGTCATGGGTGGGCCT
+	sequoia	A-AAAGAGAAAAGATTC-------------------------------------------
+	sequoiadendron	A-AAAGAGAAAAGATTC-------------------------------------------
+
+	metasequoia	-----------CAAT----------------TGATTCTC--ATAAATAAAGATT--GAAT
+	cryptomeria	----ATCAGAGCAATCTTTATGATACTTTTCTGATCCTCGAATAGGCAAAGGTT--GGAT
+	picea	CTGGATAAATTCAATATGGGAGACTTCTATATCATCACCGGACCGGGATAGGTTCAAGAT
+	sequoia	-----------CAAT----------------TTATTTTC--ATAAATAAAGATT--GGAT
+	sequoiadendron	-----------CAAT----------------TTATTTTC--ATAAATAAAGATT--GGAT
+
+	metasequoia	------------------------------------------------------TCTATT
+	cryptomeria	CGTTATTAACATCTAAATATTTGATTGAGACAAAGACTTGATTCATTAATCAAATTTAAT
+	picea	TCCATCTAACTCGTGGAGATCCAAGCGAAATA---CCTCTCATGTCTGACGAACGTCTTC
+	sequoia	------------------------------------------------------TCTATT
+	sequoiadendron	------------------------------------------------------TCTATT
+
+	metasequoia	TGGC-----------------TTA--------------CTATCCAAATAATTCTGCTCAT
+	cryptomeria	TTGCATGTCTGATGTTATTTGTTA--------------CTAACGATAAAAT---------
+	picea	TGGAGTAGCAGAAGGTTATTATTCGTACGAATCCTATTCTTTCGAAATGAT---------
+	sequoia	TGGC-----------------TTA--------------CTATCCAAATAATTCTGCTCAT
+	sequoiadendron	TGGC-----------------TTA--------------CTATCCAAATAATTCTGCTCAT
+
+	metasequoia	TCCAGGGGCATGGGCAATTCTTAGGATAAGATAATTTGGAACTATTCGTTTTACAAGACG
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	TCCAGGGTTATGGGCAATTCTTAGGATAAGATAATTTGGAGCTATTCGTTTTACAAAACG
+	sequoiadendron	TCCAGGGTCATGGGCAATTCTTAGGATAAGATAATTTGGAGCTATTCATTTTACAAAACG
+
+	metasequoia	AGCTGTTACCAATTATGAGTAATCGTTTAATGGTGCTCCCAAATATGTATAGATACAAAT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	AGCTGTTACCAATTATCAGTAATCGTTTACTAGTGCTCCCAAACCTGTATACGTACAAAT
+	sequoiadendron	AGCTGTTACCAATTATCAGTAATCGTTTACTGGTGCTCCCAAATATGTATAGGTACAAAT
+
+	metasequoia	ACAGGTAGTGACGGGATTTGATCCAATCTAATCAATTTTTTTACCTTTTTGTTCCTTTTT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	ACAGGTAGTGACAGGATTTGATTCAATCTAATCAATTTTTTGACCTTTTCGGTCTTTTTT
+	sequoiadendron	ACAGGTAGTGACAGGATTTGATTCAATCTAACCAATTTTTTAACCTTTTCGGTCTTTTTT
+
+	metasequoia	CATGAAAACACGGTTTGCGGAGTCATCGAAACCCTATCTATATAGATAGGTCCTGTTCGT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	CATGAAAAGACTATTTGCGGGGTCATTGAAACCCTATCTATATAGATAGGTCCTGTTCGT
+	sequoiadendron	CATGAAAAGACTATTTGCGGGGTCATTGAAACCCTATCTATATAGATAGGTCATGTTCAT
+
+	metasequoia	CTCTTGTGCGATGTAAGTAATATAATTTAAAAAAGTAGGACTATAAGGTAATTTACCTTC
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	CTCTTGTACGATGTAAGTAATATAATTCAAAAAAGTAGGACTACAGGGCAATTTACCTTC
+	sequoiadendron	CTCTTGCATGATGTAAGTAATATAATTCAAAAAAGTAGGACTACAGGGCAATTTATCTTC
+
+	metasequoia	CTTCATTATTTGCCTGTTTTTTCGTAAACAGAGCAATTTAAGAAATTTGGATTCATCGAA
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	CTTCATTATTTGCCTTTTTTTCCGTAAACAGAGCAATTTAATAAATTTAGATTCATCGAA
+	sequoiadendron	CTTCAGTATTTGCCTGTTTTTCCGTAAACAGAGCAATTTAAGAAATTTGGATTCATCGAA
+
+	metasequoia	CTTATGAATAGAAAAAAAAAACTTGTCCTTATTTTTTTTTTTTTTTATATATGGATAGGT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	CTTATGAATAAAAGAAAAAAACTTGTCCTTATTTTTATTATTTTTAATATATTGATAAGT
+	sequoiadendron	CTTTTGAAT--AAGAAAAAAACTTGTCCTTTTTTTTTTTTTTTTTAATATATTGATAAGT
+
+	metasequoia	CTAATATTCCGTTCCTTTAAATTTTGGAAATCAAAATGAAATACCTATAAATACCTATAT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	CTAATATTCCGTTCCTTTCCATTTTGGAAATCAAAATGAAATACCTATAAATACCTATGT
+	sequoiadendron	CTAATATTCCGTTCCTTTCAATTTTGGAAATAAAAATGAAATACCTATAAATACCTATGT
+
+	metasequoia	CTTCCAGAATTAGCAAGCAAAAGTTTTTTTTGTACGAAATTTTCTATTCCAAAATTTGTC
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	CTTCCAGAATTAGCAAGCAAAAGGGTTTTTTGTATGAAATTGTATATTCCAAAATTTGAA
+	sequoiadendron	CTTCAAGAATTAGCAAGCAAAAGTTTTTTTTGCACGAAATTTTCTATTCCAAAATTTGAC
+
+	metasequoia	TATCTATATTCATTATAAAATATAGACATATGTTGGGATGTCTCCTAATTAAAAAGGAAG
+	cryptomeria	------------------------------------------------------------
+	picea	---------------------ACAGACATGTGTTG-------------------------
+	sequoia	TATATATATTAATTCTAAAATATAGACATATGTTGGGATGTCTCCTAATTAAAAAGGAAG
+	sequoiadendron	CATATATATTCATTCTAAAATATAGACATATGTTGGGATGTCTCCTAATTCAAAAGGAAG
+
+	metasequoia	AAACCATATTATGGTCAATATTTGAAAAGTATTGAAAAAAATCTTCAGAAATTATGTATT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	GAACCTTACTATGGTCAATATTTGAAAAGTATTGAAAAAAATCTTCAGAAATTATGTATT
+	sequoiadendron	GAACCATATTATGGTCAATACTTTTCAAATATTCAAAAAAATCTTCAGAAATTATGTATT
+
+	metasequoia	TATTGAGTGAATCACTCGGACGATTCACATCAACAACATCACTAGGACTTTATGACCCTC
+	cryptomeria	------------------------------------------------------------
+	picea	----------------------------------------ATCGGAACGTT---------
+	sequoia	TATTGAGTTAATCACTCGGACGATTCACATCAACAACATCACTAGAACTTTGTCACCTTC
+	sequoiadendron	TATTGGGTGAATCACTCGGACGATTCACATCAACAAAATCACTAGGACTTTGTCACCCTT
+
+	metasequoia	TTTTTTTCGTTTTATCTATTCTAATGAAGGTAAGTTTTTAACCATTAGTTAGTCTTATTT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------TTCTGATGCACGTAAGTTTTT---------------------
+	sequoia	TTTTTTTCGTTTTATCTATTCTAATAAAGGTAAGTTTTTAACTATTAGTTAGTCTGATTT
+	sequoiadendron	TTTTTTTCGTTTTATCTATTCTAATGAAGGTCAATTTTTAACTATTAGTTAGTCTTATTT
+
+	metasequoia	AAATAAGACATCAATCAGTATAATCTATCAGAGCAATCTTTATGGTACTTTTCTGATCCT
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	AAATAAGAAATCAATCAGTATAATCCATCAGAGCAATCTTTATGGTACTTTTCTGCTCCT
+	sequoiadendron	AAATAAGAAATCAATCAGTATAATCCATCAGAGCAATCTTTATGGTACTTTTCTGCTCCT
+
+	metasequoia	CGAATAGGCAAAGGAAACTTGATTGAGACAATGATTCATTAATAAAATCGAATTTGCATG
+	cryptomeria	------------------------------------------------------------
+	picea	------------------------------------------------------------
+	sequoia	CGAATAGGCAAAGGAAACTTGATTGAGACAATGATTCATTAATCAAATTGAATTTGCATG
+	sequoiadendron	CGAATAAGCAAAGGAAACTTGATTGAGACAATGATTCATTAATCAAATTGAATTTGCATG
+
+	metasequoia	TCTAATGTTCTTTTTAGTAGCGATAAAATTGAATTGAGGCAAACCTTGGAACTATACTAA
+	cryptomeria	-----------------------------TGAATTGAGTCAAACCTTGGAACTATACTAA
+	picea	----------------------------------------------------CTTACTAG
+	sequoia	TCTAATTTTCTTTTTAGTAGCGATAAAATTGAATTGAGTCAAACCCTGGAACTATACTAA
+	sequoiadendron	TCTAATGTTCTTTTTAGTAGCGATAAAATTGAATTGAGTCAAACCCTGGAACTATACTAA
+
+	metasequoia	TAAGACGGTGGGATTGATCCATTAGGGATCAAATTACTAAATCCGATATGAACAAGAGAT
+	cryptomeria	TAAGACGGTGGGATCGATCCATTAGGGACCGTATTACTAAATCCGATATGAACAAGAGAT
+	picea	T-------------------------------ATTATCAA-------------AAGTGAT
+	sequoia	TAAGACGGTGGGATCGATCCATTAGGGATCAAATTACTAAATCCGGTATGAACAAGAGAT
+	sequoiadendron	TAAGACGGTGGGATCGATCCATTAGGGATCAAATTACTAAATCCGATATGAACAAGAGAT
+
+	metasequoia	AATAGTATGTTATACTAATTAATTTCTATTGAAGAATTCA-TCAAATCCGTTAAATTCCG
+	cryptomeria	AATAGTATGTTATACTAATTAATTGATATTGAAGAATTCA-TCAAATCCGCTCAATTCCG
+	picea	CATATTATGTTATACTATTT-----TCATCGAAGAATTCATTCAA-----------TCCG
+	sequoia	AATAGTATGTTATACTAATTAATTTCTATTGAAGAATTCA-TCAAATCCGCTAAATTCCG
+	sequoiadendron	ATTAGTATGTTATACTAATTAATTTCTATTGAAGAATTCA-TCAATTCCGCTCAATTCCG
+
+	metasequoia	TTACTCAGATT--------------GATCCTATTGATGGAAT-TATTCCATGGATTC---
+	cryptomeria	TTACTCAGATT--------------GATCCTATTGATGGAAT-TACTCCATGGATTC---
+	picea	TTAGTTAGATTCCGTTACTCGAACCGATTCTATCAATTACATCTATTTCATGGATCTTGA
+	sequoia	TTACTCAGATT--------------GATCCTATTGGTGGAAT-TATTCCATGGATTC---
+	sequoiadendron	TTACTCAGATT--------------GATCCTATTGATGGAAT-TATTCCATGGATTC---
+
+	metasequoia	--AATCCTTTTTTTTTTTTGTAAAAAAAAAAAAAATGAGATACTCTATGAGATCAAATCT
+	cryptomeria	--AATCCATTTTTTTT---------GACAAAAAAATGAGATACTCTATGAGATCAAATCT
+	picea	AAGATTCATTCAT-----------------------------CTCTATGAAATTCAATCT
+	sequoia	--AATCCATATTTTTTTGTGTAAAAAAAAAAAAAATGAGATACTCTATGAGATCAAATCT
+	sequoiadendron	--AATTCAATTTTTTTTTAAAAAAAAAAAAAAAAATGAGATACTCTATGAGATCAAATCT
+
+	metasequoia	CGAGTTATTGTAAAACGAAGGGAAAATCA----ATCATGGAAGTAAATACCCTCGCATTT
+	cryptomeria	CGAGTTATTGTAAAACGAAGGGAAAATCA----ATCATGGAAGTAAATAATCTCGCATTT
+	picea	CGAGCTATTTTTGAACGAAGTAAAGATCAGGAGATCATGGAAGTAAATACCCTTGCATTT
+	sequoia	CGAGTTATTGTAAAACGAAGGGAAAATCA----ATCATGGAAGTAAATACCCTCGCATTT
+	sequoiadendron	CGAGTTATTGTAAAACGAAGGGAAAATCA----ATCATGGAAGTAAATACCCTCGCATTT
+
+	metasequoia	ATTGCTGTTGCATTGTTCATTTCATTTCCTACTGCTTTTCTACTCATCATTTACGTAAAA
+	cryptomeria	ATTGCTATTGCATTGTTCATTGGATTTCCTACTGCTTTTCTACTTATCATTTACGTAAAA
+	picea	ATTGCTGTTCTACTGTTCCTTGCAATTTCTACTGCTTTTCTATTTATCCCTTACGTAAAA
+	sequoia	ATTGCTGTTGCATTGTTCATTTCATTTCCTACTGCTTTTCTACTCATCATTTACGTAAAA
+	sequoiadendron	ATTGCTGTTGCATTGTTCATTTCATTTCCTACTGCTTTTCTACTCATCATTTACGTAAAA
+
+	metasequoia	ACGGTGAGTCAAAGC-----------------------AAAATACAGTAATTACTGAT--
+	cryptomeria	ACGGCGAGTCAAGCT-----------------------GAAGTACAGTGATTACTGAT--
+	picea	ACGGCCAGTGCAAGTAGTGGAAACAATTGATTTTTATGAAAATCGAGTGATTACTGATCA
+	sequoia	ACGGTGAGTCAAAGC-----------------------AAAATACAGTGATTACTGAT--
+	sequoiadendron	ACGGTGAGTCAAAGC-----------------------AAAATACAGTGATTACTGAC--
+
+	metasequoia	-------GATCTAGATGAATTCTAGGTCATCAGTAAAAAA---A----------------
+	cryptomeria	-------CATCTAGAATTCATCTAGATCCTCAGTAAAAAAAAAA----------------
+	picea	CTGGATAGATCCAAATGA--TCTAGATCATAAGTTTAAAATAGGTTATGGGATCTATTGT
+	sequoia	-------GATCTAGATGAATTCTAGGTCATCAGTAAAAAA---A----------------
+	sequoiadendron	-------GATCTAGATGAATTCTAGGTCATCAGTCAAAAA---A----------------
+
+	metasequoia	----------------------------------------AGTAATAGTGGTC--GGATA
+	cryptomeria	----------------------------------------AGTAATAGGGGTTAAGAATA
+	picea	ATTACACCAATACAGGGTAAGGTGGGATTTTGTATCTTACAACAATACAGGGTAGGGATT
+	sequoia	----------------------------------------AGTAATAGGGGTC--GGATA
+	sequoiadendron	----------------------------------------AGTAATAGGGGTC--GGATA
+
+	metasequoia	GATA------TTTTTTTGAAAAGAAGTAGTACGAAGGAAACGAAAAATATTCCTTTCCTT
+	cryptomeria	GATATT----TTTTTTTGAGAAGAAGTAGTACAAACGA-----AAAATTTTCCTTTCCTT
+	picea	GCTTTTTCATTTCTTTTGAAAAGAAGTAGTCCGAAGGA-----AAAGACTATCTAATCT-
+	sequoia	GATA------TTTTTTTGAAAAGAAGTAGTACGAAGGAAACGAAAAATCTTCCTTTCCTT
+	sequoiadendron	GATA------TTTTTTTGAAAAGAAGTAGTACGAAGGAAACGAAAAATCTTCCTTTCCTT
+
+	metasequoia	TTTCTTTTGTACTACTTCTTCTACACAGAT-CTTAGATAAGTAAATCTAATTTATAATTT
+	cryptomeria	TTTCTTTTGTACTACTTCTTCTACACAAAT-TTTGGATAAGTAGATCTAAATTATCATTT
+	picea	-TTTCTTTTTACTACTTCTTCTACACCCATATATGGATAAATATATCTTAATAGT-ACTT
+	sequoia	TTTCTTTTGTACTACTTCTTCTACACAGAT-CTTAGATAAGTAAATTTCATTTATCATTT
+	sequoiadendron	TTTCTTTTGTACTACTTCTTCTACACAGAT-CTTAGATAAGTCAATCTAATTTCTCATTT
+
+	metasequoia	GTCT---CGTGGGTACTTTTTTATTAA--------TACCTGAGAAA-AAAGTGAAACTAA
+	cryptomeria	GTTT---CATGGGTACTTTTTTATCAA--------TACCTGATAAAAAAAGCGAAACTAA
+	picea	GTCCATATATGGTAAATGTAGGATGAAGGGCCTCGTACC--ATAAA-AGAGCGGAGCTGA
+	sequoia	GTCT---CGTGGGTACTTTTTTATTAA--------TACCTGATAAT-AAAGTGAAACTAA
+	sequoiadendron	GTCT---CATGGGTACTTTTTTATTAA--------TACCTGATAAA-AAAGTGAAACTAA
+
+	metasequoia	TCATAATATCTTACATATCTCTGTAAAAAA------------------------------
+	cryptomeria	TCAT----TTTTATATATCTCTGGAAA-AA------------------------------
+	picea	TCAC---CTTCTTCATGCCCCTGGAAAAAATAGACCCAATGTAGACAGATGTTATTCTGA
+	sequoia	TCATAATCTCTTACATATCTCTGGAAAAAA------------------------------
+	sequoiadendron	TCATAATCTCTTACATATCTCTGGAAAAAA------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	ACGTACTTGTGGATTGCAAAGTTGAACATCTTTTTCCGGTACGAACATTGTTATCTAGTC
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	CATATTAGATATGGAACTTGAAATGGTATAAGAAAAAGCAAAGGAATCTATGACTTATGT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	CCCATATTTTTCCGCGAGAACGGAATTCATATAAGATCCGATCAATTTGGAACCATCCGG
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TAAAACAGGGACTATTTCTTTCTATTCCTACTAAGAAATAGAAGAGAGATCGTTCTTCAG
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TGGAAGAAACGAGATTATCGATTAGTTCTAGAAAAGAACTAATTAATTAAAACCTGTTAG
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	AAATAATCATATTTGTCCTATGAAAATATCATAGGACAATGATAATGATAAGGGATTATG
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	CACAGCCCTTGCGGGGATAAAGAGGAAATAATTCCATGGAAAGAGTCTTTCAATTTGGAA
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	----------------------------GGAACTTTATGTAGACAGAACATAGGTATTAT
+	cryptomeria	----------------------------GGAACTTTATGTAGATAGAACATAGGTGTTCT
+	picea	CGAAGATTCAAAATTACTGGATCCTTATGGAACATGAGATA-------------------
+	sequoia	----------------------------GGAACTTGATGTAGACAGAACATAGGTATTAT
+	sequoiadendron	----------------------------GGAACTTTATGTAGACAGAACATAGGTATTAT
+
+	metasequoia	CCCGAATATAACCTATTTTTAATAGTATTTTTTTCTTTTTTTATTTATAAATTTTTTT--
+	cryptomeria	TCTGAGTATAACCTACTTGCAAAAGTATTTTTT---TTTTCTATTTATCAATTTTTTTTA
+	picea	-------------------------------------TTCTCATGCAT------------
+	sequoia	TCCGAATAGAATCTATTTTTAATAGTATTTTTTTTTTTTTTTATTTATCAAATTTTTT--
+	sequoiadendron	TCCGAATAGAACCTATTTTTAATAGTATTTTTTTCCTTTTTTATTTATCAATTTTTTT--
+
+	metasequoia	----------AATACAGTA---------ATTT-------ACTAGTGCATAGTAAAATACA
+	cryptomeria	TTATAATACGAATACGGTAGAAAACATTATTTACTAGTAACTAGTACATAGTAAAATACA
+	picea	------------------------------------------------------------
+	sequoia	----------AATACGGTA---------ATTT-------ACTAGTACATAATAAAATACA
+	sequoiadendron	----------AATACGATA---------ATTT-------ACTAGTACATAGTAAAATACA
+
+	metasequoia	AAATTGCAAATCGTAAAGGGGAAAAATTAATATAGAAAAGGGATCTATGTATAGTTGAGA
+	cryptomeria	AAATTGGAAATCGTAAAGGGGAAAAATTGATATGGAAAAGGGGTCTATGTATAATTGGGA
+	picea	-----------------------------------------GATCTG-------------
+	sequoia	AAATTGGGAATCGTAAAGGGGAAAAATTCATATAGAAAAGGGATCTATATAGAGTTGAGA
+	sequoiadendron	AAATTGGAAATCGTAAAGAGCAAAAATTCATATAGAAAAGTGATCTATGTAGAGTTGAGA
+
+	metasequoia	CAGAGCAACGTAATAATGCTCGATATGCTTTTGTTCCGAGAACAGATGCATATTAAAGAA
+	cryptomeria	CAGAGCAGCATAATAATGCTCCATATTCTTT---------AACATATGCATAGTAAAGAA
+	picea	-GAAGGAACACAATA---------------------------------------------
+	sequoia	CAAAGCAACGTAATAATGCTCGATATGCTTTTGTTCCGAGAACAGATGCATACTAAAGCA
+	sequoiadendron	CAAAGCAACGTAATAATGCTCGATATGCTTTTGTTCCGAGAACAGATGCACGCTAAAGCA
+
+	metasequoia	TATTATGCTGTTAAGCATAAGTTCGCTATATATGGAAATG--GAACTACTTCATATTTGA
+	cryptomeria	TACTATGCTTAATAATATTAATTCGCTATATATATATATATTGAACTACTTCATATTTGA
+	picea	------------------------------------------------------------
+	sequoia	TATTATGCTGTTAAGCATAAGTTCGCTATATATGGAAATG--GAACTACTTCATATTTGA
+	sequoiadendron	TATTATGCTTTTAAGTATAAGTTCGCTATATATGGAAATG--GAACTACTTCATATTTAT
+
+	metasequoia	TAAATATGAAGTAGAATTGTGTTTATAACATGATCCAT--TTTTTATTTTGATCATATCA
+	cryptomeria	TAAACATGAAGTAGAATTGTATTCATAACATGATCATTCATTTTTATTTTCATCATATCA
+	picea	-----------------------------------------------------------A
+	sequoia	TAAATATGAAGTAGAATTGTGTTTCTAACATGATCCAT--TTTTTATTTCGATCATATCA
+	sequoiadendron	CAAATATGAAGTAGAATTGTGTTTCTAACATGAAACAT--TTTTTATTTCGATCATATCA
+
+	metasequoia	TTGATGAGTCAATATGACTATATCATTAATGGTAATACGAAATTATCATCGTAAAATA--
+	cryptomeria	TTGATGATTCAATATCACTAGATAATTAATGATAATACGTAATTATCATTGTAAAATCAT
+	picea	TTGATTCTTAAGCATTAC------------------------------------------
+	sequoia	TTGATGATTCAATATGCCTATATCATTAATGATGATACGAAATTATCATCGTAAAATA--
+	sequoiadendron	TTGATGATTCAATATGACTATATCATTAATGATGATACGAAATTATCATCGTAAAATA--
+
+	metasequoia	-----ATTTATTTTGAACAGAATGATTCAAAATATCACGACTATTAATTCTATTAAAGTC
+	cryptomeria	TTTTTATTTATTTTGAACAGAATGATTCAAAA------GACTATTAATTCTATTAAAGCC
+	picea	--------------------------------------------------TATTATAATC
+	sequoia	-----ATTGATTTTGAACAGAATGATTCAAAATATCAGGACTATTAATTCTATTAAAGCC
+	sequoiadendron	-----ATTGATTTTGAACAGAATGATTCAAAATATCAGAACTATTAATTCTATTAAAGTC
+
+	metasequoia	CACTTCTACCCCATACTACGAGTGAAAGAGAAAAAGTAAAAACTACCATTAGAGCAGCCC
+	cryptomeria	CACTTCTACCCCATACTACGAGTGAAAGAGAAAAAGTAAAAACTACCATTAGAGCAGCCC
+	picea	CACTTCTCCCCCATACTACGAGTGAAAGGGAAAATGTAAAAACTACCATTAAAGCAGCCC
+	sequoia	CACTTCTACCCCATACTACGAGTGAAAGAGAAAAAGTAAAAACTACCATTAGAGCAGCCC
+	sequoiadendron	CACTTCTACCCCATACTACGAGTGAAAGAGAAAAAGTAAAAACTACCATTAAAGCAGCCC
+
+	metasequoia	AAGCGATACCGACTATATCCATACGAATCCCTCTCTTTATAAAAAAGAATAATATAATTA
+	cryptomeria	AAGCGATACCGACTATATCCATACGAATCCCTCTCTTTATAAAAAAGAATAATATCATTA
+	picea	AAGTTATACCGACTATATCCATACGGATGATGTTCTC--TAAAAAAAAATGATTTCATTA
+	sequoia	AAGCGATACCGACTATATCCATACGAATCCCTCTCTTTATAAAAAAGAATAATATCATTA
+	sequoiadendron	AAGCGATACCGACTATATCCATACGAATCCCTCTCTTTATAAAAAAGTGTAATATCATTA
+
+	metasequoia	TTTATTCTTGATGATAATGTAACTAATAAGGATAGTGCA------AAGTAGAAATCCTCT
+	cryptomeria	TTTATTCTTGATATTAATGGAACTAATAAGGATAGTGCA------AAGTGGAAATCCTCT
+	picea	TCGA-----GATGATAATGGAACTATTAATGATAGTGCAAAGTTTAAGTTGAAATGGACC
+	sequoia	TTGATTCTTGATGATAATGTAACTAATAAGGATAGTGCA------AAGTGAAAATCCTCT
+	sequoiadendron	TTGATTCTTGATGATAATGTAACTAATAAGGATAGTGCA------AAGTGGAAATCCTCT
+
+	metasequoia	ATCTTCCTATTCCGA---------AAGGATAAGTCGATAGTAAAGACTTCTAAA---AAT
+	cryptomeria	ACCTTCCTATTCCGA---------AAGGATGAGTCGATAGTAGAGACTTCTCAA---AAT
+	picea	ACCTTTCCATTCTGAACGTTACTGACGTTCGAGCTCATATGAGAGATAAATAAATCCATT
+	sequoia	ATCTTCCTATTCCGA---------AAGGATAAGTCGATAGTAGAGACTTCTAAA---AAT
+	sequoiadendron	ATCTTCCTATTCCGA---------AAGGATAAGTCGATAGTAGAGACTTCTAAA---AAT
+
+	metasequoia	TAGTTCTTGG--AACTAGTTACTCTCAACTACCTATAGGATCAGACATTAACGATAAAAT
+	cryptomeria	TGTTTCTTGG--AACTAGTTACTCTCAACTACATATAGGAGCAGACATTAACGATAAAAT
+	picea	TGATCATTGACCAACGAGTTACTAT-AACTAACTCGAGGGTCGTACATTCACGACGGAAT
+	sequoia	TAGTTCTTGC--AACTAGTTACTCTCAACTACCTATAGGATCAGACATTAACGATAAAAT
+	sequoiadendron	GAGTTCTTGG--AACTAGTTACTCTCAACTACCTATAGGATCCGGCATTAACGATAAAAT
+
+	metasequoia	CGA--------------ATTTTATCTGCTATATTAGCAATAGGACCTGAAGCTACACACG
+	cryptomeria	CGA--------------ATTTTATCCGCTCTATTAACAATAGAGCCTGAAGCTACACAAG
+	picea	CGGGATCAAATGTACGTAACTCACTATCTATATTGGTAATATG---------TAC-CAAT
+	sequoia	CGA--------------ATTTTATCTGCTATATTAGCAATAGGATCTGAAGCTACACAAG
+	sequoiadendron	CTA--------------ATTTTATCTGCTATATTAGCAATAGGACCTGAAGCTACACAAG
+
+	metasequoia	TTATCTCCAAAAAACATGGAGTGCAAATGGATACTTTTACATTCCTTTAACCTTAATTTG
+	cryptomeria	TTGTCTCCAAAAGACATGGAGCACAAATGGAGACTTTTAGATTCCTTTCA-CTTTGTTTA
+	picea	ATGTCTCCAGAGGTTCTGTAATGGAAATCAAGACTT-----TTCCTTCCA--TTTACTTA
+	sequoia	TTGTCTCCAAAAGACATGGAGTACAAATGGAGACTTTGACATTCCTTTAACCTTTATTTG
+	sequoiadendron	TTGTCTCCAAAAGACATGGAGTACAAATGGAGACTTTTGCATTCCTTTAACCTTTATTTG
+
+	metasequoia	CGCTATCAAGGCGACACCCGGATTTGAACTGGGGATCGAGGATTTGCAGTCCCCTGCCTT
+	cryptomeria	CGCTACCAAGGCGACACCCAGATTTGAACTGGGGATCGAGGATTTGCAGTCCCCTGCCTT
+	picea	CCTCAACAAGGCGACACCCGGATTCGAACTGGGGATGGAGGATTTGCAGTCCTCTGCCTT
+	sequoia	CGCTATCAAGGCGACACCCGGATTTGAACTGGGGATCGAGGATTTGCAGTCCCCTGCCTT
+	sequoiadendron	CGCTATCAAGGCGACACCCGGATTTGAACTGGGGATCGAGGATTTGCAGTCCCCTGCCTT
+
+	metasequoia	ACCACTTGGCTATGCCGCCATCCCTAGACCTAGTTTAGACATTTAGTTTGGACTAAGGGA
+	cryptomeria	ACCACTTGGCTATATCGCCATCCCCAGATCTAGTTTAGATCTCTTGTTTTTCCTAAAGGA
+	picea	ACCGCTTGGCTATGTCGCC-----GAGATATGGGAATGCCAT---------------GGA
+	sequoia	ACCACTTGGCTATGCCGCCATCCCTAGATCTAGTTTGGACATCTAGTTTGAACTAAGGGA
+	sequoiadendron	ACCACTTGGCTATGCCGCCATCCCTAGATCTAGTTTGGAGATCTAGTTTGAACTAAGGGA
+
+	metasequoia	AAGTCTATTTCTCTTTTTCCATCGGATATGTTATCCAGGGTATTTCACTTCACGTATCCT
+	cryptomeria	AAAGATATTTTCCTTTATCACTCGGATATGTTATGTAGGGTATTTCACTTCACGTATCCT
+	picea	CAG-----------------ATCGAATCTGTCGTCC------TTTAAAATCATTCGTCCG
+	sequoia	AAGTCTATTTTTCTTTTTCCATCGGATATGTTATGCAGGGTATTTCACTTCACGTATCCT
+	sequoiadendron	AAGTCTATTTTTCTTTTTCCATCGGATATGTTATGCAGGGTATTTCACTTCACGTATCCT
+
+	metasequoia	TCTT-----TATCACTCG-GATATGTCGTATAAGCAATT-TAAAGTCCCCAGGTCTAATA
+	cryptomeria	TTTT-----TATCACTCG-GATATGCCGTATAACCAATT-TATAGTCCCCAGGTCTAATA
+	picea	TCCTTTAAGTATAGTATGAGATGTATGCTAAAGTCAACTATAAAGGAAATGGATCTAATT
+	sequoia	TCTT-----TATCACTCG-GATATGTCGTATAACCAATT-TAGAGCCCCCAGGTATAGTA
+	sequoiadendron	TCTT-----TATCACTCG-GATATGTCATATAACCAATT-TAGAGTCCCCAGGTCTAATA
+
+	metasequoia	GGGGGGATTTCTACTT--------------TTCCAATAGGAAA-----------------
+	cryptomeria	-GGGGGATTTTTACT---------------TTCCAATAGGAAAAAGAGGTTGGTTTTCAT
+	picea	----TGTTCTCCATCTTTCAATCTTACTATTTTCATTAGGAAA-----------------
+	sequoia	GGGGGGATTTCCACTT--------------TTCCAATAGGAAA-----------------
+	sequoiadendron	GGGGGGATTTCCTATT--------------TTGCAATAGGAAA-----------------
+
+	metasequoia	-------------------------TAGGTTAGGGATTTGGAGTCCCTATCGGTTTCTCC
+	cryptomeria	GAAATGGAACCTATAATTTCTAATATAGGTTAGGGGTTTAGAG------TTAGTTCCTCC
+	picea	----------------------------------AATTCTAAGT----------------
+	sequoia	-------------------------TAGGTTAGGGATTTAGAGTCCCTATCGGTTCCTCC
+	sequoiadendron	-------------------------TAGGTTAGGGATTTAGAGTCCCTATTGGTTCCTCC
+
+	metasequoia	A--------GGGATTTCGAGAGATTTTGAGTCCCCCATTGCAATTACAATTATAATACAC
+	cryptomeria	CTTTAGTATAGGAT----AGGGATTTAGAGTACCC-------ATT--AATTATAGTATAT
+	picea	---------GAGAT-----------------------------TCACATTTAAGAATGGT
+	sequoia	A--------GGGATTTCGAGAGATTTTGAGTCCCCCATTGCAATTACAATTATAATACAC
+	sequoiadendron	A--------GGGATTTCGAGAGATTTTGAGTCCCCCATTGCAATTACAATTTTAACACAC
+
+	metasequoia	TAAATCAACATTTGTC--------------TAATAACTAGAGAAAGATCCCTATCATATA
+	cryptomeria	TAAATC-ACATTTGTCAATAACTAGACGATTAACAACTACAGAAAAATCCCCATCATATC
+	picea	TTGATT--CATTCGTT-------------------------CATAGCTCCATTTCACGTG
+	sequoia	TAAATCCACATTTGTC--------------TACTAACTAGAGAAAACTCCCCATCATATA
+	sequoiadendron	TAAATCCACATTTGTC--------------TACTATTTATAGAAAGCCCCCCATCATATA
+
+	metasequoia	TTT--AAGAAAGGTTTA---AAAAGGACCTCTTCTTTTTCTTCTATTTT-----------
+	cryptomeria	TTT--ATGAAAAGATAATAGAAAAGGACCTCTTCTTTTTCTTCTATTTT-----------
+	picea	GTTGGATGAAAGTATCA-----AAGTACCTCTCCTCTTCCTTATTTTTTTTTTTTCTAAT
+	sequoia	TTT--AAGAAAGATTTA---AAAAGGACTTCTTCTTTTTGTTCTATTTT-----------
+	sequoiadendron	TTT--AAGAAAGATTTA---AAAAGGACCTCTTCTTTTTGTTCTATTTT-----------
+
+	metasequoia	--------------------------------TGGGATAGAGTGA--ACAAAATATACAT
+	cryptomeria	--------------------------------TGGGATATAGTGA--ACAAAATATACAT
+	picea	TGGAAGTATATCTGGATACGGGTAGAATTTAATGGGATATAGTGAAAACTGAATATAAAT
+	sequoia	--------------------------------TGGGATAGAGTGA--ACAAAATATACAT
+	sequoiadendron	--------------------------------TGGGATAGAGTGA--ACAAAATATACAT
+
+	metasequoia	GTCAA--TTTTTTGTCGAATTTATTCGTATAGATCAATAAGGAATAAATATCGAAATATA
+	cryptomeria	GTCAA--TTTTTTGTCGAATTTATTCGTATAGATCAATGAGGAATAAATATCGAAATATA
+	picea	CCGAATCTTTTTTGTCGGATTGATCCATATAGATCAATCGGGAATA-----------ATT
+	sequoia	GTCAA--TTTTTTGTCGAATTTATTCATATAGATCAATAAGGAATAAATATCGAAATATA
+	sequoiadendron	GTCAA--TTTTTTGTCGAATTTATTCGTATAGATCAATAAGGAATAAATATCGAAATATA
+
+	metasequoia	GAATATACTTTAT-ATAT-------ATAGGAAACATCCAATGCGATTAGATGAAAATAAA
+	cryptomeria	CAATATACTCTAT-ATATACATAGAATAGGAAACATTCAATGCGATTAGATGAAAATAAA
+	picea	TAATAGACTTTTTGACAG-------ATGGGAAACTTCCAATGCGATTAGATGAAAATGAG
+	sequoia	CAATATACTTTAT-ATAT-------ATAGGAAACATCCAATGCGATTAGATGAAAATAAA
+	sequoiadendron	CAATATACTTTAT-ATAT-------ATAGAAAACATCCAATGCGATTAGATGAAAATAAA
+
+	metasequoia	GGAATATTTACAATTCCCCAATTTGGTAAAATACAACTTGAAGGATTTTGTCGTTTTATC
+	cryptomeria	GGAATATTTACAATTCCCGAATTTGGTAAAATACAACTTGAAGGATTTGATCGTTTTATC
+	picea	GGAGCGTTTACAATCCCCGAATTTGGTAAGATACAATTTGAAGGATTTTGTCGTTTCATC
+	sequoia	GGAATATTTACAATTCCCCAATTTGGTAAAATACAACTTGAAGGATTTTGCCGTTTTATC
+	sequoiadendron	GGAATATTTACAATTCCCCAATTTGGTAAAATACAACTTGAAGGATTTTGTCGTTTTATC
+
+	metasequoia	GATCAAGGCTTGGCAGAAGAACTCGATAATTTTTCAAAAATTGAAAGCCCAAATAAAGAA
+	cryptomeria	GAGCAAGGCTTAATAGAAGAACTCAATAAGTTTTCAAAAATTGAAAGCCCAAAAAAAAAA
+	picea	GATCAGGGCTTGATGGAAGAACTCCATAATTTTCCGAAAATTGAGGATACAGATAAAGAA
+	sequoia	GATCAAGGCTTAGCAGAAGAACTCAATAATTTTTCAAAAATTGAAAGTCCAAATAAAGAA
+	sequoiadendron	AATCAAGGCTTAGCAGAAGAACTCAATAATTTTTCAAAAATTGAAAGTCCAAATAAAGAA
+
+	metasequoia	ATAGAATTTAGCCTTTTTGGTTCTGAATATAAATTAACAGAACCTTTCATTAAAGAGAGA
+	cryptomeria	AGAAAATTTCTCCTTTTTGGGAATGAATATAAATTAACAGAACCTTCCATTAAAGAGAGA
+	picea	ATTGAATCCAGGCTTTTTGGTAATGAATATGAATTAGCAGAACCTTTTATAAAAGAGAGA
+	sequoia	AGAGAATTTAGCCTTTTTGGTTCTGAATATAAATTAACAGAACCTTTCATTAAAGAGAGA
+	sequoiadendron	ATAGAATTTAGCCTTTTTGGTTCTGAATATAAATTAACAGAACCTTTCATTAAAGAGAGA
+
+	metasequoia	GATGCTGTATATATGTCTCTTACATATCACTGTAAATTATGTGTACCAGCAAGATTGATT
+	cryptomeria	GATGCTGTATATATGTCTCTTACATATCACTGTCAATTATATGTACCAGCAAGATTGATT
+	picea	GATGCTGTATATCAGTCCCTTACATATTACTCTGAATTATATGTACCAGCAAGATCGATT
+	sequoia	GATGCTGTATATATGTCTCTTACATATCACTGTAAATTATGTGTACCAGCAAGATTGATT
+	sequoiadendron	GATGCTGTATATATGTCTCTTACATATCACTGTAAATTATGTATACCAGCAAGATTGATT
+
+	metasequoia	AAGAAAAAAAAAACTCGTGGAAAGATACAGAACCA---GATTTTATATCTGGGAGATATT
+	cryptomeria	AAGAAAACTAAAACTCGTGAAAAGATAAAGAACCGGATGATTTTATATCTGGGAGATATT
+	picea	CGGAGGAATA------GTAGTAAGATACAGAAACA---AACTGTATTTCTCGGAAATATT
+	sequoia	AAGAAAAAAAAAACTCGTGCAGAGATACAGAACCA---GATTTTATATCTGGGAGATATT
+	sequoiadendron	AAGAAAAAAAAAACTCGTGGAAAGATACAGAACCA---GATTTTATATCTGGGAGATATT
+
+	metasequoia	CCTTTGATGAATTCTAAAGGAACTTTTGTAATAAATGGGAATTACAGAGTCGTGGTCAAT
+	cryptomeria	CCTTTAATGAATTCTAAAGGAACTTTTGTAATAAATGGAAATTACAGAGTCGTGGTCAAT
+	picea	CCTTTAATGAATTCCCATGGAACGTTTGTAGTAAATGGAATTTACAGAATCGTGGTGAAT
+	sequoia	CCTTTGATGAATTCTAAAGGAACTTTTGTAATAAATGGAAATTACAGAGTCGTGGTCAAT
+	sequoiadendron	CCTTTGATGAATTCTAAAGGAACTTTTGTTATAAATGGAAATTACAGAGTCGTGGTCAAT
+
+	metasequoia	CAAATATTAAGAAGTCCCGGTATTTATTACACTTGGGAACGAAA--ACCCTCGGG-AAAC
+	cryptomeria	CAAATATTAAGAAGTCCCGGTATTTATTACACTTGGGAACGAAA--ACCGTCGGG-AAAC
+	picea	CAGATATTAATAAGTCCCGGTATTTATTACCGTTCAGAATTAGACCATAATAGAATAAAC
+	sequoia	CAAATAGTAAGAAGTCCCGGTATTTATTACACTTGGGAACGAAA--ACCGTCGGG-AAAC
+	sequoiadendron	CAAATATTAAGAAGTCCCGGTATTTATTACACTTGGGAACGAAA--ACCGTCGGG-AAAC
+
+	metasequoia	ATTATCTATATTGGCACTATAATTTCAGATTGGGGGGGAAGATCAAGATTAGAGCTCAAT
+	cryptomeria	ATTATCTATATTGGCACAATAATTTCAGATTGGGGAGGAAGATCAAGATTAGAGATCAAG
+	picea	TATATATATACTGGCACTCTGATTTCAGATTGGGGAAGAAGATCGAAATTAGAGATCGAT
+	sequoia	ATTATCTATATTGGTACTATAATTTCAGATTGGGGAGGAAGATCAAGATTAGAGCTCAAT
+	sequoiadendron	ATTATCTATATTGGCAATATAATTTCAGATTGGGGAGGAAGATCAAGATTAGAGCTCAAT
+
+	metasequoia	AAAAAAACAAGAAAGATATGGATTCGTGTAAACATAAAAAAAAAAATATCTGTTTTACTT
+	cryptomeria	AAAAAAACAAAAAAGATATGGATTCGTGTAAGCAGAAAAAAAAAAATTTCTGTGTTGCTT
+	picea	GTGGG---AGAAAGGATATGGGCTCGTGTAAGCAGAAAACGAAAAATATCTATTCCAGTT
+	sequoia	AAAAAAACAAAAAAGATATGGATTCGTGTAAACAGAAAAAAAAAAATATCTGTTTTACTT
+	sequoiadendron	AAAAAAACAGAAAAGATATGGATTCGTGTAAACAGAAAAAAAAAAATATCTGTTCTACTT
+
+	metasequoia	TTATTATTGGCTATGGGTCTAAATTCCAAAGAGATTTTCAACTATA---AGAATCTCAAA
+	cryptomeria	TTCTTATTGGCTATGGGTCTAAATTCCAAAGATATTTTCAACTATA---AGAATATCTTA
+	picea	CTATTATCAGCTATGGGTTTAAATCTCGAAGAGATTCTGGACAATACTCGCTATCCCGAA
+	sequoia	TTATTATTGGCTATGGGGCTAAATTCCAAAGAGATTTTCAACTATA---AGAATTTCAAA
+	sequoiadendron	TTATTATTGGCTATGGGTCTAAATTCCAAAGAGATTTTCAACTATA---AGAATCTCAAA
+
+	metasequoia	GCCTTTTAT------------------AAGGGAACGGAGGAGTACTTCACATATTTCTAT
+	cryptomeria	GCATTTTTC------------------AAGTACTCGGAGGAGTATTATACATATTTCTAT
+	picea	AAATTTTTCTTTTTACTGAAAAAGAAGAAGGGGAGGTGGGAGCGGGAGGAATATATCTGG
+	sequoia	GCATTTTAT------------------AGGGGAACGGAGGAGTACGCAGAATATTGCTAT
+	sequoiadendron	GCATTTTAT------------------AAGGGAACGGAGGAGTACATAGAATATTTCTAT
+
+	metasequoia	TGGTATGGTGGGAAGCAAAATGCCATTTTGGAACTTTATAAAGAACTCTAC---ATAAGT
+	cryptomeria	TGGTATGGCGGGAAGGAAGAAGCCATCTTGGAACTTTATAAAGAGCTCTAC---ATAAGT
+	picea	T---------CGAAGGAAAAAGCCATTCTGGAGTTTTATAAAAAACTCTACTGTGTAAGT
+	sequoia	TGGTGTGGCGGGAAGCAAAATGCCATTTTGGAACTTTATAACAAACTCTAC---ATAAGT
+	sequoiadendron	TGGTGTGGCGGGAAGCAAAATGCCATTTTGGAACTTTATAAAAAACTCTAC---ATAAGT
+
+	metasequoia	GACGACA---ATGAAGAAAATTTGGAATTTTCCGAGTCTCTATATGAAAAAGTGCAAACA
+	cryptomeria	GACGAGATAGAAAAAGAAAATTGTGAATTTTCCGA---TATATATGAAAAAGT---AAGA
+	picea	GGCGA---------------TTTGGTATTTTCCGAGTCTCTATGTAAAGAATTGCAGGAA
+	sequoia	GACGACA---ATGAAGAAAATTTGGAATTTTCCGCGTCTCTATATGAAAAAGTGCAAACA
+	sequoiadendron	GACGACA---ATGAAGAAAATTTGGAATTTTCCGAGTCTCTATATGAAAAAGTGCAAACA
+
+	metasequoia	ACATTTTTTCGAACTAAATGTGTATTAGGAAAGATTGGTCGACGAAATTTGAATAAAAAA
+	cryptomeria	GCATTTTTTCGAATGAAATGTGCATTAGGAAAGAATGGTCGACGAAATCCGAATAAAAAG
+	picea	AAATTTTTCCGACAAAGATGTGAATTGGGAAAGATTGGTCGACGAAATCCGAACCAAAAA
+	sequoia	ACATTTTTTCAAACTAAATGTGTATTAGGAAAGATTGGTCGACGAAATCCGAATAAAAAA
+	sequoiadendron	ACATTTTTTCAAACTAAATGTGTATTAGGAAAGATTGGTCGACGAAATCCGAATAAAAAA
+
+	metasequoia	CTAAGTCTTGATATACCCGAGAACGAGATTTTTTCATTACCGCACGATTTATTGGCTGCT
+	cryptomeria	CTAAGTCTTGATATACCCGAGAATGAAATTTTTTCATTACCGCACGATGTATTGGCTGCT
+	picea	CTGAATCTTGATATACCCGAGAACGAGATTTTTTCATTGCCACAAGATGTATTGGCTGCT
+	sequoia	CTAAGTCTTGATATACCCGAGAACGATATTTTTTCATTACCGCACGATTTATTGGCTGCT
+	sequoiadendron	CTAAGTCTTGATATACCCGAGAACGATATTTTTTCATTACCGCACGATTTATTGGCTGCT
+
+	metasequoia	GTGGATTACCTTATCAAAGTGCAATTTGGAACGGGTACACCCGATGATATAGATCACCTA
+	cryptomeria	GTGGATTACCTCATCAAAGTGCGATTTGGAACGGGTACACCCGATGATATAGATCACCTA
+	picea	GTGGATTACCTTATCGGAGTGAAATTTGGAATGGGTACACTCGATGATATAGATCACCTT
+	sequoia	GTAGATTACCCTATCAAAGTGCAATTTGGAACGGGTACACCCGATGATATAGATCACTTA
+	sequoiadendron	GTGGATTACCCTATCAAAGTGCAATTTGGAACGGGTACACCCGATGATATAGATCACTTA
+
+	metasequoia	CAAAATCGATATATTCGTTCTGTAGCAGATTTATTACAAGAGCAATTGCGATTAGCTCTA
+	cryptomeria	CAAAATCGATATATTCGTTCTGTAGCAGATTTATTACAAGAGCAGTTACGATTCGCCCTA
+	picea	AGAAATCGACGTATTCGTTCTGTAGCAGATTTATTACAGAATCAATTCAGATTAGCTCTA
+	sequoia	CAAAATCGGTATACTCGTTCTGTAGCAGATTTATTACAAGAGCAATTGCGATTAGCTCTC
+	sequoiadendron	CAAAATCGATATATTCGTTCTGTAGCAGATTTATTACAAGAGCAATTCCGATTAGCTCTC
+
+	metasequoia	TATGATTTCAGAGAAGCAGTTGAAAAAATTCTATTATCTGCATCAACCAATCCTAAAAAG
+	cryptomeria	ATTGATTTCAGAGAAGCAATTGAAAAAACTATATTATCTGCATCAACCAATCCTAAAAAG
+	picea	GGTCGTTTGGAAGATGCAGTTCGAAGAACTA---TACACAGAGCAACCAAGCGTAGATC-
+	sequoia	TCTGATTTCAGAGAAGCAGCTGAAAAAATTCTATTATCTGCATCAACCAATCCTAAAAAG
+	sequoiadendron	TCTGATTTCAGAGAAGCAGTTGAAAAAATTCTATTATCTGCATCAACCAATCCTAAAAAG
+
+	metasequoia	AGAATAACTAAGAAATTGAGAACGTTAATTCCATTAACGGATACTTTTCAAGATTTTTTT
+	cryptomeria	AGAATAACTAATAAATTGGAAACGTTAATTCCATTAACGGAAACTTTTCAAGATTTTTTT
+	picea	--AACTCCTCAGAACTTGGTAACTTCAACTCTATTAAAAAACACTTTTCAAGATTTTTTT
+	sequoia	AGAATAACTAAGAAATTGGAAACGTTAATTCCATTAACGGATACTTTTAAAGGTTTTTTT
+	sequoiadendron	AGAATAACTAAGAAATTGGAAATGTTAATTCCATTAACGGATACTTTTGAAGGTTTTTTT
+
+	metasequoia	GGTTTACACCCTTTATCACAATTTTTGGATCAAACTAATCCATTGGCAGAAATAGTTCAT
+	cryptomeria	GGTTTACACCCTTTATCACAATTTTTGGATCAAACTAATCCATTGGCAGAAATAGTTCAT
+	picea	GGTTCACACCCCTTATCCCAATTTTTAGATCAAACTAATCCATTGACGGAAATAGCTCAT
+	sequoia	GGTTTACACCCTTTATCACAATTTTTGGATCAAACTAATCCATTGGCAGAAATAGTTCAT
+	sequoiadendron	GGTTTACATCCTTTATCACAATTTTTGGATCAAACTAATCCATTAGCAGAAATAGTTCAT
+
+	metasequoia	AGTCGAAAAGTGAGCTCTTTGGGCCCTGGAGGATTGACAAGTCGAACGGCTACTTTTCGT
+	cryptomeria	AGTCGAAAAGTGAGCTCTTTGGGCCCTGGAGGATTGACAAGTCGAACGTCTACTTTTCGT
+	picea	GGGCGAAAATTGAGCCATTTAGGCCCTGGGGGCTTAACAGGGCGAACTGCTAGTTTTCGG
+	sequoia	AGTCGAAAAGTGAGCTCTTTGGGCCCTGGAGGATTGACAAGTCGAACGTCTACTTTTCGT
+	sequoiadendron	AGTCGAAAAGTGAGCTCTTTGGGCCCTGGAGGATTGACAAGTCGAACGTCTACTTTTCGT
+
+	metasequoia	ACACGGGATATTCATCCTAGTCATTATGGACGTATTTGTCCGATTACGACATCTGAAGGA
+	cryptomeria	ACACGGGATATTCATCCTAGTCATTATGGACGTATTTGTCCGATTACGACATCTGAAGGA
+	picea	ACACGGGATATTCATCCCAGTTATTATGGGCGTATTTGTCCAATCGATACGTCCGAAGGA
+	sequoia	ACACGGGATATTCATCCTAGTCATTATGGACGTATTTGTCCGATTACGACATCCGAAGGA
+	sequoiadendron	ACACGGGATATTCATCCTAGTCATTATGGACGTATTTGTCCGATTACGACATCCGAAGGA
+
+	metasequoia	ATAAATGTTGGGCTTATTGGATCGTTATCTATTTATGCAACGCTTGGTCATTACGGCTCT
+	cryptomeria	ATAAATGTTGGGCTTATTGGATCGTTATCTATTTATGCAACGCTTGGTCATTACGGCTCT
+	picea	ATGAATGCTGGACTTGTTGCATCATTATCTATTCATGCAAAGATTGGTCAGTGTGGTTCT
+	sequoia	ATAAATGTTGGGCTTATTGGATCGTTATCTATTTATGCAACGCTTGGTCATTACGGCTCT
+	sequoiadendron	ATAAATGTTGGGCTTATTGGATCGTTATCTATTTATGCAACGCTTGGTCATTACGGCTCT
+
+	metasequoia	TTACAAAGTCCATTCCATAGGCTATCTGAAAGATCAAACGAAGAACATATGGTTTATCTA
+	cryptomeria	TTACAAAGTCCATTCTATAGGCTATCTGAGAGATCGAACGAAGAACAAATGGTTTATCTA
+	picea	TTACAAAGTCCATTCTATAAGATCTCTGAGAGATCGAGAGAAGAACATATGGTTTATCTA
+	sequoia	TTACAAAGTCCATTCCATAGGCTATCTGAAAGATCAAACGAAGAACATATGGTTTATCTA
+	sequoiadendron	TTACAAAGTCCATTCCATAGGCTATCTGAAAGATCAAACGAAGAACATATGGTTTATCTA
+
+	metasequoia	TTACCGGGAGAAGATGA------ATACTGTCGGATAGCTACAGGAAATTCTCTGGCATTA
+	cryptomeria	TTACCGGGAGAAGATGA------ATACTACCGGATAGCTACAGGAAATTCTCTGGCATTA
+	picea	TTACCGGGAGAAGATGAGGATGAATACTATCGGATAGCTACGGGAAATTCTTTGGCGTTA
+	sequoia	TTACCGGGAGAAGATGA------CTACTGCCGGATAGCTACAGGAAATTCTCTGGCATTA
+	sequoiadendron	TTACCGGGAGAAGATGA------CTACTGTCGGATAGCTACAGGAAATTTTTTGGCATTA
+
+	metasequoia	AATCAAGGGGTTCCAGAAGAACAATTTACTCCAGCTCGATTTCAACAAGAATTTTTATTT
+	cryptomeria	AATCAAGGGGTTCCAGAGGAACAATTTACTCCAGCTCGATTTCAACAAGAATTTTTATTT
+	picea	AATCAAGGGATTCAAGAGGAACAAATTACTCCAGCTCGATACCGACAAGAATTTATAGTT
+	sequoia	AATCAAGGGGTTACAGAGGAACAATTTACTCCCGCTCGATTTCAACAAGAATTTTTATTT
+	sequoiadendron	AATCAAGGGGTTCCAGAGGAACAATTTACTCCCGCTCGATTTCAACAAGAATTTTTATTT
+
+	metasequoia	TCTGCATGGGACCAAATTCATTTCAGAAGTATTTTTCCTTCCCAATATTTTTCCGTTGGA
+	cryptomeria	TTTGCATGGGACCAAATTCATTTCAGAAGTATTTTTCCTTCCCAATATTTTTCCGTTGGA
+	picea	ATTGCATGGGAACAAATCCATTTCAGAAGTATTTTTCCTTTCCAATATTTTTCTGTTGGA
+	sequoia	TTTGCATGGGACCAAATTCATTTCAGAAGTATTTTTCCTTCCCAATATTTTTCCGTTGGA
+	sequoiadendron	TTTGCATGGGACCAAATTCATTTCAGAAGTATTTTTCCTTCCCAATATTTTTCCGTTGGA
+
+	metasequoia	GTTTGCCTTATTCCTTTTATCGAACATAATGATGCGAATCGTGCTTTAATGGGTTCTAAT
+	cryptomeria	GTTTGCCTTATTCCTTTTATCGAGCATAATGATGCGAATCGTGCTTTAATGGGTTCTAAT
+	picea	GTTTCCCTTATTCCTTTTCTCGAACATAATGATGCGAATCGCGCTCTAATGGGTTCTAAT
+	sequoia	GTTTGCCTTATTCCTTTTATCGAACATAATGATGCGAATCGTGCTTTAATGGGTTCTAAT
+	sequoiadendron	GTTTGCCTTATTCCTTTTATCGAACATAATGATGCGAATCGTGCTTTAATGGGTTCTAAT
+
+	metasequoia	ATGCAGCGTCAAGCAGTTCCACTTCTTCAACCTGAGAAGTGTATTGTTGGAACTGGATTG
+	cryptomeria	ATGCAGCGTCAAGCAGTTCCACTTGTTCAACCTGAGAAGTGTATTGTCGGAACTGGATTG
+	picea	ATGCAGCGTCAAGCAGTTCCACTTTTTCAACCCGAGAAGTGCATTGCCGGAACTGGGTTG
+	sequoia	ATGCAGCGTCAAGCAGTTCCACTTCTTCAACCTGAGAAGTGTATTGTTGGAACTGGATTG
+	sequoiadendron	ATGCAGCGTCAAGCAGTTCCACTTCTTCAACCTGAGAAGTGTATTGTTGGAACTGGATTG
+
+	metasequoia	GAGGGTCAAGCAGCTCTAGATTCAGGAAGTATAGCTATAGCCAAGCAAGGGGGAAAAATA
+	cryptomeria	GAGGGTCAAGCAGCTCTAGATTCAGGAAGTGTAGCTATAGCTAAGCAAGGGGGAAAAATA
+	picea	GAAGGTCAAGCAGCTCTAGATTCAGGAAGTGTAGCTATAGCTACACAAGAGGGAAGGATC
+	sequoia	GAGGGTCAAGCAGCTCTAGATTCAGGAAGTATAGCTATAGCGAAGCAAGGGGGAAAAATA
+	sequoiadendron	GAGGGTCAAGCAGCTCTAGATTCAGGAAGTATAGCTATAGCCAAGCAAGGGGGAAAAATA
+
+	metasequoia	AAGTATATTGATGGTGGAAATATCACTATAACTTCATCCGTTGTTCGAGAGAATACAGAA
+	cryptomeria	AAGTATATTGATGGTGAAAATATCACCATAACTTCATCTGTTGCTCGAAACAATATAGAA
+	picea	GAGTATATCGATGCTGTAAATATCA------CTTCATCGGTTAATGGAGACACTGTACGA
+	sequoia	AAGTATATTGATGGTGGAAATATAACTATAACTTCATCCGTTCTTCGAGAGAATATAGAA
+	sequoiadendron	AAATATATTGATGGTGGAAATATCACTATAACTTCATCCGTTGTTCGAGAGAATATAGAA
+
+	metasequoia	ACAGAATTGATTCTATATCAACGTTCTAATAGTGATACTTGTATGCATCAAAAACCCCGA
+	cryptomeria	ACAGAATTGATTCTATATCAACGTTCTAATAGCGATACTTGTATGCATCAAAAACCCCGA
+	picea	ACAGAATTGGTTATATATCAACGTTCTAATACCAATACTTGTACGCATCAAAAACCTCAA
+	sequoia	ACAGAATTGATTCTATATCAACGTTCTAATAGTGACACTTGTGTGCATCAAAAACCCCGA
+	sequoiadendron	ACAGAATTGATTCTATATCAACGTTCTAATAGTGACACTTGTATGCATCAAAAACCCCGA
+
+	metasequoia	GTTCGCCAAGGGGAATATGTAAAGAGGGGACAAATTATAGCAGACAGTGCAGCTACAGCA
+	cryptomeria	GTTCGCCAAGGGGAGTATGTAAAGAGGGGACAAATTATAGCAGACAGTGCAGCTACAGCA
+	picea	GTTCGTCAAGGGGAATGTGTAAAGAAGGGACAAATTCTGGCGGACGGTGCGGCTACGGTA
+	sequoia	GTTCGCCAAGGGGAATATGTAAAGAGGGGGCAAATTATAGCAGACAGTGCAGCTACAGCA
+	sequoiadendron	GTTCGCCAAGGGGAATATGTAAAGAGGGGGCAAATTATAGCAGACAGTGCAGCTACAGCA
+
+	metasequoia	GGGGGAGAACTTTCTTTGGGAAAAAACATCTTAGTCGCCTATATGCCATGGGAAGGATAC
+	cryptomeria	GGGGGAGAACTTTCTTTGGGAAAAAACATCTTAGTGGCCTATATGCCATGGGAAGGATAC
+	picea	GGGGGAGAACTCTCTTTGGGAAAAAACGTTTTAGTAGCTTATATGCCATGGGAAGGATAC
+	sequoia	GGGGGAGAACTTTCTTTGGGAAAAAACATCTTAGTCGCCTATATGCCATGGGAAGGATAC
+	sequoiadendron	GGGGGAGAACTTTCTTTGGGAAAAAACATCTTAGTCGCCTATATGCCATGGGAAGGATAC
+
+	metasequoia	AATTTTGAAGATGCAATACTTATTAGTGAACGTCTGGTATATGAAGACATTTTTACTTCT
+	cryptomeria	AATTTTGAAGATGCAATACTTATTAGTGAACGTCTGGTATATCAAGACATTTTTACTTCT
+	picea	AATTTCGAAGACGCAATACTCATTAGTGAACGTCTGGTATATGAAGATATTTATACCTCT
+	sequoia	AATTTTGAAGATGCAATACTTATTAGTGAACGTCTGGTATATGAAGACATTTTTACTTCT
+	sequoiadendron	AATTTTGAAGATGCAATACTTATTAGTGAACGTCTGGTATATGAAGACATTTTTACTTCT
+
+	metasequoia	TTCCAGATCGTAAGATACGAAATTGGAGTTTATGTTACGAAGCAGGGCCCTGAAGTAATC
+	cryptomeria	TTCCAGATCGTAAGATACGAAATTGGAGTTTATTTTACGAACCAGGGCCCTGAAGTAATA
+	picea	TTCCATATCGTAAGGTACAGGATTGAAATCTGTATGACGAGCCAGGGTCCTGAAAGAATC
+	sequoia	TTCCAGATCGTAAGATACGAAATTGGAGTTTATATTACGAAACAGGGCCCTGAAGTAATC
+	sequoiadendron	TTCCAGATCGTAAGATACGAAATTGGAGTTTATGTTACGAAGCAGGGCCCTGAAGTAATC
+
+	metasequoia	ACTAGAGAAATACCTCATTTAGATGCTTACTTACTCCGTCATCTGGACGAAAATGGCCTT
+	cryptomeria	ACTAGAGAAATACCTCATTTAGATGCTTACTTACTTCGTCATCTGGACGAAAACGGCCTT
+	picea	ACTAGAGAAATACCTCATTTAGATGCTCATTCACTTCGTCATTTGGACGAAAATGGTCTT
+	sequoia	ACTAGAAAAATACCTCATTTAGATGCTTACTTACTCCGTCATCTGGACGAAAATGGCCTT
+	sequoiadendron	ACTAGAGAAATACCTCATTTAGATGCTTACTTACTCCGTCATCTGGACGAAAATGGCCTT
+
+	metasequoia	GTAATGATAGGATCTTGGGTAGAAACAGGTGATGTATTAGTAGGTAAATTAATACTGGAA
+	cryptomeria	GTAATGATAGGATCTTGGATAGAAACAGGTGATGTATTAGTAGGTAAATTGATACTGGAA
+	picea	GTAATGCTAGGATCTTGGATAGAAACAGGTGATGTTTTGGTAGGTAAATTAACGCCTCAA
+	sequoia	GTAATGATAGGATCTTGGGTAGAAACAGGTGATGTATTAGTAGGTAAATTAATACTGGAA
+	sequoiadendron	GTAATGATAGGATCTTGGGTAGAAACAGGTGATGTATTAGTAGGTAAATTAATACTGGAA
+
+	metasequoia	GCAGAAGAAGACTCACTATTAAATACTCCAGAAGGAAAATTTTTACAAACTTTATTTGAT
+	cryptomeria	GCAGAAGAAGACTCACTATTAAATACTCCAGAAGGAAAATTATTACAAGCTTTATTTGAT
+	picea	ACAACAGAAGAATCAT---TATGTGCCCCGGAAGGAAGATTATTACAAACCATATTTGGT
+	sequoia	GCAGAAGAAGAGTCACTATTAAATACTCCAGAAGGAAAATTCTTACAAGAATTATTTGAT
+	sequoiadendron	GCAGAAGAAGACTCACTATTAAATACTCCAGAAGGAAAATTCTTACAAGAATTATTTGAT
+
+	metasequoia	ATTAAGGCACCTACTGGAAAAGAAAATTGTTTTAGAGTCCCTAAAGGTGTAAAAGGCCGA
+	cryptomeria	ATTAAGGCACCTACTGGAAAAGAAAATTGTTTTAGAGTCCCTAAAGGTGTAAAAGGTCGA
+	picea	ATTGAGGTATCCACTGCGAGAGAAAATTGTCTCAGAACACCTATAGGTGGAAGAGGTCGA
+	sequoia	ATTAAGGCACCTACTGGAAAAGAAAATTGTTTTAGAGTCCCTAAAGGTGTAAAAGGCCGA
+	sequoiadendron	ATTAAGGCACCTACTGGAAAAGAAAATTGTTTTAGAGTCCCTAAAGGTGTAAAAGGCCGA
+
+	metasequoia	GTTCTCGATGTGAGATGTTTGCAGGAGTTCGAGGAAGAAGATTATCTCGGCGATAGTGTA
+	cryptomeria	GTTATCGATGTGAGATGCTTTCAGGAGTTCGAGGAAGACGATTATCTCGGCGATATTGTA
+	picea	GTTATTGATGTGAGATG---------GATCAATAGAGTAGATGATTCCGGTGATAATGCG
+	sequoia	GTTCTCGATGTGAGATGCTTCCAGGAGTTCGAGGAAGAAGATTATCTCGGCGATAGTGTA
+	sequoiadendron	GTTCTCGATGTGAGATGCTTCCAGGAGTTCGAGGAAGAAGATTATCTCGGCGATAGTGTA
+
+	metasequoia	GAAAAAGTTCACGTGTATATTTCACAAAAACGTAAAATACAAGTGGGTGATAAAGTAGCT
+	cryptomeria	GAAAAAGTTCATGTATATATTTTACAAAAACGTAAAATACAAGTAGGCGATAAAGTAGCT
+	picea	GAAACAGTCCACGTATATATATCACAAAAACGTAAGATACAAGTGGGTGATAAAGTAGCT
+	sequoia	GAAAAAGTTCATGTATATATTTCACAAAAACGTAAAATACAAGTGGGTGATAAAGTAGCT
+	sequoiadendron	GAAAAAGTTCATGTATATATTTCACAAAAACGTAAAATACAAGTGGGTGATAAAGTAGCT
+
+	metasequoia	GGAAGGCATGGTAATAAAGGTATTATTTCAAAAATTTTGCCCAGACAAGATATGCCTTAT
+	cryptomeria	GGAAGGCATGGTAATAAAGGTATTATTTCAAAAATTTTGCCCAGGCAAGATATGCCTTAT
+	picea	GGAAGGCATGGTAATAAAGGTATTATTTCAATAGTTTTGCCCAGACAAGATATGCCCTAT
+	sequoia	GGAAGGCATGGTAATAAAGGTATTATTTCAAAAATTTTGCCCAGACAAGATATGCCTTAT
+	sequoiadendron	GGAAGGCATGGTAATAAAGGTATTATTTCAAAAATTTTGCCCAGACAAGATATGCCTTAT
+
+	metasequoia	TTACAGAATGGAACACCAGTGGATATGGTATTAAATCCATTAGGGGTACCTTCACGAATG
+	cryptomeria	TTACAGAATGGAACACCAGTGGACATGGTATTAAATCCATTAGGGGTACCTTCACGAATG
+	picea	TTGCAAAATGGAATACCAGTTGATATGGTATTGAATCCATTAGGGGTACCTTCACGAATG
+	sequoia	TTACAGAATGGAACACCAGTGGATATGGTATTAAATCCATTAGGGGTACCTTCACGAATG
+	sequoiadendron	TTACAGAATGGAACACCAGTAGATATGGTATTAAATCCATTAGGGGTACCTTCACGAATG
+
+	metasequoia	AATGTAGGACAGATCTTTGAATGTTTGCTTGGTTTAGCAGGAAAACTAATGAATAAACAT
+	cryptomeria	AATGTAGGACAGATCTTTGAATGTTTGCTTGGTTTAGCAGGAAAACTAATGAACAAACAT
+	picea	AATGTAGGACAGATCTTTGAATGTTTGCCCGGTTTAGCAGGAAACCCGATGAACAAACAT
+	sequoia	AATGTAGGACAGATCTTTGAATGTTTGCTTGGTTTAGCAGGAAAACTAATGAACAAACAT
+	sequoiadendron	AATGTAGGACAGATCTTTGAATGTTTGCTTGGTTTAGCAGGAAAACTAATGAACAAACAT
+
+	metasequoia	TATAGACTAGCACCTTTTGACGAAAGATACGAACGAGAAGCCTCTAGAAAACTAGTGTTT
+	cryptomeria	TACAGACTAGCACCTTTTGACGAAAGGTACGAGCGAGAAGCTTCTAGAAAACTAGTCTTC
+	picea	TATAGAATAACACCTTTTGACGAAAGATACGAGCGAGAAGCTTCGAGAAAACTAGTGTTT
+	sequoia	TATAGACTAGCACCTTTTGACGAAAGATACGAACGAGAAGCTTCTAGAAAACTAGTGTTT
+	sequoiadendron	TATAGAGTAGCACCTTTTGACGAAAGATACGAACGAGAAGCTTCTAGAAAACTAGTGTTT
+
+	metasequoia	TCTGAGCTTTATAAAGCTAGCGAGCAAACAGCTAATCCATGGGTATTTGAACCTGATCAT
+	cryptomeria	TCTGAGCTTTATAAAGCTAGCGAGCAAACAGCTAATCCATGGGTATTTGAACCTGATCAT
+	picea	CCTGAGCTTTATAAAGCTAGTGAGCAAACAGCTAATCCATGGGTATTCGAACCGGATCAT
+	sequoia	TCTGAGCTTTATAAAGCTAGCGAGCAAACAGCTAATCCATGGGTATTTGAACCTGATCAT
+	sequoiadendron	TCTGAACTTTATAAAGCTAGCGAGCAAACAGCTAATCCATGGGTATTTGAACCTGATCAT
+
+	metasequoia	CCTGGAAAACATAGATTAATTGATGGAAGAACAGGAAAGGTTTTTGAACAACCTGTTACA
+	cryptomeria	CCTGGAAAACATAGATTAATTGATGGAAGAACAGGAAAGGTATTTGAACAACCTGTTACA
+	picea	CCTGGAAAACATAGATTAATCGATGGAAGAACAGGAGATGTTTTTGAACAACCTGTTACA
+	sequoia	CCTGGAAAACATAGATTAATTGATGGAAGAACAGGAAAGGTTTTTGAACAACCTGTTGCA
+	sequoiadendron	CCTGGAAAACATAGATTAATTGATGGAAGAACAGGAAAGATTTTTGAACAACCTGTTACA
+
+	metasequoia	ATAGGAATAGCTTATATATCGAAATTGTGCCATCAAGTTGATGACAAAATTCATGCACGT
+	cryptomeria	ATAGGAATAGCTTATATATCGAAATTGTGCCATCAAGTTGATGACAAAATTCATGCACGT
+	picea	ATAGGAAAAGCTTATATGTCGAAATTGAGTCATCAAGTTGATGATAAAATACATGCACGT
+	sequoia	ATAGGAATAGCTTATATATCGAAATTGTGCCATCAAGTTGATGACAAAATTCATGCACGT
+	sequoiadendron	ATAGGAATAGCTTATATTTCGAAATTGTGCCATCAAGTTGATGACAAAATTCATGCACGT
+
+	metasequoia	TCCAGTGGACCTTATACATCGGTTACACAACAACCTTTAAAAGGAAAATCCCACCGAGGA
+	cryptomeria	TCCAGTGGACCTTATACACTGGTTACACAACAACCTCTCAAAGGAAAATCCCACCGAGGA
+	picea	TCGAGTGGACCTTATGCACGGGTTACACAACAACCTCTTAGAGGAAAATCCAAACGAGGG
+	sequoia	TCCAGTGGACCTTATACATTGGTTACACAACAACCTTTAAAAGGAAAATCCCACCGAGGA
+	sequoiadendron	TCCAGTGGACCTTACACATTGGTTACACAACAACCTTTAAAAGGAAAATCCCACCGAGGA
+
+	metasequoia	GGGCAACGAGTAGGAGAAATGGAAGTTTGGGCTCTAGAAGGTTTTGGTGTTGCTTATATT
+	cryptomeria	GGGCAACGAGTAGGAGAAATGGAAGTTTGGGCTTTACAAGGTTTTGGTGTTGCTTATATC
+	picea	GGGCAACGAATAGGAGAAATGGAAGTTTGGGCTCTAGAAGGTTTTGGTGTTGCTTATATT
+	sequoia	GGGCAACGAGTAGGAGAAATGGAAGTTTGGGCTCTAGAAGGTTTTGGTGTTGCTTATATT
+	sequoiadendron	GGGCAACGAGTAGGAGAAATGGAAGTTTGGGCTCTAGAAGGTTTTGGTGTTGCTTATATT
+
+	metasequoia	TTACACGAGATGCTTACTTTAAAATCTGACCATATAGACGCTCGTGAAAAAATATTTGGT
+	cryptomeria	TTACACGAGATGCTTACTTTAAAATCTGACCATATGGATACTCGTGAAAAAATATTTGGT
+	picea	TTACAAGAGATGCTTACTCTCAAATCTGACCATATTAGAACTCGTAATGAAGTACTTGGT
+	sequoia	TTACACGAGATGCTTACTTTAAAATCTGACCATATAGACGCTCGTGAAAAAATATTTGGT
+	sequoiadendron	TTACACGAGATGCTTACTTTAAAATCTGACCATATAGACGCTCGTGAAAAAATATTTGGT
+
+	metasequoia	GCCATTCTCAATGGAGAACCAATGCCTAAACCTAGCACTCTTACAGAATCTTTTCAATTG
+	cryptomeria	GCCATTTTCAACGGAGAACCAATGCCTAAACCTAGCACTCCTACAGAATCTTTCCGATTG
+	picea	GCCATTATCACTGGAGGGCCAATACCTAAACCTGACACTGCTCCAGAATCTTTCCGATTG
+	sequoia	GCCATTCTCAATGGAGAACCAATGCCTAAACCTAGCACTCTTACAGAATCTTTTCAATTG
+	sequoiadendron	GCCATTCTCAATGGAGAACCAATGCCTAAACCTAGCACTCTTACAGAATCTTTTCAATTG
+
+	metasequoia	CTCAGTCGAGAACTACGATCTTTAGCTCTAGAATTGAATCATACTATTCTATCTGAGATA
+	cryptomeria	CTCAGTAGAGAACTACGATCTTTAGCTCTAGAATTGAATCATACTATTCTATCTGAGATA
+	picea	CTCATTCGAGAATTACGATCTTTAGCTCTAGAATTGAATCATGCTATTATATCTGAGAAA
+	sequoia	CTCAGTCGAGAACTACGATCTTTAGCTCTAGAATTGAATCATACTATTCTATCTGAGATA
+	sequoiadendron	CTCAGTCGAGAACTACGATCTTTAGCTCTAGAATTGAATCATACTATTCTATCTGAGATA
+
+	metasequoia	GACTTTCAGATAGATAAGAAGGAAGTTTGATCAAAATGAATCAAAATTTATTTTTTATGA
+	cryptomeria	GACTTTCAGATAGATAAGAAGGAAGTTTGATCAAAATGAATCAAAATTTATTTTTTATGA
+	picea	GACTTTCAGATAGATAGAGAGGAAGTTTGATCAGAATGAATCGAGATCT----TTTATGA
+	sequoia	GACTTTCAGATAGATAAGAAGGAAGTTTGATCCAAATGAATCAAAATTTATTTTTTATGA
+	sequoiadendron	GACTTTCAGATAGATAAGAAGGAAGTTTGATCAAAATGAATCAAAATTTATTTTTTATGA
+
+	metasequoia	GTGACCAGGATAAACATCAACAACTTCGAATTGGATTAGTTTCTCCCGAGCAGATTCTCG
+	cryptomeria	GTGACCAGGATAAACACGAACAACTTCGAATTGGATTAGTTTCCCCCGAGCAGATTCTCG
+	picea	TTGACCAGAATAAACATCAACAACTTCGAATTGGATTAGCTTCTCCCGAACAGATTTGTG
+	sequoia	GTGACCAGGATAAACATCAACAACTTCGAATTGGATTAGTTTCTCCCGAGCAGATTCTCG
+	sequoiadendron	GTGACCAGGATAAACATCAACAACTTCGAATTGGATTAGTTTCTCCCGAGCAGATTCTCG
+
+	metasequoia	CTTGGTCTGAAAGAATATTACCTAATGGAAAAAGAGTCGGACAAGTGACTAAACCCCTCA
+	cryptomeria	CTTGGTCTGAAAGAATATTACCTAATGGAGAAAGAGTCGGACAAGTTACTACAGAACGCA
+	picea	CTTGGTCCGAAAAAATTTTACCTAATGGCGAGATAGTTGGACAGGTGACTAAACCCTATA
+	sequoia	CTTGGTCTGAAAGAATATTACCTAATGGAAAAAGAGTCGGACAAGTTACTAAAGACCTCA
+	sequoiadendron	CTTGGTCTGAAAGAATATTACCTAATGGAAAAAGAGTCGGACAAGTGACTAAACCCCTCA
+
+	metasequoia	CTTTAGATTATAGAACTTATGAACCAGCAAGAAATGGATTATTTTGTGAAAGAATATTTG
+	cryptomeria	CTTTAGATTATAGAACTTATGAACCAGTAAGAGATGGATTATTTTGTGAAAGAATATTTG
+	picea	CTCTACATTATGAAACTAATAAACCAGAAAGAGATGGATCGTTTTGTGAAAGAATCTTTG
+	sequoia	CTTTAGATTATAGAACTTATGAACCAGCAAGAAATGGATTATTTTGTGAAAGAATATTTG
+	sequoiadendron	CTTTAGATTATAGAACTTATGAACCAGCAAGAGATGGATTATTTTGTGAAAGAATATTTG
+
+	metasequoia	GGCCTAAGAAAAGGGGAGTTTGTGCTTGTGTAAAACCTCGAATAATGGAAAATGAGAAGG
+	cryptomeria	GACCTAAGAAAAGGGGAGTTTGTGCTTGTGTAAAACCTCGAATGATGGAAAATGACAAGG
+	picea	GACCTATCAAAAGTAGGGTTTGTTCTTGTGGAAATTCTCCAGGGATCGGAAATGAGAAGA
+	sequoia	GGCCTAAGAAAAGGGGAGTTTGTGCTTGTGTAAAACCTCGAATAATGGAAAATGAGAAGG
+	sequoiadendron	GGCCTAAGAAAAGGGGAGTTTGTGCTTGTGTAAAACCTCGAATAATGGAAAATGAGAAGG
+
+	metasequoia	AAAAT---------AATTTTTGTACTCGATGTGGAATTGAACTTGTTGTTGATCCTCGAA
+	cryptomeria	AAAACTACAACTCCAATTTTTGTACTCAATGTGGAGTTGAACTTGCTATTGATCCTCGAA
+	picea	TAGAC------TCTAAATTTTGCACACAATGTGGAGTTGAATTCG---TTGATTCTCGAA
+	sequoia	AAAAG---------AATTTTTGTACTCGATGTGGAATTGAACTTGTTGTTGATCCTCGAA
+	sequoiadendron	AAAAG---------AATTTTTGTACTCGATGTGAAATTGAACTTGTTGTTGATCCTCGAA
+
+	metasequoia	TTCGAAGATATCGAATGGGATACATTAAACTGGCATGTCCAGTTGTTCATATTTGGTATT
+	cryptomeria	TTCGAAGATATCGAATGGGATACATTAAACTGGCATGTCCAGTTGTTCATATTTGGTATT
+	picea	TTCGAAGATATCGAATGGGATACATTAAACTGGCATGTCCGGTGGCTCACATATGGTATT
+	sequoia	TTCGAAGATATCGAATGGGATACATTAAACTGGCATGTCCAGTTGTTCATATTTGGTATT
+	sequoiadendron	TTCGAAGATATCGAATGGGATACATTAAACTGGCATGTCCAGTTGTTCATATTTGGTATT
+
+	metasequoia	TCAAACGGCGCCCCAGTTATATCGCGGATCTATTAGATAAAACTCGTAAAGAATTAGAAG
+	cryptomeria	TCAAACGACGCCCCAGTTATATCGCGGATCTATTAGATAAAACTCGTAAAGAATTAGAAG
+	picea	TGAAACGTCTTCCTAGTTATATTGCGAATCTATTAGCTAAAACTCGGAAAGAATTAGAAG
+	sequoia	TCAAACGGCGCCCCAGTTATATCGCGGATCTATTAGATACAACTCGTAAAGAATTAGAAA
+	sequoiadendron	TCAAACGACGCCCCAGTTATATCGCGGATCTATTAGATAAAACTCGTAAAGAATTAGAAG
+
+	metasequoia	ACCCAGTATACTGCGATGTGTGACTTGATCACAAGCTCCGATTATACAGATCCGT----A
+	cryptomeria	ACCCAGTATACTGCGATGTGTGACTTGATCACAAGCTCCGATTATACAGATCCGT----A
+	picea	GCCCAGTATACTGCGATGTGTGACTTGATCACAAGTTCCGATCATACAGATCCGTAATAA
+	sequoia	AACCAGTATACTGCGATGTGTGACTTGATCACAAGCTCCGATTATACAGATCCGT----A
+	sequoiadendron	AACCAGTATACTGCGATGTGTGACTTGATCACAAGCTCTCATTATACAGATCCGT----A
+
+	metasequoia	GGAACTGTCATCCTATTCAATCTAATTGGGATGCCCTTAGCTCTGACACGCCCCTCGAGA
+	cryptomeria	GGAACTGTCATCCTATTCAATCTAATTGGGATGTCCTTAGCTCTGACACGCCCCTCGGGA
+	picea	GGAACTGTCATCCTATTCAATCTCATTGGGATGCCTTTAGCTCTGACATGTCCCTCCAGA
+	sequoia	GGAACTGTCATCCTATTCAATCTAATTGGGATGCCCTTAGCTCTGACACGCCCCTCGGGA
+	sequoiadendron	GGAACTGTCATCCTATTCAATCTAATTGGGATGCCCTTAGCTCTGACACGCCCCTCGGGA
+
+	metasequoia	AGAGTAGCATGAAGCTCAGAATTAGAAGCATCTTAAAAAGATGTTGATAAAGAGAAATGA
+	cryptomeria	AGAGTAGTATGAAGCTCAGAATTAAAACCATCTTAAAAAGATGTTGATAAAGAGGAATCA
+	picea	GGAGTAGCATGAAGCTCAGAATTATAAGCATCTTGAAGAGATGTTGAGAAAGAGGAATTA
+	sequoia	AGAGTAGCATGAAGCTCAGAATTAGAAGCATCTTAAAAAGATGTTGATAAAGAGAAATGA
+	sequoiadendron	AGAGTAGCATGAAGCTCAGAATTAGAAGCATCTTAAAAAGATGTTGATAAAGAGAAATGA
+
+	metasequoia	ATCTAGGGTTAATATCTTGTA---TATTAAATTGCTAATTGGACTTCGTAAAAATACTTC
+	cryptomeria	ATCTAGGGTTAATATCTTGTATATTATTAAATTGCTAATTGGACTTCGTAAAAATACTTC
+	picea	GTCCAGGGTTTAGATATTCTG---TATCAATTTGCTAATTGAACTTCGTGAAAACACTTC
+	sequoia	ATCTAGGGTTAATATCTTGTA---TATTAAATTGCTAATTGGACTTCGTAAAAATACCTC
+	sequoiadendron	ATCTAGGGTTAATATCTTGTA---TATTAAATTGCTAATTGGACTTCGTAAAAATACCTC
+
+	metasequoia	TTTTATTCTATAAAAAAAAATGGAATG-AAAAA----TCTGGTTCAGTTTTATTATCCTT
+	cryptomeria	TTTTATTATA-AATAAAAAATGGAATGAAAAAA----TCTGTTTCATTTTTATTATCCTT
+	picea	TTTCAT----------ATAATGGAATTCGAAAGTAATTCTCTTTCATTTGGGTTATCCCA
+	sequoia	TTTTATTCTCTAAGAAAAAATGGAATG-AAAAA----TCTGGTTCATTCTTATTATCCTT
+	sequoiadendron	TTTTATTCTCTAAGAAAAAATGGAATG-AAAAA----TCTGGTTTATTCTTATTATCCTT
+
+	metasequoia	GATTTAT-TCAAGAACAAAAAGAAGATATGGTTATAGGAGTCTATTCATCGCACATATGC
+	cryptomeria	TATTTATATCTAGACCAAAAAGAAGATATGGTTATAGGAGTCTATTCATCGCACATATGC
+	picea	GAGGTAT-TTCGGACCAAAGA-----TATGGCTATAGGAGTCTATTCATCGCACATATGC
+	sequoia	GATTTAT-TCAAGACCAAAAAGAACATATGGTTATAGGAGTCTATTCATCGCACATATGC
+	sequoiadendron	GATTTAT-TCAAGACCAAAAAGAAGATATGGTTATAGGAGTTTATTCATCGCACATATGC
+
+	metasequoia	TTCAA---ATAGTATTGTAACCATCGAAGTAA----AACAGAAACCTACAGGATCAATTA
+	cryptomeria	TTCAA---ATAGTATTGTAACCATCGAAGTAA----AACAGAAACCTACAGGATCGATTA
+	picea	TTCGATCAATAGTATTGTAACCATCGAAGTAAAGCAAGCAGGAACCTAAAGGATCAAATG
+	sequoia	TTCAA---ATAGTATTGTAACCACCGAAGTAA----AACAGAAACCTACAGGATCAATTA
+	sequoiadendron	TTCAA---ATAGTATTGTAACCATCGAAGTAA----AACAGAAACCTACAGGATCAATTA
+
+	metasequoia	TAACGAGATACAGACAAGTAAATCCCTTATGAACTTCAAATGAATTGAAGGTC-TTTCAC
+	cryptomeria	TAACCAGATACAGACAAGTAAATCCCTTATGAATTTCAAATGAATTGAAGGTC-TTTCAC
+	picea	GAACGAGATAAAGACAAGTAAATCCCT---------------AATTGAAGGTCATTTCAA
+	sequoia	TAACGAGATACAGACAAGTAAATCCCTTATGAACTTCAAATGAATTGAAGGTC-TTTCAC
+	sequoiadendron	GAACGAGATACAGACAAGTAAATCCCTTATGAACTTCAAATGAATTGAAGGTC-TTTCGC
+
+	metasequoia	AAAGAAATGTATCGTTCAAAAGGGAGGAGACTGCTCACTAATTCCATATTTATGTCATAA
+	cryptomeria	AAAGAAATGTATCGTTCAAAAGGGAGGAGACTGCTCACTAATTCCATATTTATGTCATAA
+	picea	GAAGAAATGGATTGTTCGGAAGGGAAGAGACTGCTCAATAATTCCATATCTATGTTGTA-
+	sequoia	AAAGAAATGTATCGTTCAAAAGGGAGGAGACTGCTCACTAATTCCATATTTATGTCATAA
+	sequoiadendron	AAAGAAATGTATCGTTCAAAAGGGAGGAGACTGCTCACTAATTCCATATTTATGTCATAA
+
+	metasequoia	TACGAATCATAAACCAATAATCGAATTCACTTGGAACTTGAGCAAAGAGTAACTATTTAG
+	cryptomeria	TACGAATCGTAAACCAATAATCGAATTCACTTGGAACTTGAGCAAAGAGTAACTATTTTA
+	picea	---GAATCGTAAAGGAATACTCAATTTCACCTGGAACTTGAGCAGAGAGTAGCGGTCTCT
+	sequoia	TACGAATCATAAACCAATAATCGAATTCACTTGGAACTTGAGCAAAGAGTAACTATTTAG
+	sequoiadendron	TACGAATGATAAACCAATAATCGAATTCATTTAGAACTTGAGCAAAGAGTAACTATTTCA
+
+	metasequoia	TTTT--ATAGAAAGCAAAAAACATTTTTTTGCACAATGATA------GACTTTCCATTTC
+	cryptomeria	GTTTGAATAGAGAGCAAAAAACATTTTTTTGCATAATGATACATAATCACTTTCCATTTC
+	picea	CTTC------AGAGCGAAAAATAGTTGTATATACATATATATATATATATTTTTTTTTTT
+	sequoia	TTTT--ATAGAGAGCAAAAAACATCTTTTTGCACAATGATA------CACTTCCCATTTC
+	sequoiadendron	TTTT--ATAGAGAGCAAAAAACATTTGTTTGCACAATGATA------CACTTTCCATTTC
+
+	metasequoia	GGT-TAGTTACTTGAGCCGGATGAGAGGAAACTTTCATGTCCGATTCTGAGGGGGGGGGA
+	cryptomeria	GGTATAGTTACTTGAGCCGGATGAGAGGAAACTTTCATGTCCGATTCTGAGGGGGG---G
+	picea	----TAGTTACTTGAGCCGGATGAGAGGAAACTTTCATGTCCGATCCTGAGGGGGG---G
+	sequoia	GGT-TAGTTACTTGAGCCGGATGAGAGGAAACTTTCATGTCCGATTCTGAGGGGGGGGAA
+	sequoiadendron	AGT-TAGTTACTTGAGCCGGATGAGAGGAAACTTTCATGTCCGATTCTGAGGGGGGGGGA
+
+	metasequoia	AAAAAGATTAGAAAACCCTATCCAAATGTTTGTATTACTAGGCCCACAGTTAACAAGCCA
+	cryptomeria	GAACAGATTAGAAAAACCTATCCAAATGTTTGTATTACTAGGCCCACAGCTAAAAAGCCA
+	picea	AAAT--CTTAGAAAAACCTATCCGAATCTTTTTATTGCTAGGCCCATAGCTAACAAACCA
+	sequoia	AAAAAGATTAGAAAACCCTATCCAAATGTTTGTATTACTAGGCCCGCAGTTAACAAGCCG
+	sequoiadendron	AAAAATATTAGAAAACCCTATCCAAATGTTTGTATTACTAGGCCCACGGTTAACAAACCG
+
+	metasequoia	ACTTTATTGCGATTTGAGGGTTCACTTAAATATGACGAAGAATCCTGGCCAAAAGATATT
+	cryptomeria	ACTTTATTGCGATTTCAGGGTTTACGTCCATCTAAGTATGAATCCTGGGCAGAAAAGATT
+	picea	ACTTTATTGAGATCACGGGGTACATTCAATTATGAGATTCAATCCTGGAGAGATATTATT
+	sequoia	ACTTTATTGCGATTTGAGGGTTCACTTAAATATGACGAAGAATCCTGGCCAACAGATATT
+	sequoiadendron	ACTTTATTGCGATTTGAGGGTTCACTGAAATATGACGAAGAATCCTGGCCAAAAGATATT
+
+	metasequoia	GCTTATTATCTCT------------------------CTTGGGATTTTGCGCTATTTCAA
+	cryptomeria	GCTTATTATCTCT------------------------CTTGGGATTTTGGGCTAGTTCAA
+	picea	CCTCATTACCTCTCTGCTCGTTCTCATTACCTCTTTGCTCGGGGTTCTGGAACATTTCAA
+	sequoia	GCTTATTTTCTCT------------------------CTTGGGATTTTGCGCTATTTCAA
+	sequoiadendron	GCTTATTTTCTCT------------------------CTTGGGATTTTGCGCTATTTCAA
+
+	metasequoia	GAGAGAGAAATAGCCACTGGAGGAAAAGCTATCAGAGATCAATTAGCTGGTCTAGATCTG
+	cryptomeria	GAGCGAGAAATTGCCACTGGAGGAAAAGCTATCAGAGAACAATTAGCTGGTCTAGATCTG
+	picea	GAGAGAGAAATAGCTACTGGGGGAGATGCTATAAGGGAACAACTCACTGGTCTGGATCTT
+	sequoia	GAGCGAGAAATAGCCACTGGAGGAAAAGCTATCAGAGACCAATTAGCTGATCTAGATCTG
+	sequoiadendron	GAACGAGAAATAGCTACTGGAGGAAAAGCTATCAGAGACCAATTAGCTGGTCTAGATCTG
+
+	metasequoia	CAAATTATTATAGATCGTTCATATAGAGAATGGAAGATAATAGATGAGCTACTAT---CT
+	cryptomeria	CAAATGATTATAGATCGTTCATATATAGAATGGAAGGAAATAGATGAGGTAATAT---CT
+	picea	CAAATTATTATAGATCGTTCACATATGGAATGGAAGAACTTGGTGGAATTGAAATGGAAT
+	sequoia	CAAATTATTATAGATCGTTCATATAGAGAATGGAAGATAATAGATGAGCTACTAT---CT
+	sequoiadendron	CAAATTATTATAGATCGTTCATATAGAGAATGGGAGATAATAGATGAGCTACTAT---CT
+
+	metasequoia	ATATTATTCTTGGAGGCAGAAAATGTAGTTGGTGATATAGAAATATATGCTCAATTTAAC
+	cryptomeria	ATATTATTTTCGGAGCCAGAGAATCTATTTAGTAATAGAAAAATATATGCTCAATTTAAG
+	picea	AGATT---------GGAGGAGGATC-------------AAGAATCTACTGTGGAT-----
+	sequoia	ATATTATTCTCGGAGGCAGAGAATGCAATTAGTAATAAAAAAATATATTCTCAACTTAAG
+	sequoiadendron	ATATTATTTTTGGAGGCAGAGAATGCAGTTGGTAATATAGAAATATATTCTCAATTTAAC
+
+	metasequoia	GAGCAAAAACTTCAAAAACTTCGAAGAAGAAAGGATCTTTTGGTTAGACGGATGAGATTT
+	cryptomeria	GAGCAAAAACTTCAAAAACTTCGAAGAAGAAAGGATCTTTTGGTTAGACGGATGAGATTT
+	picea	GGATGGGAGGATGAAACAATTCGAAGAAGAAAGGATTTTCTGGTTGGACGTATGAAATTG
+	sequoia	GAGCAAAAACTTGAAAAACTTCGAAGAAGAAAGGATCTTTTGGTTAGACGGATGAGATTT
+	sequoiadendron	GAGCAAAAACTTCAAAAACTTCGAAGAAGAAAGGATCTTTTGGTTAGACGGATGAGATTT
+
+	metasequoia	GCTAAATATTTTATTCGGGCAAATGTAGAACCACAATGGATGGTTCTATGCCTATTACCA
+	cryptomeria	GCTAAATATTTTCTTCGAACAAATGTAGAACCACAATGGATGGTTCTATGCCTATTACCA
+	picea	GCTAAACATTTTCTCCGAACAAATATAGAACCAAAATGGATGGTCTTATGCCTATTACCA
+	sequoia	GCTAAATATTTGATTCGAGCAAATGTAGAACCACAATGGATGGTTCTATGCCTATTACCA
+	sequoiadendron	GCTAAATATTTGATTCGAGCAAATGTAGAACCACAATGGATGGTTCTATGCCTATTACCA
+
+	metasequoia	GTTCTTCCTCCCGACCTGAGGCCAATGTTTCAATTAAATGAAGGTGGAGTGATTACTTCG
+	cryptomeria	GTTCTTCCTCCCGACCTGAGGCCAATGTTTCAATTAAATGAAGGTGGAGTGATTACTTCG
+	picea	GTTCTTCCTCCCGAACCGAGGCCAATCGTTCAATTAGGTGAAGGTGGACTTATTACCTCG
+	sequoia	GTTCTTCCTCCCGACCTGAGGCCAATGTTTCAATTAAATGAAGGTGGAGTTCTTACTTCG
+	sequoiadendron	GTTCTTCCTCCCGACCTGAGGCCAATGTTTCAATTAAATGAAGGTGGAGTTATTACTTCG
+
+	metasequoia	---GATCTCAATGAACTTTATCAAACAGTTATCCGTCGAAATAATATTCTTTCACAATTC
+	cryptomeria	---GATCTTAATGAACTTTATCAAACGGTTATCCGTCGAAATAATAATGTTTTACAATTC
+	picea	TCAGATCTAAATGAACTTTATCGAAGAGTGATCAATCGGAATAATACTCTTACCAATTTA
+	sequoia	---GATCTCAATGAACTTTATCTAACAGTTATCCGTCGAAATAATAATCTTTCACATTTA
+	sequoiadendron	---GATCTCAATGAACTTTATCAAACAGTTATCCGTCGAAATAATAATCTTTCACACTTC
+
+	metasequoia	ATAAAAAACACTCATGCATTTCTAATTCCGGATTTATTGGGTGATCAAAAGAGATTAGTC
+	cryptomeria	ATAGAAACCACTAGTGCATTTCTAATACCGGATTTATTGCCTGACCAAAAGAAATTAGTC
+	picea	TTAGCAAGAAGTGG-----ATCTGAGTC---ATTTGTTATTTG-TCAAAAAAAATTGATC
+	sequoia	ATAAAAGAAAGTCATGGATTTCCGATTCCGGATTTATTGGGTGATCAAAAGAGATTAGTC
+	sequoiadendron	ATAGAAAACACTCATCCATTTCTAATGCCGGATTTATTAGGTGATCAAAAGAGATTAGTC
+
+	metasequoia	CAACGAGCCGTAGATGCACTTCTCGATAACAGTATAGGCGCACAACCGGTGAAAGATAGT
+	cryptomeria	CAACAAGCCGTAGATGCACTTCTTGATAACAGTATAGGCACACAACCGGTGAGAGATAGT
+	picea	CAGGAAGCCGTAGATGCACTTCTCGATAATGGCATCTGTGGACAACCAATGAGAGACAGT
+	sequoia	CAACGAGCCGTAGATGCACTTCTTGATAACAGTATAGGCGCGCAACCGGTGAAAGATAGT
+	sequoiadendron	CAACGAGCCGTAGATGCACTTCTTGATAACAGTATAGGCGCACAACCGGTGAAAGATAGT
+
+	metasequoia	CACGACAGACCTTATAAATCGTTCTCAGATTTCATCCAAGGTAAAGAAGGAAGATTTCGC
+	cryptomeria	CACGATAGACCTTATAAATCGTTCTCAGATTTCATCCAAGGTAAAGAAGGAAGATTCCGT
+	picea	CATGATAGGCCTTATAAATCGTTCTCAGATGTGATCGAAGGTAAAGAGGGAAGATCTCGT
+	sequoia	CACGACAGACCTTATAAATCGTTCTCAGATTTCATCCAAGGTAAAGAAGGAAGATTTCGT
+	sequoiadendron	CACGACAGACCTTATAAATCGTTCTCAGATTTCATCCAAGGTAAAGAAGGAAGATTTCGT
+
+	metasequoia	GAGAATTTACTTGGAAAACGGGTGGATTATTCAGGTCGTTCTGTTATTGTGGTAGGTCCC
+	cryptomeria	GAAAATTTACTTGGAAAACGGGTCGATTATTCAGGTCGTTCTGTTATTGTGGTAGGTCCC
+	picea	GAAAATTTACTAGGGAAACGAGTTGATTATTCAGGTCGTTCCGTTATTGTGGTGGGTCCC
+	sequoia	GAAAATTTACTTGGAAAACGGGTGGATTATTCAGGTCGTTCTGTTATTGTCGTAGGTCCC
+	sequoiadendron	GAAAATTTACTTGGAAAACGGGTGGATTATTCAGGTCGTTCTGTTATTGTCGTAGGTCCC
+
+	metasequoia	CTTCTCTCATTGTATCAATGTGGATTGCCCCGAGAAATCGCAATAGAACTTTTTCAAACA
+	cryptomeria	CTTCTCTCATTGTATCAATGTGGATTGCCCCGAGAAATCGCAATAGAGCTTTTTCAAGCA
+	picea	TTTCTATCATTGTATCAATGTGGATTACCCTCAGAAATAGCAATAGAGCTTTTTCAAGCA
+	sequoia	CTTCTCTCGTTGTATCAATGTGGATTGCCCCGAGAAATCGCAATAGAACTTTTTCAAACA
+	sequoiadendron	CTTCTCTCGTTGTATCAATGTGGATTGCCCCGAGAAATTGCAATAGAACTTTTTCAAACA
+
+	metasequoia	TTTTTAATTCGTGAGCTGGTTGAACAGCAGATTGCTCCCAATTTAAGAGCGGCTAAATTT
+	cryptomeria	TTTTTAATTCGTGATCTGGTTGAACGACAGATTGCTCCCAATCTAAGAGCTGCTAAATTT
+	picea	TTTGTAATTCGTAGTCTCATTGGACGACATATTGCTCCCAACCTAAGAGCTGCTAAAAGT
+	sequoia	TTTTTAATTCGTGGGCTGGTTGAAGAACAGATTGCTCCCAATTTAAGAGCTGCTAAATTT
+	sequoiadendron	TTTTTAATTCGTGGGCTGGTTGAACAACAGATTGCTCCCAATTTAAGAGCTGCTAAATTT
+
+	metasequoia	TTAATTCGAGATAGGGGACCTATTATATGGAACGTGCTTAAACAGATTATGCAAAAACAT
+	cryptomeria	TTAATTCGAGATAGGGGACCTATTATATGGAACGTACTTAAACAGATTATGCAAAAACAT
+	picea	ATGATTCGAGATAAGGGACCCATTGTATGGGAAGTACTTCAAGAGGTTATGCAAGGACAT
+	sequoia	TTAATTCGAGATAGGGGACCTATTATATGGAACGTACTTAAACAGATTATGCAAAAACAT
+	sequoiadendron	TTAATTCAAGACAGGGGACCTATTATATGGAACGTACTTAAACAGATTATGCAAAAACAT
+
+	metasequoia	CCCATATTGTTAAATCGAGCACCCACCTTACACAGATTAGGAATACAAGCGTTTATACCT
+	cryptomeria	CCCATATTGTTAAATCGAGCACCCACCTTACACAGATTAGGAATACAAGCGTTTATACCT
+	picea	CCCGTATTGTTGAATCGAGCACCTACCTTGCACAGATTAGGAATACAAGCGTTTCAACCT
+	sequoia	CCCATATTGTTAAATCGAGCACCCACCTTACACAGATTAGGAATACAAGCGTTTATACCT
+	sequoiadendron	CCCATATTGTTAAATCGAGCACCCACCTTACACAGATTAGGAATACAAGCGTTTATACCT
+
+	metasequoia	ATTTTAATAGAAGAACGTGCCATTCGGTTACACCCATTGGTTTGTGCAGGATTTAATGCG
+	cryptomeria	GTTTTAATAAACGAACGTGCCATTCGGTTACACCCATTGGTTTGTGCAGGATTTAATGCG
+	picea	ATTTTAGTAGAAGGACGTGCCATTCGTTCACATCCATCGGTTTGTGGAGGATTTAATGCG
+	sequoia	ATTTTAATAGAAGAACGTGCCATTCGGTTGCACCCATTGGTTTGTGCAGGATTTAATGCG
+	sequoiadendron	ATTTTAATAGAAGAACGTGCCATTCGGTTGCACCCATTGGTTTGTGCAGGATTTAATGCG
+
+	metasequoia	GACTTTGATGGAGATCAGATGGCTGTCCACGTACCTTTATCTATGGAAGCTCAAGTAGAA
+	cryptomeria	GACTTTGACGGAGATCAGATGGCTGTCCACGTACCTTTATCTATGGAAGCTCAAGTAGAA
+	picea	GACTTCGACGGAGATCAGATGGCTGTCCATGTACCTTTATCTCTGGAAGCTAGAGCAGAA
+	sequoia	GACTTTGATGGAGATCAGATGGCTGTCCACGTACCTTTATCTATGGAAGCTCAAGTAGAA
+	sequoiadendron	GACTTTGATGGAGATCAGATGGCTGTCCACGTACCTTTATCTATGGAAGCTCAAGTAGAA
+
+	metasequoia	GCTCGTTTACTTATGTTTTCTCATCTCAATCTTATCTCTCCGACTATAGGAGATCCTATT
+	cryptomeria	GCTCGTTTACTTATGTTTTCTCATCTCAATCTTATCTCTCCAACCATAGGAGATCCTATT
+	picea	GCTCGTTTACTAATGTTTTCTGAGACAAATCTTTTGTCTCCAGCTATCGGAGATCCTATT
+	sequoia	GCTCGTTTACTTATGTTTTCTCATCTCAATCTTATCTCTCCGACTATAGGAGATCCTATT
+	sequoiadendron	GCTCGTTTACTTATGTTTTCTCATCTCAATCTTATCTCTCCGACTATAGGAGATCCTATT
+
+	metasequoia	TGTGTACCGACTCAAGATATGCTTCTAGGACTTTATAGATCAACTCTTCAAAAAAACCAG
+	cryptomeria	TGTGTACCGACTCAAGATATGCTTCTAGGACTTTATAGATCAACTCTTCAAAAAAACCAG
+	picea	TCTATACCGACTCAGGATATGCTTCTTGGACTTTATATATCAACGGTCGGAAATAGTCAA
+	sequoia	TGTGTACCGACTCAAGATATGCTTCTAGGACTTTATAGATCAACTCTTCAAAAAACCCAG
+	sequoiadendron	TGTGTACCGACTCAAGATATGCTTCTAGGACTTTATAGATCAACTCTTCAAAAAAACCAG
+
+	metasequoia	GGTATTTATGAAAATCGGTACCACCCAAATAACTCAAAAAAGAAGATCGTTTCG------
+	cryptomeria	GGTATTTATGAAAATAGGTACCATCCAAATAGCTCAAAAAAGAAGATCGTCTCG------
+	picea	GGTATTTATGGGAATAGGTACCATCCATATCACTCGGAAAAGAAAAGCTTTTCCTGTAAG
+	sequoia	GGTATTTATGAAAATAGGTACCACCCAAATAACTCAAAAAAGAAGATCGTTTCG------
+	sequoiadendron	GGTATTTATGAAAATAGGTACCACCCAAATAACTCAAAAAAGAAGATCGTTTCG------
+
+	metasequoia	---CCTTCGTTTTATAGCTATGATGATGCACTTAAAGCTTATGAACAAAAACAAATTGAT
+	cryptomeria	---CCTTCGTTTTATAGCTATGATGATGCGCTTAAAGCTTATGAACAAAAACAAATTGAT
+	picea	AAACCTTCTTTTTATAGTTATGATGATGTGCTCAGAGCTTATCGACAGAAACGAATTGAC
+	sequoia	---CCTTCGTTTTATAGCTATGATGATGCACTTAAAGCTTATGAACAAAAACAAATTGAT
+	sequoiadendron	---CCTTCGTTTTATAGCTATGATGATGCACTTAAAGCTTATGAACAAAAACAAATTGAT
+
+	metasequoia	TTAGACAGTCCTTTGTGGCTGCGATGGGGGAGAGAGATAGATACCTCTATTATTAATTCA
+	cryptomeria	TTAGACAGTCCTTTATGGCTCCGATGGGGGAGAGAGATAGATACCTCTATTATTAATTCA
+	picea	TTATACAGCCCCTTATGGCTCCGGTGGGGG---GAAGTGGATTTACGTATCATTACCTCA
+	sequoia	TTAGACAGTCCTTTGTGGCTCCGATGGGGGAGAGAGATAGATACCTCTATTATTAATTCA
+	sequoiadendron	TTAGACAGTCCTTTATGGCTCCGATGGGGGAGAGAGATAGATACCTCTATTATTAATTCA
+
+	metasequoia	GTAAACCGAGAACTTCCTATCGAAGTTCAGTATGAATATTTAGGTACCTTTTACGAAATC
+	cryptomeria	GTAAACCGAGAACTTCCTATCGAAGTTCAATATGAATGTTTAGGTACCTTCTACGAAATC
+	picea	GTAAACCAAGAAGCCCCTATCGAGGTTCAGTACGAATCTTTGGGTACCTTCCACGAAATC
+	sequoia	GTAAACCGAGAACTTCCTATCGAAGTTCAGTATGAATATTTAGGTACCTTCTACGAAATC
+	sequoiadendron	GTAAACCGAGAACTTCCTATCGAAGTTCAGTATGAATATTTAGGTACCTTCTACGAAATC
+
+	metasequoia	TATGATCATTTTCGAATAAGAAAAGGTAGAGTGGGGGAAATACTTAATAAATACATTCGA
+	cryptomeria	TATGATCATTTTCGAATAAGAAAAGGTAGAGTGGGGGAAATACTTAATAAATACATTCGA
+	picea	CATGAACATTATCGAATAAGAAAAGGTAGAATGGGGGAAATCCTTAATATATATATTCGA
+	sequoia	TATGATCATTTTCGAATAAGAAAAGGTAGAGTGGGGGAAATACTTAATAAATACATTCGA
+	sequoiadendron	TATGATCATTTTCGAATAAGAAAAGATAGAGTGGGGGAAATAGTGAATAAATACATTCGA
+
+	metasequoia	ACAACCGTTGGTCGTATTCGTTTTAATCGAGAAATAGAAGAAGCTATAAAAGG-CTTGTG
+	cryptomeria	ACAACCGTTGGTCGCATTCGTTTTAATCGAGAAATAGAAGAAGCTATAAAAGG-CTTGTG
+	picea	ACAACTGTTGGTCGTACTCGTTTCAATCGAGAAATGGAAGAAGCCATACAAGGTTTTGCC
+	sequoia	ACAACCGTCGGTCGTATTCGTTTTAATCGAGAAATAGAAGAAGCTATAAAAGG-CTTGTG
+	sequoiadendron	ACAACCGTTGGTCGTATTCGTTTTAATCGAGAAATAGAAGAAGCTATAAAAGG-CTTGTG
+
+	metasequoia	GACTTATGATATCCGACAAGAAATGTCACTA------TTCAGAATTTAATGTTATTAATC
+	cryptomeria	GACTTATGATATCCGACAAGAAATGTTACTA------TTCAGAATTTAATGTTATTAATC
+	picea	CGTTCTGAACACCCA--AAGAAA--TCACTACCAGCTCTCAGGATCTAATGTTATTGATC
+	sequoia	GACTTATGATATCCGACAAGAAATGTCACTA------TTCAGAATTTAATGTTATTAATC
+	sequoiadendron	GACTTATGATATCCGACAAGAAATGTCACTA------TTCAGAATTTAACGTTATTAATC
+
+	metasequoia	TTATGATCCTTTCATTCATGCAGAGATAAAGATCAAGGGAGCCTT-------CCAGCTTA
+	cryptomeria	TTACGCTTATCTCATTGATGCAGAGATAAAGATCAAGGGAGCCTC-------CCAGCTTA
+	picea	TTATGATCTTTTCATTAGTGCAGATATAGAGATCGAGGAAGCCTTTGAATAACCGGCTTA
+	sequoia	TTATGATTCTTTCATTCATGCAGAGATAAAGATCAAGGGAGCCTC-------CCAGCTTA
+	sequoiadendron	TTATGATCCTTTCATTCATGCAGAGATAAAGATCAAGGGAGCCTT-------CCAACTTA
+
+	metasequoia	AACCCATTGCTGAATCCTGCTCCCA-----AAAATGGGGATATTTTCTTCTTATGGCACA
+	cryptomeria	AACCCATTGCTTAATTCTGCTCCCCAAAATAAAATGGGGATATCTTATTCTTATGACACA
+	picea	AACCCATTGCTTAATCCTGCTCATGAA---AATATGGAGATTTTTCCTTATGAAGGAACG
+	sequoia	AACTCATTGCTGAATCCTGCTTCCA-----AAAATGGTGATATTTTCTTCTTATGGCACA
+	sequoiadendron	AACCCATTGTTGAATCCTGCTGCCC-----AATCTGGGGATATTTTCTTCTTATGGCACA
+
+	metasequoia	ACCTAATTTCGTCAAAGTATCCTTTCCCTTTGAAGTGCCCTTTCCCTTTGAAGTGCCCTT
+	cryptomeria	A---AATCCCGTCAAA-----TTTGTCCAT-------CCCTTTCCCTTTGAAGTGCCCTT
+	picea	AACTAG---------------ATTGCCCTTTGA---------------TAATTTGCCCTT
+	sequoia	ACCTAATTTCGTCAAAGTGTCCTTTCCCTTTAAAGTGTCCTTTCCCTTTGAAGTGCCCTT
+	sequoiadendron	ACCTAATTTCGTCAAGGTGTCTTTTCCCCTTGAAGTGCCCTTTCCTTTTGAAGTGCCCTT
+
+	metasequoia	TTTTAATAAAGGGATGGATAAATTTGTTATGAAGCACCTTATTAGAAGATTCGTAAATCA
+	cryptomeria	TTTTAATAAAGGGATGGATAAATTTGTTATGAAGCACCTTATTAGAAGATTCGTAAATCA
+	picea	TTATAATAAAGTGATGGATAAAACTGCCATTAAAAAGCTTATTAGCAGATTAATAGATCA
+	sequoia	TTTTAATAAAGGGATGGATAAATTTGTTATGAAGCACCTTATTAGAAGATTCGTAAATCA
+	sequoiadendron	TTTTAATAAAGGGATGGATAAATTTGTTATGAAGCACCTTATTAGAAGATTCGTAAATCA
+
+	metasequoia	ATTTGGAATGACATATACGTCACATATATTAGATCAACTGAAGATTTTAGGTTTCCAGCA
+	cryptomeria	ATTTGGAATGACATATACATCACATATATTAGATCAACTGAAGATTTTAGGTTTCCAGCA
+	picea	CTTCGGAATGACATATACATCACATATCTTGGATCAACTAAAGACTTCAGGTTTTCAACA
+	sequoia	ATTTGGAATGACATATACATCACATATATTAGATCAACTGAAGATTTTAGGTTTCCAGCA
+	sequoiadendron	ATTTGGAATGACATATACATCACATATATTAGATCAACTGAAGATTTTAGGTTTCCAGCA
+
+	metasequoia	AGCTACTGATGCAGCTATTTCATTAGGAATTGATGATCTTTTAACAACACCATCTAAAGC
+	cryptomeria	AGCTACTGACGCAGCTATTTCATTAGGAATTGATGATCTTTTAACAACACCATCTAAAGC
+	picea	AGCTACTGATACAGCTATTTCATTAGGAATTGATGATCTTTTAACAGCACCTTCCAAAGC
+	sequoia	AGCTACTGATGCAGCTATTTCATTAGGAATTGATGATCTTTTAACAACACCATCTAAAGC
+	sequoiadendron	AGCTACTGATGCAGCTATTTCATTAGGAATTGATGATCTTTTAACAACACCATCTAAAGC
+
+	metasequoia	ATGGCTTATCCAAGATGCGCAGCAACAAGGGTTTGCTTCGGAAAGACATCATGATTATGG
+	cryptomeria	ATGGCTTATCCAAGATGCGCAGCAACGAGGGTTTGCTTCAGAAAGACATCATGATTATGG
+	picea	ATGGCTCGTCCAAGATGCGGAGCAACAAGGTTCTGTTTCAGAGAAACAGAATCATTATGG
+	sequoia	ATGGCTTATCCAAGATGCGCAGCAACAAGGGTTTGCTTCGGAAAGACAGCATGATTATGG
+	sequoiadendron	ATGGCTTATCCAAGATGCGCAGCAACAAGGGTTTGCTTCGGAAAGACATCATGATTATGG
+
+	metasequoia	GAATGTACATGCAGTGGAAAAATTACGTCAATTGATTGAGATATGGCATGCTACCAGTGA
+	cryptomeria	GAATGTACATGCAGTAGAAAAATTACGTCAATTGATTGAGGTATGGCATGCTACCAGTGA
+	picea	GAATGTACATGCAGTGGAAAAATTACGTCAATCGATTGAGATATGGTATGCTACAAGTGA
+	sequoia	GAATGTACATGCAGTGGAAAAATTACGTCAATTGATTGAGATATGGCATGCTACCAGTGA
+	sequoiadendron	AAATGTACATGCAGTGGAAAAATTACGTCAATTGATTGAGATATGGCATGCTACCAGTGA
+
+	metasequoia	ATATTTGAGACGAGAAATGAATCCAAATTTTAGGATGACTGATCCTCTTAATCCAGTACA
+	cryptomeria	ATATTTGAGACGAGAAATGAATCCGAATTTTAGGATGACTGATCCTCTTAATCCAGTACA
+	picea	ATATTTGAGAAAAGAAATGAATCCGAATTTTAGCATGACTGATCCCTTAAATCCAGTACA
+	sequoia	ATATTTGAGACGAGAAATGAATCCGAATTTTAGGATGACTGATCCTCTTAATCCAGTACA
+	sequoiadendron	ATATTTGAGACGAGAAATGAATCCGAATTTTAGGATGACTGATCCTCTTAATCCAGTACA
+
+	metasequoia	TATGATGTCCTTTTCAGGAGCTAGAGGAAGTACATCTCAGGTTCACCAATTAGTAGGTAT
+	cryptomeria	TATGATGTCCTTTTCAGGAGCTAGAGGAAGTACATCCCAGGTTCACCAATTAGTAGGTAT
+	picea	TGTGATGTCCTTCTCAGGAGCTAGGGGAAGTACATCTCAGGTTCACCAATTAGTAGGTAT
+	sequoia	TATGATGTCCTTTTCAGGAGCTAGAGGAAGTACATCTCAGGTTCACCAATTAGTAGGTAT
+	sequoiadendron	TATGATGGCCTTTTCAGGAGCTAGAGGAAGTACATCTCAGGTTCACCAATTAGTAGGTAT
+
+	metasequoia	GAGAGGATTAATGTCAGATCCTCAAGGAAAAATTGTGGATCTACCCATTCAAGGGAATTT
+	cryptomeria	GAGAGGATTAATGTCGGATCCTCGAGGAAAAATTGTTGATCTACCCATTCAAGGGAATTT
+	picea	GAGAGGATTAATGTCAGATCCTCAAGGACAAATCATTGATCTACCCATTCGAAGGAATTT
+	sequoia	GAGAGGATTAATGTCAGATCCTCAAGGAAAGATTGTGGATCTACCCATTCAAGGGAATTT
+	sequoiadendron	GAGAGGATTAATGTCAGATCCTCAAGGAAAAATTGTGGATCTACCCATTCAAGGGAATTT
+
+	metasequoia	CCGTGAAGGACTTTCTTTAACAGAATATATTATTTCATGTTACGGTGCTCGTAAAGGAGT
+	cryptomeria	CCGCGAAGGACTTTCTTTAACGGAATATATTATTTCATGTTACGGTGCTCGTAAAGGAGT
+	picea	ACGCGAAGGGCTCTCTTTAACGGAATATATTATTTCCTGTTATGGGGCTCGTAAAGGAGT
+	sequoia	CCGTGAAGGACTTTCTTTAACGGAATATATTATTTCATGTTACGGTGCTCGTAAAGGAGT
+	sequoiadendron	CCGTGAAGGACTTTCTTTAACGGAATATATTATATCATGTTATGGTGCTCGTAAAGGAGT
+
+	metasequoia	TGTGGATACTTCTATACGAACAGCGGATGCTGGATACCTCACACGTAGACTTGTTGAAGT
+	cryptomeria	TGTGGATACTTCTATACGAACAGCAGATGCTGGATACCTCACACGTAGACTTGTTGAAGT
+	picea	TGTGGATACTGCTGTACGAACAGCAGATGCTGGATACCTCACACGTAGACTCGTTGAAGT
+	sequoia	TGTGGATACTTCTATACGAACAGCGGATGCTGGATACCTCACACGTAGACTTGTTGAAGT
+	sequoiadendron	TGTGGATACTTCTATACGAACAGCGGATGCTGGATACCTCACACGTAGACTTGTTGAAGT
+
+	metasequoia	AGTACAACACCTCGTTGTACGTAAAGTAGATTGTGGTACTATCCAAGGTCTTTTTGTAAA
+	cryptomeria	AGTACAACACCTCGTTGTACGTAAAGTAGATTGTGGTACTATCCAAGGTCTTTTTGTAAA
+	picea	GGTTCAACACATCGTAGTACGTAGAAAAGATTGTGGCACTATCCAAGGTATTTTCGTAAG
+	sequoia	AGTACAACACCTCGTTGTACGTAAAGTAGATTGTGGTACTATCCAAGGTCTTTTTGTAAA
+	sequoiadendron	TGTACAACACCTCGTTGTACGTAAAGTAGATTGTGGTACTATCCAAGGTCTTTTTGTAAA
+
+	metasequoia	TCTCACTCAAGATCGAGAAACAATAAAAAATAAATTTGTTAT------CCAAACACTAAT
+	cryptomeria	TCTCATTCAAGATCGAGAAACAATCAAAAATAAATTTGTTCT------ACAAACACTAAT
+	picea	TCCCATTCGAGGTCGAGAGAGGGACAGAAATGAAATTGTTGTACGAACACAAATACTGAT
+	sequoia	TCTCACTCAAGATCGAGAAACAATCAAAAATAAATTTGTTCT------ACAAAAACTAAT
+	sequoiadendron	TCTCACTCAAGATCGAGAAACAATAAAAAATAAATTTGTTCT------ACAAACACTAAT
+
+	metasequoia	TGGTCGTGTATTAGCAGACGATGTATATATAAACGGGAGATGTATTGCCACGCGCAATCA
+	cryptomeria	TGGTCGTGTATTAGCAGACGATGTATATATACACGGGAGATGTATTGCCACGCGCAATGA
+	picea	TGGCCGTGTGCTAGCAGACGATGTATATATAAATAGGAGATGCATTGCCACGCGCAATCA
+	sequoia	TGGTCGTGTATTAGCAGACGATGTATATATAAACGGGAGATGTATTGCCACGCGCAATCA
+	sequoiadendron	TGGTCGTGTATTAGCAGACGATGTGTATATAAACGGGAGATGTATTGCCGCGCGCAATCA
+
+	metasequoia	AGATATTGGGATAAAACTTGCCAATCAATTGTATTATTTCCAAATACAACCAATATATAT
+	cryptomeria	AGATATTGGAATTAAACTTGCCAATCAATTATATTATTTCCAAGTACAACCAATATATAT
+	picea	GGATATTGGGGTTGGACTTGCCAATCAATTAATAAACCTTCGAACACAACCAATATATAT
+	sequoia	AGATATTGGGATTAAACTTGCCAATCAATTGTATTATTTCCAAATAGAACCAATATATAT
+	sequoiadendron	AGATATTGGGATTAAACTTGCCAATCAATTGTATTATTTCCAAATACAACCAATATATAT
+
+	metasequoia	ACGAACCCCTTTTACTTGCAAAAGTATATCTTGGATTTGTCAATTATGTTATGGTCGGAA
+	cryptomeria	ACGAACCCCTTTTACTTGCAAAAGTATATATTGGATTTGTCAATTATGTTATGGTCGGAA
+	picea	ACGAACCCCCTTTACTTGCAAGAGTATATCTCGGATTTGTCAATTATGTTATGGTCGGAG
+	sequoia	ACGAACCCCTTTTACTTGCAAAAGTATATCTTGGATTTGTCAATTATGTTATGGTCGGAA
+	sequoiadendron	ACGAACCCCTTTTACTTGCAAAAGTATATCTTGTATTTGTCAATTATGTTATGGTCGGAA
+
+	metasequoia	TACTACTCATAGTAACTTAATCGAATTAGGAGAAGCAGTCGGTATTATTGCAGGCCAATC
+	cryptomeria	TACTACTCATAGCAACTTAATCGAATTAGGAGAAGCAGTCGGCATTATTGCAGGCCAATC
+	picea	TACTACTCACAATCACTTGATCGAATTAGGAGAAGCAGTAGGTATTATTGCAGGCCAATC
+	sequoia	TACTACTCATAGTAACTTAATCGAATTAGGAGAAGCAGTCGGCATTATTGCAGGCCAATC
+	sequoiadendron	TACTACTCATAGTAACTTAATCGAATTAGGAGAAGCAGTCGGCATTATTGCAGGCCAATC
+
+	metasequoia	AATTGGAGAACCGGGAACTCAATTAACATTACGGACTTTTCATACTGGTGGGGTATTTAC
+	cryptomeria	AATTGGAGAACCGGGAACTCAACTAACACTAAGGACTTTTCATACTGGTGGAGTATTCAC
+	picea	CATTGGGGAACCAGGAACTCAACTAACACTAAGGACTTTTCATACCGGGGGGGTATTTAC
+	sequoia	AATTGGAGAACCGGGAACTCAATTAACATTAAGGACTTTTCATACTGGTGGGGTATTTAC
+	sequoiadendron	AATTGGAGAACCGGGAACTCAATTAACATTAAGGACTTTTCATACTGGTGGGGTATTTAC
+
+	metasequoia	AGGTGATATTGCAGAACATGTACGAGCCCCGTTCACCGGAAAAATTGAATTCAATAAAAA
+	cryptomeria	GGGTGATATTGCAGAACATGTACGAGCCCCGTTCACCGGAAAAATTGAATTCAATGAAAA
+	picea	TGGTGATATTGCAGAACATGTACGAGCCCCTTTCAATGGAAAGATTGAATTCAATGATAA
+	sequoia	AGGTGATATTGCAGAACATCTACGAGCCCCGTTCACCGGAAAAATTGAATTCAATCAAAA
+	sequoiadendron	AGGTGATATTGCAGAACATGTACGAGCCCCGTTCACCGGAAAAATTGAATTCAATCAAAA
+
+	metasequoia	TTTGGTTTATCCTACCCGTACCCGTCATGGGCATCCTGCTTATATATGTCATAATAGTTT
+	cryptomeria	TTTGGTTTATCCTACCCGTACCCGTCATGGGCATCCTGCTTATATATGTTATAATAGTTT
+	picea	TTTGGTTTATCCTACACGTACATGTAATGGACATCCTGCTTATCTATGTCATAATAACTT
+	sequoia	TTTGGTTTATCCTACCCGTACCCGTCACGGGCATCCTGCTTATATATGTCATAATAGTTT
+	sequoiadendron	TTTGGTTTATCCTACCCGTACCCGTCACGGGCATCCTGCTTATATATGTCATAATAGTTT
+
+	metasequoia	AGATGTGACTATCAATAATCAATATGAAGTACAAAACTTAACCATTCCGCCAGAAAGTTT
+	cryptomeria	AGACGTGACTATCAATAATCAATATGAAGTACAAAACTTAACGATTCCGCCAGAAAGTTT
+	picea	ATCCATCACTATTGATGGTCAGGATCAAGTAAAAAACTTAACTATTCCACCACAAAGTTT
+	sequoia	AGACGTGACTATCGATAATCAATATGAAGTACAAAACTTAACCATTCCGCCAGAAAGTTT
+	sequoiadendron	AGACGTGACTATCGATAATCAATATGAAGTACAAAACTTAACCATTCCGCCAAAAAGTTT
+
+	metasequoia	GCTTTTCATTCAGAATAATCAACTCGTGGAATCGGAACAAGTTATTGCCGAGGTTCGATC
+	cryptomeria	GCTATTCATTCAGAATAATCAACTCGTCGAATCGGAACAAGTAATTGCCGAGGTTCGTGC
+	picea	ACTTTTGGTTCAGAATGATCAATATGTGGAATCGGAACAAATTATTGCCGAGGTTCGTGC
+	sequoia	GCTTTTCATTCAGAATAATCAACTAGTGGAATCGGAACAAGTTATTGCCGAGGTTCGCGC
+	sequoiadendron	GCTTTTCATTCAGAATAATCAACTCGTGGAATCGGAACAAGTTATTGCCGAGGTTCGCGC
+
+	metasequoia	TAAAAGATCTCCCCTCAAAGAAAAAGTGGAAAAACATATATATTCCGACCTAACAGGAGA
+	cryptomeria	TAAAAGATCCCCCTTTAAAGAAAAAGTAAAGAAACATATATATTCTGACTTGACAGGAGA
+	picea	TAGAACATCTTCCTTCAAGGAAAAAGTTCGCAAAAATATATATTCTGACCTAGAAGGAGA
+	sequoia	TAAAAGATTCCCATTCAAAGAAAAAGTGGAGAAACATATATATTCTGGCCTAACAGGAGA
+	sequoiadendron	TAAAAGATTCCCATTCAAAGAAAAAGTGGAGAAACATATATATTCTGGCCTAACAGGAGA
+
+	metasequoia	AATGCACCGGAGTATCCCTATGT------------------------------CTAATTT
+	cryptomeria	AATGCACCGGAGTATCCCTATGT------------------------------CTAATTT
+	picea	AATGCACTGGAGTACCAATGTGTGTCATGCACCTGAATATGTACACGGTAATGTTCATCC
+	sequoia	AATGCACCGGAGTATCCCTATGT------------------------------CTAATTT
+	sequoiadendron	AATGCACCGGAGTATCCCTATGT------------------------------CTAATTT
+
+	metasequoia	GATATTAAAGACAACCCATTTATGGGTATTATCGGGAGGTATATATGAATCCGTTGTAGT
+	cryptomeria	GATATTAGAGACAACTCATTTATGGGTATTATCGGGAAGTATATATGAATCCGTTGTAGT
+	picea	TATACTCAGGACGGGTTATCTATGGATATTATCGGGAGGTATATACGGATCCGGTGTAGT
+	sequoia	GATATTAAAGACAACCCATTTATGGGTATTATCGGGAGGTATATATGAATCCGTTGTAGT
+	sequoiadendron	GATATTAAAGACAACCCATTTATGGGTATTATCGGGAGGTATATATGAATCCGTTGTAGT
+
+	metasequoia	ACCTTTTTCTTCTTCTCATAAAGATCAAGATCAAGTGGATATTCCAGAA---CTTCTTGA
+	cryptomeria	ACCTTTTTCTTC---------AGATCAAGATCAAGTGGATATTCCAGAACTTCTTCTTGA
+	picea	ACCCTTTCCATT---TCATAAACATCAGGATCAAGTAGATGTTC---AACCTTTTGTTGC
+	sequoia	ATCTTTTTCTTCTTCTCATAAAGATCAAGATCAAGTGGATATTCCAGAA---CTTCTTGA
+	sequoiadendron	ACCTTTTTCTTCTTCTCATAAAGATCAAGATCAAGTGGATATTCCAGAA---CTTCTTGA
+
+	metasequoia	CAAACATAAATCACTTTCGAATTATTCAGTGGATCAAGTTAAATACGAATCAGTTGACTC
+	cryptomeria	CAAACATAAATCACTTTCAAATTATTCGGTGGATCAAGTGAAACACGAATCAGTTGACTC
+	picea	CAAACATCAATCACTTTCCGATTCTTACGTGGATCAAGTGGAACATAGATCAGGTGACTC
+	sequoia	CAAACATAAATCACTTTCGAATTATTCAGTGGATCAAGTTAAATACGAATCAGTTGACTC
+	sequoiadendron	CAAACATAAATCACTTTCGAATTATTCAGTGGATCAAGTTAAATACGAATCAGTTGACTC
+
+	metasequoia	AAACTGTTTTGAAAAAGGAAAAAAAAATATATTGAATTATTTCGAAACTGATCGAGCCAT
+	cryptomeria	AAACTGTTTTGAAAAAGGAAAAAAA---ATCTTGAATTATTTCGAAACTGATCGAACCAT
+	picea	AAACTGCTATGGGAAGGAAGAACAA---ATCTTCAGTTATTCAGAAACTGATCGGACCAT
+	sequoia	AAACTGTTTTGAAAAAGGAAAAAAAAATATATGGAATTATTTCGAAACTGATCGAGCCAT
+	sequoiadendron	AAACTGTTTTGAAAAAGGACAAAAAAATATATGGAATTATTCCGAAACTGATCGAGCCAT
+
+	metasequoia	ACCTAACGAACATCAAGACTCTATCTATTTCACCATTCTTTCTCAAAATACCAATACGAG
+	cryptomeria	ACCTAACGAACATAAAGACTCTATCTATTCCGCCATTCTTTTTGAAAATACCCATATGAG
+	picea	ATCCAACGAGCATCGAGACTCTATTTATGTCACCCTTTCCCCTAAGAATTACAATATGAA
+	sequoia	ACCTAACGAACATCAAGACTATATCTATTTCACCATTCTTTCTCAAAACACCAATACGAG
+	sequoiadendron	ACCTAACAAACATCAAGGCTCTATCTATTTCACCATTCTTTCTCAAAATACCAATACGAG
+
+	metasequoia	GGTAAAAAAGCAAAAAAAGGAACTCATCGTACCGTTATGGTGTGATAAACAATGGGGAAA
+	cryptomeria	TGTAAAAAAGGAAAAAAATAAACTCATCGTACCATTATGGTGTGATAAACAATGGGGAAA
+	picea	GGGGAAAAGGCAAATGAATCGATTCATCGTCCCGTTGCAGTGTGATAAAGAATGGGGAAA
+	sequoia	GGTAAAAAAGCAAAAAAAGGAACTCATCGTACCGTTATGGTGTGATAAACAATGGGGAAA
+	sequoiadendron	GGTAAAAAAGCAAAAAAAGGAACTCATCGTACCGTTATGGTGTGATAAACAATGGGGAAA
+
+	metasequoia	GCGAAGAATCCCTTGTCGTGATTTAATTCTTAGAATGCCCAGAG---AAGGTATTCTAT-
+	cryptomeria	GCGAAGAATTCCTTGTCCTGATTTCATTTTTAGAATACCCAGAGGACAAGGTATTTTACT
+	picea	AAGAATAATATCTTTTCCTGATACGATTCTTAGAATACCCAAAA---GTGGTGTTCTAC-
+	sequoia	GCGAAGAATCCCTTGTCCTGATTTAATTCTTAGAATGCCCAGAG---AAGGTATTCTAT-
+	sequoiadendron	GCGAAGAATCCCTTGTCCTGATTTAATTCTTAGAATGCCCAGAG---AAGGCATTCTAT-
+
+	metasequoia	--CTAAAAATAC------------------------------------------------
+	cryptomeria	AAATAAAAAGCA------------------------------------------------
+	picea	--AGAGAAATTCCATTTTTGGATATTCTAACGTTGAATATGGAATACCTGATGGGCCCAT
+	sequoia	--ATAAAAATGA------------------------------------------------
+	sequoiadendron	--ATAAAAATAA------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TATGGCAACATCCTTTTCCCTAGATTTATCGAGGGAAGGGGACAACTTGCAGATTCAAGT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	-----------------------------------------------------CATTTTT
+	cryptomeria	-----------------------------------------------------CATTTTT
+	picea	TAGCAATTCTAGTTCGTACGAAGATGGTGAACGAATCCAAGTAATGAGTGACACAAGTAT
+	sequoia	-----------------------------------------------------CATTTTT
+	sequoiadendron	-----------------------------------------------------CATTTTT
+
+	metasequoia	GCTTTTTTGAATGACCCTCGTTCAGAAATGATAAAATATAGGAATATTATCGGAGGTTAT
+	cryptomeria	GCTTTTTTGAATGACCCCCGTTCAAAAATGATAAAATATGGGAATATTCTCGGAGGTTAT
+	picea	TCCATT------------GGTTCAAACTTG-----------------TCTAGG-----AT
+	sequoia	GCTTTTTTGAATAACCCTCGTTCAGAAATGATAAAATATAGCAATATTATCGGAGGTTAT
+	sequoiadendron	GCTTTTTTGAATAACCCTCATTCAGAAATGATAAAATATAGCAATATTATCGGAGGTTAT
+
+	metasequoia	TCAATTGAAAAAAAATGGAATTCTCTTGAAAATCAATTAGATGGAGGGCCTAGATCAAAA
+	cryptomeria	TCAATTGAAAAAAAAAGGAATTCTCTTGAAAATCAATTAGACGGAGGGCCCAGATTAAAA
+	picea	TTGATTGGGAACAAATAG-ATTCTATAGAATCT---------------------------
+	sequoia	TCAATTGGAAAAAAATGGAATTCTCTTGAAAATCAATTAGATGGAGGGCCCAGATCAAAA
+	sequoiadendron	TCAATTGGAAAAAAATGGAATTCTCTTGAAAATAAATTAGATGGAGGGCCCAGATCAAAA
+
+	metasequoia	ATAAAAGAGGTTTATGCTTCTCTTATTTCAGTAAGAACAAAAAAGATAATTATCAATATG
+	cryptomeria	ATAAAAAAGACTTATGCTTCTCTTATTTCAGTAGGAACAAATGAGATCATTATCAATATG
+	picea	------GAGGCTTATGCTTCTCTTACTTCAGTAAGAACAAATAAGATCGTTAGCAATATG
+	sequoia	ATAAAAGAGGTTTATGCTTCTCTTATTTCAGTAAGAACAAAAAAGATCATTATCAATATG
+	sequoiadendron	AAAAAAGAGATTTATGCTTCTCTTATTTCAGTAAGAACAAAAAAGATCATTATCAATATG
+
+	metasequoia	ATTCAAATTATCTTGCTGAAATACCCTTTTTTTAATATGGTAAAAAGGGAAAATAGAGCA
+	cryptomeria	ATTCAAATTAGCTTGCTGAAATACCCTTTTTTCAATATCGCAAAAAGGGAAAATATAGCG
+	picea	ATTCAAATTAGCTTGATTAAATACCCCCTTTTTTTCATGGGGAGAAGGGACAATAAAGCA
+	sequoia	ATTCAAATTAGCTTGCTGAAATACCCTTTTTTCAATATGGCAAAAAGGGAAAATAGAGCA
+	sequoiadendron	ATTCAAATTAGCTTGCTGAAATACCCTTTTTTTAATATGGCAAAAAGGGAAAATAGAGCA
+
+	metasequoia	AGTTCTCAATTTTTGTTTCATAACAAATTAGATCACATTAATTCTTTTTTTTCAAATGAT
+	cryptomeria	AGTTCTCCATTTTTGTTTCATAACAAATTAGGTCACACTAA---------TTTGAATGAT
+	picea	AGTTCAAATTTGATGTTCCATAACAAATTGGACCACACTAATCTTTTCTATTCCAATGGG
+	sequoia	AGTTCTCAATTTTTGTTTCATAACAAATTAGATGACACTAATTCTTTTTTTTCAAATGAT
+	sequoiadendron	AGTTCTCAATTTTTGTTTCATAACAAATTAGATCACACTAATTCTTTTTTTTCAAATGAT
+
+	metasequoia	CAAAGTCAATTACTTAGTAAG------GGAACTATTCGTTCATTACCTAATGAGAATAAA
+	cryptomeria	CAAAGTAAATTACTGAGTAAG------GGAACTATTCGTTCATTACCTAATGAGAATAAA
+	picea	GAGAGGCAATTAATTAGTAAGCATCAAGGAACTATTTGTTCATTATATAATGGGGAAGAA
+	sequoia	CAAAGTCAATTACTTAGTAAG------GGAACTATTCGTTCATTACCTAATGAGAATAAA
+	sequoiadendron	CAAAGTCAATTACTTAATAAG------GGAACTATTCGTTCATTATTTAATGAGAATAAA
+
+	metasequoia	AAAGATGAATCTTTTATGATTCTTTCTCCTTCTGATTTTTTGCAAATCGTTCTATTTAAT
+	cryptomeria	AAAGATGAATCTTTTACTATTCTTTCTCCTTCTGATTTTTTGCAAATCGTTTTGTTTCAT
+	picea	GACAGTGGATCTTTTATGATTTTGTCACCATCTGACTGTTTTCGAATCGTTCTATTCAAT
+	sequoia	AAAGATGAATCTTTTCTGATTCTTTCTCCTTCTGATTTTTTTAAAATCGTTCTATTTAAT
+	sequoiadendron	AAAGATGAATCTTTTCTGATTCTTTCTCCTTCTGATTTTTTGCGAATCGTTCTATTTAAT
+
+	metasequoia	GATTTTAAATGTTTGAATACAGTAAAAAAGTC---------GAATGCAAATAGAAAAATA
+	cryptomeria	GATTTAAAATGCTTGAATACAGTAAAAAAGTT---------GGATGCAAATAAAAAAAGA
+	picea	GATTCAAAATGTTATGATACGGTAAATAAATCAAATAGAGAGGATCCTATGAGGAAAATC
+	sequoia	GATTTCAAATGTTTGAATACAGTCAAAAAGTC---------GGATGCAAATAGAAAAATA
+	sequoiadendron	GATTTAAAATGTTTGAATACAGTAAAAAAGTC---------GGATGCAAATACAAAAAGA
+
+	metasequoia	ATCGAATTATCAGGTCTCCTGGGTCATTTACATAGTATTGCTAACCGTTTCTCATCCTCT
+	cryptomeria	ATTGAATTGTCAGGTCTCCTGGGTCATTTACATAGTATTGCTAATCGTTTCCCATACTCT
+	picea	ATTGAATTTTCGGGTCTCTTGGGTCATTTACATAGTATCACCAACCGCTTCCCATCCTCC
+	sequoia	ATTGAATTGTCAGGTCTCCTGGGTCATTTACATAGTATTGCTAACCGTTTCTCATACTCT
+	sequoiadendron	ATTGCATTGTCAGGTTTCCTGGGTCATTTACATAGTATTGCTAACCGTTTCTCATACTCT
+
+	metasequoia	CATTTCATAACTTATAAAAAAGTGTTACTAAATGAACGTTCAATTTCTAACAATGACTCG
+	cryptomeria	CATTTCATGACTTATAAAAAAGTGTTACTAACTGAACGTTCAATTTCTAACAATGACTCG
+	picea	CATTTTCTAACTTATAAAAAAGTATTGTCGAAGAAACATTCCATTTTCCACAATTCTTTC
+	sequoia	CATTTCATAACTTATAAAAAAGTGTTACTAAATGAACGCTCGATTTCTAACAATGACTCG
+	sequoiadendron	CATTTCATAACTTATAAAAAAGTGTTACTAAATGAACGTTCAATTTCTAACAATGACTCA
+
+	metasequoia	AATACTTTTCAAGTAGCTAAATGCTACTTTATGGACGAAAAGAGGGGGATTTATAAATTT
+	cryptomeria	AATAATTTCCAATTAGCTAAATGCTATTTTATGGACGAAAAGAGGGAAATTTATCAATTT
+	picea	AATACTTTCCAAGTACCTAAATACTATTTCATGGACGAAAATACGAGAATTTCTCATTTC
+	sequoia	AATACTTTCCAAGTAGCTAAATGCTACTTTATGGACGAAAAGAGGGGAATTTCTAAATTT
+	sequoiadendron	AATACTTTCCAAGTAGCTAAATACTACTTTATGGACGAAAAGAGGGGAATTTCTAAATTT
+
+	metasequoia	GATTCATGCAGGAATATTATTTCCAATTTTTTCAATTTGAAT------TTTTCCCTATCC
+	cryptomeria	GATTCATGCAGGAATATTATTTTCGATTTCTTCAATTTGAATTTGTACTTTTGCCTATCC
+	picea	GATCCGTGCAGGAACATCATTTCCAATCTCTTGGGTCCAAATTGGTGCTCTTCCTCATCC
+	sequoia	GATTCATGCAGGAATATTATTTTCAATTTTTTCAATTTGTAT------TTTTTCCTATCC
+	sequoiadendron	TATTCATACAGGAATATTCTTTTCAATTTTTTCAATTTGTAT------TTTTCCCTATCC
+
+	metasequoia	AATTTTTTTGAAAAAACATTTCCAGTAGTCAGCCTTGGACAATTTCTTTGTGAAAGTATA
+	cryptomeria	AATTTTTTTGAAAAAACATTTTCAGTAGTCAGCCTTGGACAATTTTGTTCCGAAAGTATA
+	picea	GAATTCTGCAAAAAAATATTTCCAGTAGTTAGTCCTGGACAATTAATTCCTGAAAGTGTA
+	sequoia	AATTTTTTTGAAAAAACATTTCCAGTAGTCAGCCTTGGACAATTTCTTTGTGAAAGTATA
+	sequoiadendron	AATTTTTTTGAAAAAACATTTCCAGTAGTCAGCCTTGGACAATTTCTTTGTGAAAGTATA
+
+	metasequoia	TGGATATCCGAAGATAAACAAATCCAAGGATCTGGTCAAATTGTAGTTGTTCATGAGGAA
+	cryptomeria	TGGATATCCGAAGATAAACAACTCCAAGGATCTGGTCAAATTGTAGTTGTTCATGAGGAA
+	picea	TGTATATCCGAGGATGAACCACTCCCCGAATCTGGTCAAATTATAGCAGTTGATGAGGAA
+	sequoia	CGGATATTCGAAAATAAACAAATCCAAAGATCTGGTCAAATTGTAGTTTTTCATGAGGAA
+	sequoiadendron	CGGATATCCGAAGATAAACAAATCCAAAGATCTGGTCAAATTGTAGTTGTTCATGAGGAA
+
+	metasequoia	TCTTTCGTCATTAGATCAGCTAAACCCTATTTGGGTACTCGAGGAGCAACTCTTAATAGT
+	cryptomeria	TCTTTCGTCATTAGATTAGCTAAACCCTATTTGGGTGCTCGAGGAGCAACTCTTAATAGT
+	picea	TCTTTAGTCATTAGATCAGCTAAACCCTATTTGGCTACTCGAAAAGCGACTGTTCATGGT
+	sequoia	TCTTTCATCATTAGATCAGCTAAACCCTATTTGGGTACTCGAGGAGCAACTCTTAATAGT
+	sequoiadendron	TCTTTCGTCATTAGATCAGCTAAACCCTATTTGGGTACTCGAGGAGCAACTCTTAATAGT
+
+	metasequoia	TATTATGGTAAAATTCTTTACGAAGGAGATAGATTAATAACTCTCTTATACGAAAGATTA
+	cryptomeria	TATTATGGGAAAATTCTTTCCCAAGGAGATACATTAATAACTATGTTATACGAAAGATTA
+	picea	CATTATGGAGAAATTATTGACAAAGGAGATACATTGATAACATTGATATATGAAAGGTTC
+	sequoia	TTTTATGGTAAAATTCTTTACGAAGGAGATAGATTAATAACTATCTTATACGAAAGATTA
+	sequoiadendron	TTTTATGGGAAAATTCTTTACGAAGGAGATAGATTAATAACTATCTTATACGAAAGATTA
+
+	metasequoia	AAATCCGATGATATAATTCAAGGTCTTCCTAAAGTTGAACAATTGTCAGAAGCCCGTTCG
+	cryptomeria	AAATCCGATGATATAATTCAAGGTCTTCCTAAAGTTGAACAATTGTCAGAAGCCCGCTCA
+	picea	AAATCCAGTGATATAATTCAAGGTCTTCCTAAAGTTGAACAATTGTCAGAAGCCCGTTTG
+	sequoia	AAATCCGATGATATAATTCAAGGTCTTCCTAAAGTTGAACAATTGTCAGAAGCCCGTTCG
+	sequoiadendron	AAATCCGATGATATAATTCAAGGTCTTCCTAAAGTTGAACAATTGTCAGAAGCCCGTTCG
+
+	metasequoia	AATACTTCAATATCGAAAAATCGAAAAAAAAATTTTCAAAAATTGAACACACACCTGGCA
+	cryptomeria	AATACTTCAATATCAAAAAATCGAAAAAAAAGATTTCAAAAATTGAACAGATACCTAGCA
+	picea	AATAATTCAATATCGATGAATCTGAAAGAAAGTTTTGAAAATTGGACCGGAGATATGACA
+	sequoia	AATACTTCAATATCGAAAAATCGAAAAAAAAATTTTCAAAAATTGAACATACACTTGGCA
+	sequoiadendron	AATACTTCAATATCGAAAAATCGAAAAAAAAATTTTCAAAAATTGAACATACACCTGGCA
+
+	metasequoia	ATATTTATTGGAAACTTTTGGGGGTCATTCAACAGTGTTAGAATAACTATGGAGCATAGT
+	cryptomeria	ATATTTTTTGGAAACTTTTGGGGGTCATTCACCAGTGTTAGAATGACTATGGAGGATAGT
+	picea	AGATTTCTTGGAAGTCTTTGGGGGTTATTCATCAGTGCTAGGATAACTATGGAACAAAGT
+	sequoia	ATATTTTTTGGAAACATTTGGGGGTCATTCAACAGTGTTAGAATAACTATGGAGCATAGT
+	sequoiadendron	ATATTTTTTGGAAACTTTTGGGGGTCATTCAACAGTGTTAGAATAACTATGGAGCATAGT
+
+	metasequoia	CAGAATCAGTTGGTTAATGAAATTCAAAGGGTTTATCGATCCCAGGGGGTACAAATTTCT
+	cryptomeria	CAGAATCAGTTGGTCGATGAAATTCAAAAGGTTTATCGATCCCAGGGGGTACAAATTTCT
+	picea	CAGATTCATTTGGTCAATCAGATTCAAAAAGTTTACCGATCCCAAGGGGTACGAATTTGT
+	sequoia	CAGAATCATTTGGTCAATGAAATTCAAAAGGTTTATCGATCCCAGGGCGTACAAATTTCT
+	sequoiadendron	CAGAATCACTTGGTCAATGAAATTCAAAAGGTTTATCGATCCCAGGGAGTAAAAATTTCT
+
+	metasequoia	GATAAACATATAGAAATTATTGTGCGCCAAATTACATCGAAAGTTTTAGTTGTAGATGTG
+	cryptomeria	GATAAACATATAGAAATTATTGTTCGCCAAATTACATCGAAAGTTTTAGTTGTAGATGTC
+	picea	GATAAGCATATAGAGATTATTGTACGCCAAATGACATCGAAAGTCTTAAT----------
+	sequoia	GATAAACATATAGAAATTATTGTGCGCCAAATTACATCGAAAGTTTTAGTTGTAGATGTG
+	sequoiadendron	GATAAACATATAGAAATTATTGTGCGCCAAATTACATCGAAAGTTTTAGTTGTAGATGTG
+
+	metasequoia	GAAAAGTCGGAAAATAAAAATTTGGAAAATGGACTAGGTAGTGTTTTTTTACCCGGAGAA
+	cryptomeria	GACAGGTCCGAAAATAAAAATTGGGAAAATGGACTAGGTAGTCTTTTTTTACCCGGAGAA
+	picea	--------------------TTCAGAAGATGGAATGGCTAATGTTTTTTCACCGGGGGAA
+	sequoia	GAAAAGTCGGAAAATCAAAATTTGGAAAATGGACTAGGTAGTGTTTTTTTACCCGGAGAA
+	sequoiadendron	GAAAAGTCGGAAAATAAAAATTTGGAAAATGGACTAGGTAGTGTTTTTTTACCCGGAGAA
+
+	metasequoia	CTCGTTGGATTATCACGAGTACAAAGAATGGATCGTGCTCTAGAAAAAAGAATCAATTAC
+	cryptomeria	CTCGTTGGATTATCACGAGTACAAAGAATGGATCGCGCTCTAGAAAAAAGAATAAACTAT
+	picea	CTCATTGGATTATCACGAGCACAGAGAATGGATCGTGCTCTGGAAGAGGCAATCTACTAT
+	sequoia	CTCGTTGGATTATCACGAGTACAAAGAATGGATCGTGCTCTAGAAAAAAGAATCAATTAC
+	sequoiadendron	CTCGTTGGATTATCACGAGTACAAAGAATGGATCGTGCTCTAGAAAAAAGAATCAATTAC
+
+	metasequoia	CGAACCATTTTATTGGGAATGACAAACGCATCTCTGAATACTCAAAGTTTTCTGTCAGAA
+	cryptomeria	CGAACCATTTTATTGGGAATGACAAACGCATCTCTGAATACTCAAAGTTTTCTGTCAGAA
+	picea	CAAACCATGTTATTAGGAATAACAAGGGCATCTCTTAATACTCAAAGTTTTATATCCGAA
+	sequoia	CGAACCATTTTATTGGGAATGACAAACGCATCTCTGAATACTCAAAGTTTTCTGTCAGAA
+	sequoiadendron	CGAACCATTTTATTGGGAATGACAAACGCATCTCTGAATACTCAAAGTTTTCTGTCAGAA
+
+	metasequoia	GCGAGTTTTCAGGAAACTGCTCGGGTCCTAGCTAAATCTGCTCTTCAAGGTCGTATTGAT
+	cryptomeria	GCGAGTTTTCAGGAGACTGCTCAGGTCCTAGCTAAATCTGCTCTTCAAGGTCGCATTGAT
+	picea	GCAAGTTTCCAGGAAACTGCTCGGGTCTTAGCTAAAGCTGCTCTACAAGGTCGTATCGAT
+	sequoia	GCGAGTTTTCAGGAAACTGCTCGGGTCCTAGCTAAATCTGCTCTTCAAGGTCGTATTGAT
+	sequoiadendron	GCGAGTTTTCAGGAAACTGCTCGGGTTCTAGCTAAATCTGCTCTTCAAGGTCGTATTGAT
+
+	metasequoia	TGGTTGAAGGGCTTGAAGGAAAATGTTATTCTCGGGGGAATGATACCTGTCGGTACT---
+	cryptomeria	TGGTTGAAGGGCTTGAAGGAAAATGTTATTCTCGGGGGAATGATACCTGTCGGTACT---
+	picea	TGGTTGAAAGGCTTGAAGGAAAATGTTATTCTCGGGGGGATTATACCTGCCGGTACTGGA
+	sequoia	TGGTTGAAGGGCTTGAAGGAAAATGTTATTCTCGGGGGAATGATACCTGTCGGTACT---
+	sequoiadendron	TGGTTGAAGGGCTTGAAGGAAAATGTTATTCTCGGGGGAATGATACCTGTCGGTACT---
+
+	metasequoia	-----------------------------------GGATTTAA-----------------
+	cryptomeria	-----------------------------------GGATTCAA-----------------
+	picea	CAGCATATTCACCGTTCAGGGAAACGGAACGGAATGGATCCAAGAATGGGGAATAGGAAT
+	sequoia	-----------------------------------GGATTCAA-----------------
+	sequoiadendron	-----------------------------------GGATTCAA-----------------
+
+	metasequoia	CCGTTTGGGAAAACGGAGCAAAAT----------------------------------GG
+	cryptomeria	CCGTTTGGTAAAACGGAGCAAAAT----------------------------------GA
+	picea	CTATTTAGCAAAAAAGTGAAAGATATTTTCTTTCATTATCACAAAGTCTCTTTTTTTTCC
+	sequoia	CCGTTTGGGAAAACGGAGCAAAAT----------------------------------GG
+	sequoiadendron	CCGTTTGGGAAAACGGAGCAAAAT----------------------------------GG
+
+	metasequoia	ATCCGAGAA----------------CGAGGAA-----CAAAAATTTATTTATCAATAAAG
+	cryptomeria	ATTCGAGAA----------------CGAGTCA-----AAAAAGTCTATTTATCAATAAAG
+	picea	ATTCAAGAAAATTCTCACAATATTTTGAAGCAGCCATTCAAATAGTCTTGATTAATAAAG
+	sequoia	ATCCGAAAA----------------CGAGGAA-----CAAAAATTTATTTATCAATAAAG
+	sequoiadendron	ATTCGAAAA----------------CGAGGAA-----CAAAAATTTCTTTATCAATAAAA
+
+	metasequoia	TGAAAGATCTTTTCTT-TGATCATGAATATAAAGTCTCTGTTTTATCTGTTAAGCAAAAA
+	cryptomeria	TCGAAGATTTTTTTTT-TGAGCATCAAGATCAAGCCTTGATTTTATCTCTTAAACAAAAA
+	picea	----AGATTTCTTGTTATGTTCATGATTAT-------TCATTCTAT--------------
+	sequoia	TGAAAGATTTTTTCTT-TGATCATGAATATAAAGTCTCTGTTTTATCTGTTAAACAAAAG
+	sequoiadendron	TGAAAGATTTTTTCTT-TGATCATGAATATAAAGTCTCTGTTTTATCTGTTAAGCAAAAG
+
+	metasequoia	AAAAA----AAAAGTGATAAAAAAACTAGTAAAAATAAAAAAGAA-------AAAATCAA
+	cryptomeria	GAAACTAGTAAAAATAAAAAAGAAACTAGTAAAAATAAAAAAGAAACTAGTAAAAATAAA
+	picea	------------------------AATAGGATGAATATCAAATA----------------
+	sequoia	AAAAA----AAAAGTGATAAAAAAACTAGTAAAAATAAAAAAGAA-------AAAATCAA
+	sequoiadendron	AGAAA----AAAAGTGATAAAAAAACTAGTAAAAAGAAAAAAGAA-------AAAATCAA
+
+	metasequoia	AACG--------AGCAGTAAAAAAGTAATTTTTATAAATGAAGAAATTTCTTGTTAGATT
+	cryptomeria	AAAGAAACTAGTAAAAATAAAAAAGAAACTAGTAAAAATAAAAAAGAAACTAGTAAAAAT
+	picea	-----------------------------TTCTATGAGTGAGAACGT-------------
+	sequoia	AACG--------AGCAGTAAAAAAGGAATTTTTATAAATGAAGAAATTTCTTGTTAGATT
+	sequoiadendron	AACG--------AGCAGTCAAAAAGTAATTTTTATAAATGAAGAAATTTCTTGTTAGTGT
+
+	metasequoia	----------TCTTTAAAAATAAAAAG----------------------------AAAAA
+	cryptomeria	AAAAAAGAAGCTAGTAAAAATAAAAAATAAAAAAGCAAATTGTTAGATTTCATTTAAAAA
+	picea	------------------------------------------------------------
+	sequoia	----------TCTTTTAAAATAAAAAG----------------------------AAAAA
+	sequoiadendron	----------TCTTTTAAAATAAAAAA----------------------------AAAAA
+
+	metasequoia	ATGAAATGAATATCTTGTACCAAGTACGCTACGG-CAAGCAATCT---------AACCCA
+	cryptomeria	ATGAAATGAATAC-TTGTACCAAGTACGCTACGG-CAAGCAATCT---------AACCCA
+	picea	--------------TTATACCACGTACTAGACAGACAGGCAATCTTTGAGATGTAATCGA
+	sequoia	ATGAAATGAATATCTTGTACCAAGTACGCTACGG-CAAGCAATCT---------AACCCA
+	sequoiadendron	ATGAAATGAATATCTTGTACCAAGTACGCTACGG-CAAGCAATCT---------AACCCA
+
+	metasequoia	TTCCATTGGAAT--GTATATATTACAGTTCATAGTA---------------AAAAATAAA
+	cryptomeria	TTCCATTGGAAT--GTAGATATTACA---CATAGTA---------------AAAAAAGAA
+	picea	TTCCGTTGGAATAATTAGATATTATGCTACATGTTATTTCATTATTTTGGGGAGGAAAGC
+	sequoia	TTCCATTGGAAT--GTAGATATTACAGTTCATAGTA---------------AAAAATAAA
+	sequoiadendron	TTCCATTGGAAT--GTAGATATTCCAGTTCATAGTA---------------AAAAATAAA
+
+	metasequoia	AA--CAAAATGACGAAAAAAAATTGGAACATCAATTTGAAAGAGATGGTAAAAGTAGGAG
+	cryptomeria	AAGCAAAAATGACGAAAAAAAATTGGAACATCAATTTGAAAGAGATGGTAAAAGTAGGAG
+	picea	GAACGAGAATGAGCAAAAGATATTGGAACATGGATTTGGAAGAGATGATGGAAGCAAGAG
+	sequoia	AA--CAAAATGACGAAAAAAAATTGGAACATCAATTTGAAAGAAATGGTAAAAGTAGGAG
+	sequoiadendron	AA--CAAAATGACGAAAAAAAATTGGAACATCAATTTGAAAGAGATGGTAAAAGTAGGAG
+
+	metasequoia	TTCATTTTGGTCATGAGACCAGAAAATGGAATCCTAAAATGGCACCTTACATTTTTAAAG
+	cryptomeria	TTCATTTTGGTCATGAGACCAGAAAATGGAATCCTAAAATGGCACCTTACATTTTTAAAG
+	picea	TTCATTTAGGACATAAAACTAGGAAATGGAATCCTAAGATGGCACCTTACATTTTTACAG
+	sequoia	TTCATTTTGGTCATGAGACCAGAAAATGGAATCCTAAAATGGCACCTTACATTTTTAAAG
+	sequoiadendron	TTCATTTTGGTCATGAGACCAGAAAATGGAATCCTAAAATGGCACCTTACATTCTTAAAG
+
+	metasequoia	AACGTAAAGATAGTCATATTATAAATTTGACTTACACCGCTCGTTTTTTATCAGAAGCCT
+	cryptomeria	AACGTAAAGATAATCATATTCTAAATTTAACTTACACCGCTCGTTTTTTATCAGAAGCCT
+	picea	AGCGTAAAGATACTCATATTATAAATCTCGCTAAAACTGCTCGTTCTTTATCAGAAGCTT
+	sequoia	AACGTAAAGATAGTCATATTATAAATTTAACTTACACCGCTCGTTTTTTATCAGAAGCCT
+	sequoiadendron	AACGTAAAGATAGTCATATTATAAATTTGACTTACACCGCTCGTTTTTTATCAGAAGCCT
+
+	metasequoia	GTGATTTTGTGTTTGATGGAGCAAAGAGAGGAAAACAATTTATGATAGTTGGTACAAAAC
+	cryptomeria	GTGATTTTGTGTTTGATGGAGCAAAAAGAGGAAAACAATTTATGATAGTTGGTACAAAAC
+	picea	GTGATTTGGCGTTTGATATAGCAGGTAGGGGAAAACAATTCCTGATAGTTGGTACGAAAT
+	sequoia	GTGATTTTGTGTTTGATGGAGCAAAGAGAGGAAAACAATTTATGATAGTTGGTACAAAAC
+	sequoiadendron	GTGATTTTGTGTTTGATGGAGCAAAGAGAGGAAAACAATTTATGATAGTTGGTACAAAAC
+
+	metasequoia	ATCAAACAGCTGATGCTGCTAAATTAGCTGCTTTAGCAGCTCGATGTCATTATGTAAATA
+	cryptomeria	ATCAAACAGCTGATGCTGCTAAATTAGCTGCTTTAGCAGCTCGATGTCATTATGTAAATA
+	picea	ATCAAGCAGCTGATTTAGTAGCATCAGCTGCTACAGAAGCTCGATGTCATTATGTAAATA
+	sequoia	ATCAAACAGCTGATGCAGCTAAATTAGCTGCTTTAGCAGCTCGATGTCATTATGTAAATA
+	sequoiadendron	ATCAAACAGCTGATGCTGCTAAATTAGCTGCTTTAGCAGCTCGATGTCATTATGTAAATA
+
+	metasequoia	AAAAATGGCTCGCGGGTATGCTAACTAATTGGTTTACTACAGAAGCAAGACTTGAAAAAT
+	cryptomeria	AAAAATGGCTCGCGGGTATGTTAACTAATTGGTTTACTACAGAAGCAAGACTTGAAAAAT
+	picea	GAAAATGGCTTGGTGGTATGTTAACTAATTGGTCTACTACAGAGACGAGACCTCAGAAGT
+	sequoia	AAAAATGGCTCGCGGGTATGTTAACTAATTGGTTTACTACAGAAGCAAGACTTGAAAAAT
+	sequoiadendron	AAAAATGGCTCGCGGGTATGTTAACTAATTGGTTTACTACAGAAGCAAGACTTGAAAAAT
+
+	metasequoia	TCAAAAATTTAACGAAAAAAAAAAATACGGGAGGATTTGATCGATTTACGAAGAAAGAAG
+	cryptomeria	TCAAAAATTTAACGAAAAAAAAAAATACGGGAGGATTCGATGGATTTACGAAAAAAGAAG
+	picea	TCAAGGATTTAAAAAAAGAACAAGATACGGGACGATTCAATCGACCTCCAAAGAAAGAAG
+	sequoia	TCAAAAATTTAACGAAAAAAAAAAATACGGGAGGATTTGATCGATTTACGAAGAAAGAAG
+	sequoiadendron	TCAAAAATTTAACGAAAAAAAAAAATACGGGAGGATTTGATCGATTTACGAAGAAAGAAG
+
+	metasequoia	CAGCAATACTCAAGAGAGAATTGAACAAATTGCAGGAGGATCTAGGGGGGATTAGATACA
+	cryptomeria	CAGCAATACTCAAGAGAGAATTGAACAAATTGCAGGAAGATCTAGGGGGTATTAGATACA
+	picea	CAGCAATGCTCAAGAGAAAATTGGACCAATTGCAGAAATATCTAGGTGGGATTAGATACA
+	sequoia	CAGCAATACTCAAGAGAGAATTGAACAAATTGCAGGAGGATCTAGGGGGGATTAGATACA
+	sequoiadendron	CAGCAATACTCAAGAGAGAATTGAACAAATTGCAGGAGGATCTAGGGGGGATTAGATACA
+
+	metasequoia	TGACAAAATTGCCCGATATTGTAATAATTCTCGATCAAAAAGGAGAATATACTGCTATTC
+	cryptomeria	TGACAAAATTGCCCGATATTGTAATAATTCTCGATCAAAAAGGAGAATATACTGCTATTC
+	picea	TGACGAGCTTACCCGATATTGCGATAATTACCAATCAACAAGAAGAATCCATTGCTCTCG
+	sequoia	TGACAAAATTGCCCGATATTGTAATAATTCTCGATCAAAAAGGAGAATATACTGCTATTC
+	sequoiadendron	TGACAAAATTGCCCGATATTGTAATAATTCTCGATCAAAAAGGGGAATATACCGCTATTC
+
+	metasequoia	GGGAATGTAGAACTCTGGGTATTCCAACAATTTGCTTAGTTGATACAGATTGTGACCCAG
+	cryptomeria	GGGAATGTAGAACTTTGGGTATTCCAACAATTTGCTTAGTTGATACAGATTGTGACCCAG
+	picea	GGGAATGTAGAATTTTGGGTATTCCGACAATTTGCTTAGTTGATACAGACTGTGATCCAG
+	sequoia	GGGAATGTAGAACTCTGGGTATTCCAACAATTTGCTTAGTTGATACAGATTGTGACCCAG
+	sequoiadendron	GGGAATGTAGAACTCTGGGTATTCCAACAATTTGCTTAGTTGATACAGATTGTGACCCAG
+
+	metasequoia	ATCTCGTGGATATTCCAATCCCAGCCAATGATGATGGTAGAGGACCAATCCGGTTGATCC
+	cryptomeria	ATCTCGTGGATATCCCAATCCCAGCCAATGATGATGGTAGAGGACCAATCCGCCTGATCC
+	picea	ATCTCGTGGATATCCCAATTCCAGCCAATGATGATGGTATAGCTTCAATCCAATTGATCC
+	sequoia	ATCTCGTGGATATCCCAATCCCAGCCAATGATGATGGTAGAGGACCAATCCGGTTGATCC
+	sequoiadendron	ATCTCGTGGATATCCCGATCCCAGCCAATGATGATGGTAGAGGACCAATCCGGTTGATCC
+
+	metasequoia	TAAATAAATTAATTTTAGCAATTCGCGCGGGTAGAGAATT---GTAATTCT---------
+	cryptomeria	TAAATAAATTAATTTTAGCAATTCGCGCGGGTAGAGAATT---GTACT------------
+	picea	TGAACAGATCAACGTCAGCAATTTGCGAAGGAAGGTCATTAAGGTCATTATAGCTATATG
+	sequoia	TAAATAAATTAATTTTAGCAATTCGCGCGGGTAGAGAATT---GTAATTTT---------
+	sequoiadendron	TAAATAAATTAATTTTAGCAATTCACGCGGGTAGAGAATT---GTAATTCT---------
+
+	metasequoia	--------ATAAAAAGTGAATTAA------------------AAAGAAAAAAAGA---GA
+	cryptomeria	--------ATAAAAAGTGAATTCA------------------AAATAAAAAAAGA---GA
+	picea	AAGGGCTAATAGATATTAAATTAGTAATAATAAGAAAATAGAAAAAAGAAAGGGACCTGA
+	sequoia	--------ATAAAAAGTGAATTAA------------------AAAGAAAAAAAGA---TA
+	sequoiadendron	--------ATAAAAAGTGAATTAA------------------AAATAAAAAAAGA---TA
+
+	metasequoia	AGCTAGAACTAAGTTGGCTACTATTCC----CAAATCTTATAGAATAGATTAAGATAAAA
+	cryptomeria	AGCTATAACTAAGTTGGCTACTATTCC----CAAATCTTATAGAATAGATTAAGATAATC
+	picea	AGATTT-ACTGAGTTGGCTGCTATTCCATCCAAGATCTCGTAAGAGCGAATTTCATTTAT
+	sequoia	AGCTAGAATTAAGTTGGCTACTATTCC----CAAATCTTATAGAATAGATTAAGATAAAA
+	sequoiadendron	AGCTAGAATTAAGTTGGCTACTATTCC----CAAACCTTATAGAATAGATTAAGATAAAA
+
+	metasequoia	TATTTTTATAG---------AAATAAAGAGATCTTCTCAATCAATCAAATAATCATTCCA
+	cryptomeria	TATTTTGATAG---------AAATAAAGAAATCTTCTTAATCAATCAAATAATCATTCCA
+	picea	TGGTTCGGTTGGCTGCTCCAAAATTT-GAAATATTCTTAA----TGGAATAACC-----A
+	sequoia	TATTTTTATAG---------AAATAAAGAGATCTTCTTAATCAATCAAATAATCATTCCA
+	sequoiadendron	TATTTTTATAG---------AAATAAAGAGATCTTCTTAATCAATCAAATAATCATTCCA
+
+	metasequoia	TTCTGTTATTTCATAGCCTGA------CTGATGATAGTG-AAATAATTGAGGAATCGGTC
+	cryptomeria	TTATTTTATTTCGTAGCCTGA------CTGATGATAGTGTAAATAATTGAGGAATCGGTC
+	picea	TTTTATTATCTCGTGACATAAAACATTCTGATGAGAGCG-AAATAATTGAGGAAGCCCTC
+	sequoia	TTATTTTATTTCATAGCCTGA------CTGATGATAGTG-AAATAATTGAGGAATTGGTC
+	sequoiadendron	TTATTTTATTTCATAGCCTGA------CTTATGATAGTG-AAATAATTGAGGAATTGGTC
+
+	metasequoia	ATTGAACCAAAATAATTTCTTT-----TTGAAGTTCATCTTTATATAGAAAGGGTA---A
+	cryptomeria	ATTGAACCAAAATCATTTCTTT-----TTGAAGTTCATCTTTCTATATAAAGGGTA---A
+	picea	ATTCGACAAAAATCATTTCTTTTCTTCTTTAAGTGAATTTTTACAAGGAGGTAATATGGA
+	sequoia	ATTGAACCAAAATCATTTCTTT-----TTGAAGTTCATCTTTATATAGAAAGGGTA---A
+	sequoiadendron	ATTGAACCAAAATCATTTCTTT-----TTGAAGTTCATCTTTATATACAAAGGGTA---A
+
+	metasequoia	TATGAATATTGTACAATTTCCAATTAACACGCTGAATTATTTCTACGAGATATCCGGTGT
+	cryptomeria	TATGGATATTTTACAATTTCCTATTAACATGCTGAATTATTTCTACGAGATATCCGGTGT
+	picea	TATGGATATCGTACGATCTCCTATTAGCACACTGAATCATATCTACGAGATATCCGGTGT
+	sequoia	TATGGATATTGTACAATTTCCTATTAACACGCTGAATTATTTCTACGAGATATCCGGTGT
+	sequoiadendron	TATGGATATTGTACAATTTCCTATTAACACGCTGAATTATTTCTACGAGATATCCGGTGT
+
+	metasequoia	GGAAGTAGGTCAGCATTTTTATTGGCAAATAGGGGGGTTTCAAGTTCATGCACAGGTACT
+	cryptomeria	GGAAGTAGGTCAGCATTTTTATTGGCAAATAGGGGGGTTTCAAGTTCATGCACAGGTACT
+	picea	GGAGGTGGGTCAACATTTTTATTGGCAAATCGGGGGGTTTCAAGTTCATGCACAGGTACT
+	sequoia	GGAAGTAGGTCAGCATTTTTATTGGCAAATAGGGGGGTTTCAAGTTCATGCACAGGTACT
+	sequoiadendron	GGAAGTAGGTCAGCATTTTTATTGGCAAATCGGGGGGTTTCAAGTTCATGCACAGGTACT
+
+	metasequoia	TATAACTTCCTGGATTGTAATTGCTGTCTTATTAGGTTCAGCTACTCTAGCTGTTCGAGA
+	cryptomeria	TATAACTTCCTGGATTGTAATTGCTGTCTTATTAGGTTCAGCTACTCTAGCTGTTCGAGA
+	picea	TATAACTTCTTGGGTTGTAATTGCTGTCTTATTAGGTTCAGCTACCATAGCTGTTCGAGA
+	sequoia	TATAACTTCCTGGATTGTAATTGCTGTCTTATTAGGTTCAACTACTCTAGCTGTTCGAGA
+	sequoiadendron	TATAACTTCCTGGATTGTAATTGCTGTCTTATTAGGTTCAGCTACTCTAGCTGTTCGAGA
+
+	metasequoia	CCCACAAATCATTCCGAACGGAGCTCAAAATTTTGTGGAATATGTTCTCGAATTTGTTCG
+	cryptomeria	CCCACAAATCATTCCGAACGGAGCACAAAATTTTTTGGAATATGTTCTCGAATTTGTTCG
+	picea	TCCACAAACCATTCCTACCGGTGGTCAAAATTTTGTCGAATATATTCTCGAATTTTTTCG
+	sequoia	CCCACAAATCATTCCGAACGGAGCTCAAAATTTTGTGGAATATGTTCTCGAATTTGTTCG
+	sequoiadendron	CCCACAAATCATTCCGAACGGAGCTCAAAATTTTGTGGAATATGTTCTCGAATTTGTTCG
+
+	metasequoia	GGACTTGGCTAGAACTCAGATTGGCGAAGAAGAATATGGTCCCTGGGTCCCTTTTATAGG
+	cryptomeria	GGACTTGGCTAGAACTCAGATTGGCGAAGAAGAATATGGTCCCTGGGTTCCTTTTATAGG
+	picea	GGACTTGACCAGAACTCAGATTGGGGAGGAAGAATATGGTCCCTGGGTTCCCTTTATTGG
+	sequoia	GGACTTGGCTAGAACTCAGATTGGCGAAGAAGAATATGGTCCCTGGGTTTCTTTTATAGG
+	sequoiadendron	GGACTTGGCTAGAACTCAGATTGGTGAAGAAGAATATGGTCCCTGGGTTTCTTTTATAGG
+
+	metasequoia	GGCTCTGTTTCTATTTATCTTTGTTTCTAACTGGGCAGGTGCTCTTTTTCCTTGGGGAAT
+	cryptomeria	GACTATGTTTCTATTTATTTTTGTTTCTAACTGGGCAGGTGCTCTTTTTCCTTGGGGAAT
+	picea	AACTCTGTTTCTATTTATCTTTGTTTCTAACTGGTCAGGTGCTCTTCTTCCTTGGGGAAT
+	sequoia	GACTCTGTTTCTATTTATCTTTGTTTCTAACTGGGCAGGTGCTCTTTTTCCTTGGGGAAT
+	sequoiadendron	GACTCTGTTTCTATTTATCTTTGTTTCTAACTGGGCAGGTGCTCTTTTTCCTTGGGGAAT
+
+	metasequoia	TATTAAACTACCTCATGGGGAATTAGCCGCACCTACAAATGATATTAATACTACAGTAGC
+	cryptomeria	TATTAAATTACCTCATGGGGAATTAGCCGCACCTACAAATGATATTAATACCACAGTAGC
+	picea	TATAAAATTACCTCATGGGGAGTTAGCTGCACCTACAAATGATATTAATACTACAGTTGC
+	sequoia	TTTTAAATTACCTCATGGGGAATTAGCCGCACCTACAAATGATATTAATACTACAGTAGC
+	sequoiadendron	TATTAAATTACCTCATGGGGAATTAGCCGCACCTACAAATGATATTAATACTACAGTAGC
+
+	metasequoia	TCTAGCTTTGCTCACATCAGTAGCTTATTTTTATGCAGGTTTTACAAAGAAGGGTTTAGG
+	cryptomeria	TCTAGCTTTGCTCACATCAGTAGCTTATTTTTATGCAGGTTTTACAAAGAGGGGTTTAGG
+	picea	TCTAGCTTTGCTTACGTCAGTAGCATATTTCTATGCAGGTCTTGCAAAGAAGGGGTTAGG
+	sequoia	TCTAGCTTTGCTCACATCAGTAGCTTATTTTTATGCAGGTTTTACAAAGAAGGGTTTAGG
+	sequoiadendron	TCTAGCTTTGCTGACATCAGTAGCTTATTTTTATGCAGGTTTTACAAAGAAGGGTTTAGG
+
+	metasequoia	CTATTTTGGTAGATATATTCAACCAACCCCAATACTTTTACCAATTAACATATTAGAAGA
+	cryptomeria	CTATTTTGGTAAATATATTCAACCAACCCCAATACTTTTACCAATTAACATATTAGAAGA
+	picea	TTATTTTGGTAAATATATTAAACCAACCCCAATACTTTTACCAATTAACATCTTAGAGGA
+	sequoia	ATATTTTGGTAAATATATTCAACCAACCCCAATACTTTTACCAATTAACATATTAGAAGA
+	sequoiadendron	CTATTTTGGTAAATATATTCAACCAACCCCAATACTTTTACCAATTAACATATTAGAAGA
+
+	metasequoia	TTTTACAAAACCTCTATCACTTAGTTTTCGACTTTTTGGAAATATATTAGCTGACGAATT
+	cryptomeria	TTTTACAAAACCTCTATCACTTAGTTTTCGACTTTTTGGAAATATATTAGCTGACGAATT
+	picea	TTTTACAAAACCTTTATCACTTAGTTTTCGACTTTCTGGAAATATATTAGCTGACGAATT
+	sequoia	TTTTACAAAACCTCTATCACTTAGTTTTCGACTTTTTGGAAATATATTAGCTGACGAATT
+	sequoiadendron	TTTTACAAAACCTCTATCACTTAGTTTTCGACTTTTTGGAAATATATTAGCTGACGAATT
+
+	metasequoia	GGTAGTTGCCGTTCTTGTTTCCTTAGTACCTTTAGTGGTACCTATACCTGTAATGTTCCT
+	cryptomeria	AGTAGTTGCCGTTCTTGTTTCCTTAGTACCTATAGTGGTACCTATACCTGTAATGTTCCT
+	picea	GGTAGTTGCCGTTCCTGTTTCTCCGGTACCTTCAGTAGTTCCTATACCTGTAATGTTCCT
+	sequoia	GGTAGTTGCCGTTCTTGTTTCCTTAGTACCTTTAGTGGTACCTATACCTGTAATGTTCCT
+	sequoiadendron	GGTAGTTGCCGTTCTTGTTTCCTTAGTACCTTTAGTGGTACCTATACCTGTAATGTTCCT
+
+	metasequoia	AGGATTATTTACAAGTGGTATTCAAGCTCTAATCTTTGCAACTCTAGCCGCAGCTTATAT
+	cryptomeria	AGGATTATTTACAAGTGGTATTCAAGCTCTAATCTTTGCAACTCTAGCCGCAGCTTATAT
+	picea	GGGATTATTTACGAGCGGTATTCAAGCTCTAATCTTTGCAACTCTAGCTGCAGCTTATAT
+	sequoia	AGGATTATTTACAAGTGGTATTCAAGCTCTAATCTTTGCAACTCTAGCCGCAGCTTATAT
+	sequoiadendron	AGGATTATTTACAAGTGGTATTCAAGCTCTAATCTTTGCAACTCTAGCCGCAGCTTATAT
+
+	metasequoia	AGGCGAATCCATGGAGGGTCATCATTAATTCAAT---TAATTGGACTCAGTTTTTTCT--
+	cryptomeria	AGGCGAATCCATGGAGGGTCATCATTAATTCAAT---TAATTGGACTCAGTCTTTTCT--
+	picea	AGGCGAATCCATGGAGGGTCATCATTAAATCACTGTCCAATCAGACAGAAGATTTTCTAA
+	sequoia	AGGCGAATCCATGGAGGGTCATCATTAATTCAAT---TAATTGGACTCAGTTTTTTCT--
+	sequoiadendron	AGGTGAATCCATGGAGGGTCATCATTAATTCAAT---TAATTGAACTCAGTTTTTTCT--
+
+	metasequoia	----------AACTTTTCAATTCATATCCATTTCGAAT----------------------
+	cryptomeria	----------AACTTTTCATTTCGATTCTCCCTTGTATAATCATAAATGAAAATACTTCA
+	picea	GTATCGTCCAAACTCATGACTTGATATGCAT----GGTAGAAGCAAATCGGAATTCTTA-
+	sequoia	----------AACTTTTCAATTCATATCCATTTCGAAT----------------------
+	sequoiadendron	----------AACTTTTCAATTCATATCCATTTCGAAT----------------------
+
+	metasequoia	TTAATAAGATTTTAGTCAAAAGATTTAGGATC--------ACTAATCCCGTCGATAAAAT
+	cryptomeria	TCTCTAAGATCTTAGTAGAAAAATTAAGGATC--------GCTAATCCCGTCGATAAAAT
+	picea	GTAACAAGAGCTTGGTAAAAAGATTGAAGATCAGTTAACTACTAATTATGTCCATTAGAT
+	sequoia	TTAATAAGATTTTAGTCAAAATATTTAGGATC--------ACTAATCCCGTCGATAAAAT
+	sequoiadendron	TTAATAAGATTTTAGCCAAAATATTTAGGATC--------ACTAATCCCGTCAATAAAAT
+
+	metasequoia	TGATAAATAGAACA--------------ATTCATATCTACATAATAAAATGAATAG----
+	cryptomeria	TCATAGATAGAATAGATCCTATTTGTAGATTCATATCTATATAGTAAAATGAATAG----
+	picea	CTCCAGAGAGAGTGGATCAGATTGGTCCATTTGTATAGAGATATGAGAGAAAATAGGAAG
+	sequoia	TGATAAATAGAACA--------------ATTCATATCTACATAATAAAATGAATAG----
+	sequoiadendron	TGATAAATAGAACA--------------ATTCATATCTACATAATAAAATGAATAG----
+
+	metasequoia	----------GTTTACTCATGGGAAATAGTTTAGTAAACTATGTATCCCGGTGTGAAACA
+	cryptomeria	----------GTTTACTAATGGGAATTAGTTTAGTAAACTGTGTACCCCGGTGTGGAACA
+	picea	GATCAAACAGGTTCACTAATCGGAGTTGGTTGAGTAAAGAATGTATCCCGGCGTAGAACG
+	sequoia	----------GTTTACTCATGGGAATTAGTTTAGTAAACTATGTATCCCGGTGTGGAACA
+	sequoiadendron	----------GTTTACTCATGGGAATTAGTTTAGTAAACTATGTATCCCGGTGTGGAACA
+
+	metasequoia	ATGAATTTTTCGACCTCG--AAGGGAT---------ACATA---------TACATAGTTT
+	cryptomeria	ATGCATTTTTCGATTTCG--AAGGGAT---------ACATACATTTTATGTACATAGTTT
+	picea	ATGAAATTTTTGTTCCCAGTAAGGGAGGATTTTTTAACATGTTTACTTTGTATATAGTTC
+	sequoia	ATGAATTTTTCGACCTCG--AAGGGAC---------ACATA---------TACATAGTTT
+	sequoiadendron	ATGAATTTTTCGACCTCG--AAGGGAT---------ACATA---------TACATAGTTT
+
+	metasequoia	GTATTGTGTCATATATGTATATGCATATATCATCTATATAGACTAATATTATATATATAT
+	cryptomeria	GTATTATGTTATATA--------------------------------ATTATATATATAC
+	picea	GT---------------------------------------------TTAATATATTAAT
+	sequoia	GTATTGTGTCATATATGTATATGCATATATCATCTATATAGACTAATATTATATATATAT
+	sequoiadendron	GTATTGTGTCATATATGTATATGCATATATCATCTATATAGACTAATATAATATATATAT
+
+	metasequoia	ATATATATATATATATCTAGATAATTATTTAGATATAACCATAAAAAAAGAGGCTATTAT
+	cryptomeria	TAATATATATAT--------ATAATTATTTAGAATTAACCATAAAAAATG-GGCTATTAC
+	picea	CCATTTATAT-------------------------TGATTATAA----------------
+	sequoia	ATATATAAATATATATCTAGATAATTATTTAGATATAACCATAAAAAAAGAGACTATTGT
+	sequoiadendron	ATATATAAATATATATCTAGATAATTATTTAGATATAACCATAAAAAAAGAGACTATTAT
+
+	metasequoia	G------------------------------TATCTGCCTCTATTTTATCTAAAAAAGAA
+	cryptomeria	GCAGAATATTTCATTTTATAAATGAAAAAAAAATCTGTCTCTATTTCATCTAAAAAAGAA
+	picea	------------------------------------GCCTT------------------A
+	sequoia	GCAGAATATTTCATTTGATAAATG-AATCAACATCTGCCTCTATTTTATCTAAAAAAGAA
+	sequoiadendron	G------------------------------AATCTGCCTCTATTTGATCTAAAAAAGAA
+
+	metasequoia	TATAATATCAGG------------------------------------------------
+	cryptomeria	TATAATGTCAGG------------------------------------------------
+	picea	TAGATTTTATGGATTAATATATCATCTATAGATGTGATATATTATTACTTATAGGCTCTT
+	sequoia	TATAATATCAGG------------------------------------------------
+	sequoiadendron	TATAATATCAGG------------------------------------------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	ACGCAGTCTATTCTCTCTCCGTTATAATAATTCATATGTCCAATAAATTGGAATCTGTAT
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	-----------------------------GTAGAGAA-------TTTACCTATTTGGTAA
+	cryptomeria	-----------------------------GTAGAGAA----------------TTGGTAA
+	picea	TTCGAATATGATGAAGAATAAATATTTTCATAGGGAATAATAGGTTTCCCTATTCGTTTA
+	sequoia	-----------------------------GTAGAGAA-------TTGACCTATTTGGTAA
+	sequoiadendron	-----------------------------TTAGAGAA-------TTGACCTATTTGGTAA
+
+	metasequoia	TATCATTATTTTTAATACC---ATTTCGTTGGAGTTTAGTTCTTTCAAATAAATTGTTCT
+	cryptomeria	TATCATAATTTTGAATGCC---ATTTCGTCGGAGTTTAGTTGTTTCAAAGAAATTGTTCT
+	picea	TATTATCACTTT-GATACCGAAATATTTTGGTTTCTTAGTTGTTCGGAAGAAATCGTTCC
+	sequoia	TATCATCATTTTTAATACC---ATTTCGTTGGAGTTTAGTTGTTTCAAAGAAATTGTTCT
+	sequoiadendron	TATCATCATTTTTAATACC---ATTTCGTTGGAGTTTAGTTGTTTCAAAGAAATTGTTCT
+
+	metasequoia	CTAGTTGAAC-----ATGAACAATCAAATCAATAGATAAAACTATCATATTATCCATCAT
+	cryptomeria	CTAGTTGAAC-----GTGAACAATCAAATCAATAGATAAAACTATCATATTATCCAC---
+	picea	ATAATTGAACAATCGGTGAAC-----ACTAAATAGATGAAACTGTCGTATTATCAACTAT
+	sequoia	CTAGTTGAAC-----GTGAACAATCAAATCAATAGATAAAACTATCATATTATCCACCAT
+	sequoiadendron	CTAGTTGAAC-----GTGAACAATCAAATCAATAGATAAAACTAGCATATTATTCACCAT
+
+	metasequoia	TTATTAACC----TAAAAGGAGATTACCATGAATCCTCTGATTTCTGCTGCTTCCGTTAT
+	cryptomeria	------ACC----TAAGAGGAGATTACCATGAATCCTTTGATTTCTGCTGCTTCCGTTAT
+	picea	TTCCCAACCTTAGTAAGAGGAGATTACCATGGATCCCTTAATTTCTGCTGCTTCCGTTAT
+	sequoia	TTATTAACC----TAAGAGGAGATTACCATGAATCCTTTGATTTCTGCTGCTTCCGTTAT
+	sequoiadendron	TTATTAACC----TAAGAGGAGATTACCATGAATCCTTTGATTTCTGCTGCTTCCGTTAT
+
+	metasequoia	TGCTGCTGGATTATCCGTAGGCCTTGCTTCTATTGGACCTGGCATTGGTCAAGGCACTGC
+	cryptomeria	TGCTGCTGGATTATCCGTAGGCCTTGCTTCTATTGGACCTGGCATTGGTCAAGGCACTGC
+	picea	TGCTGCTGGATTATCTGTAGGGCTTGCTTCCATTGGACCCGGCGTTGGTCAGGGCACTGC
+	sequoia	TGCTGCTGGATTATCCGTAGGCCTTGCTTCTATTGGACCTGGCATTGGTCAAGGCACTGC
+	sequoiadendron	TGCTGCTGGATTATCCGTAGGCCTTGCTTCTATTGGACCTGGCATTGGTCAAGGCACTGC
+
+	metasequoia	TGCGGGACAAGCTGTTGAAGGTATTGCGAGACAACCAGAGGCGGAGGGTAAAATACGAGG
+	cryptomeria	TGCGGGACAAGCTGTTGAAGGTATTGCGAGACAACCAGAGGCGGAGGGTAAAATACGAGG
+	picea	TGCGGGCCAAGCTGTAGAAGGTATTGCAAGACAACCAGAAGCGGAAGGTAAAATACGAGG
+	sequoia	TGCGGGACAAGCTGTTGAAGGTATTGCGAGACAACCAGAAGCGGAGGGTAAAATACGAGG
+	sequoiadendron	TGCGGGACAAGCTGTTGAAGGTATTGCGAGACAACCAGAAGCGGAGGGTAAAATACGAGG
+
+	metasequoia	TACCTTACTACTAAGTTTAGCTTTTATGGAAGCTTTAACTATTTATGGATTAGTTGTAGC
+	cryptomeria	CACCTTACTGCTAAGTTTAGCTTTTATGGAAGCTTTAACTATTTATGGATTAGTTGTAGC
+	picea	TACCTTACTGCTAAGTTTAGCTTTTATGGAAGCTTTAACTATTTATGGACTAGTTGTGGC
+	sequoia	TACCTTACTGCTAAGTTTAGCTTTTATGGAAGCTTTAACTATTTATGGATTAGTTGTAGC
+	sequoiadendron	TACCTTACTGCTAAGTTTAGCTTTTATGGAAGCTTTAACTATTTATGGATTAGTTGTAGC
+
+	metasequoia	TCTAGCACTTTTATTTGCTAATCCATTTGTTTGATCTCGGAGACCAAAATACGTACCCTT
+	cryptomeria	TCTGGCACTTTTATTTGCTAATCCATTTGTTTGATCTCGGAGACCAAAATCCGTATTCTT
+	picea	CCTAGCACTTCTATTTGCGAATCCCTTTGTTTGATCCTGAAAACAAAGATCCCTACACCT
+	sequoia	TCTAGCACTTTTATTTGCTAATCCGTTTGTTTGATCTCGGAGACCAAAATACGTACCCTT
+	sequoiadendron	TCTAGCACTTTTATTTGCTAATCCGTTTGTTTGATCTCAGAGACCAAAATACGTACCCTT
+
+	metasequoia	CGGGATTTTA--AGTACCCCCCCCTCTATCAATTTTCTTGTTCAGCCAAT-----AGGGG
+	cryptomeria	CGGGATTTTA--AAGA---CCCCCTCTATCAATTTTCTTGTTCAGCCAAT-----AGGGG
+	picea	CGTCATTCCATTAGTA----TTTATCCAAGAATTCCCTTGTTTAGCTGCTCTTTTAGGGG
+	sequoia	CGGGATTTTA--AATAACCCCCCCTCTATCCATTTTCTTGTTCAGCCAAT-----AGGGG
+	sequoiadendron	CGGGATTTTA--AATACCCCCCCCTCTATCAATTTTCTTGTTCAGCCAAT-----AGGGG
+
+	metasequoia	AGGGGCTGCTCCAAAATAATGGAC-----------------TTATACTTCACTTGT--TT
+	cryptomeria	GGGGGCTGATCCAAAATAGTGGAC-----------------TTATACTTCACTTGT--TT
+	picea	AGGGGCTGATCC-GAATAATAAGCAAATGAATTATTGTCTTTTTTCCTATACCTATACTT
+	sequoia	AGGGGCTGATCCAAAATAATGGAC-----------------TTATACTTCACTTGT--TT
+	sequoiadendron	AGGGGCTGATCCAAAATAATGGAC-----------------TTATACTTCACTTGT--TT
+
+	metasequoia	CGATCAGAAAGATTTGCGACACTCA---------GAGAAGTAGA----------------
+	cryptomeria	CGGTCAGAAAGATTTGCGACACTCG---------GAGAAGTAGA----------------
+	picea	CGGTCAGAAAGATTCATGACGCGTGCGGCAGGGAAGGGAGTGGATGGGGCAAATAATTTT
+	sequoia	CGATCAGAAAGATTTGCGACACTCG---------GAGAAGTAGA----------------
+	sequoiadendron	CGATCAGAAAGATTTGCAACACTTG---------GAGAAGTAGA----------------
+
+	metasequoia	------------------------------------------------------------
+	cryptomeria	------------------------------------------------------------
+	picea	TTTTATCCTTATATAAGACCTGGGACTAAGTTTAGTATCCCAAATATTCTTATCCAGAAC
+	sequoia	------------------------------------------------------------
+	sequoiadendron	------------------------------------------------------------
+
+	metasequoia	TAGATCGAACAAAG-TTTTTTTTCAAAATTGTATCCTTATTTATCGTTATGCGGGACCTG
+	cryptomeria	TAGATAGAACAAAGTTTTTTTTTCATAATTGTATCCTTATTTATCGTTATGCGGGACCTG
+	picea	TAGATAGGATCAA-----------------------------------------------
+	sequoia	TAGATCGAACAAAG-TTTTTTTTCATAATTGTATCCTTATTTGTCGTTATGCGGGACCTG
+	sequoiadendron	TAGATCGAACAAAG-TTTTTTTTCATAATTGTATCCTTTTTTTTCGTTATGCGGGACCTG
+
+	metasequoia	GTACTTTACTAAGTACTTGAAATTTGCTTATCCGGAATTCGAATAATAGTAGAATCGAGT
+	cryptomeria	GGAC-TTACTAAGTACTCGAAATCTGCTTATCCGAAATTCGAATAATAGTAGGATCGAGT
+	picea	------------------------------------------ATAAGAAAAGAAC-----
+	sequoia	GGACCTTACTAAGTACTTGAAATTTGCTTATCCGGACTTCGAATAATAGTAGAATCGAGT
+	sequoiadendron	GGACCTTACTAAGTACTTGAAATTTGCTTATCCGGACTTCGAATAATAGTAGAATCGAGT
+
+	metasequoia	CAGAGAAAAAACTTTGTAAAA-GTATCCTTATCTATGAGGGGAGAGCGTATGAAAAATGT
+	cryptomeria	CGGAGAAAAAACTTTGTAAAA-GTATCCTTATCTATGAGGGGAGAGCGTATGAAAAATGT
+	picea	-------AAAATTCTGTAGAACATATCCTTATCTATGAGGGGAGAGCGTATGAAAAATGT
+	sequoia	CAGAGAAAAAACTTTGTAAAA-GTATCCTTATCTATGAGGGGAGAGCGTATGAAAAATGT
+	sequoiadendron	CAAAGAAAAAACTTTGTAAAA-GTATCCTTATCTATGAGGGGAGAGCGTATGAAAAATGT
+
+	metasequoia	AACTGATTCTTTCATTTCCCTAATTTATTTACCCTCCGCTGAGGGTTTCGGGTTAAATAC
+	cryptomeria	AACTGATTCTTTCATTTCCC---------TATCCTCCGCTGAGGGTTTCGGGTTAAATAC
+	picea	AATTGATCCTTTCATTTCCTTGAGTTATTGGCCTTCCGCTGGGGGTTTCGGGTCAAATAC
+	sequoia	AACTGATTCTTTCATTTCCCTAATTTATTTACCCTCCGCTGAGGGTTTCGGGTTAAATAC
+	sequoiadendron	AACTGATTCTTTCATTTCCCTAATTTATTTATCCTCCGCTGAGGGTTTCGGGTTAAATAC
+
+	metasequoia	CAATATTTTAGAAACAAATATAATAAATCTCAGTGTGGTGCTTGGTGTACTGATCTATTT
+	cryptomeria	CAATATTTTAGAAACAAATATAATAAATCTCAGTGTGGTGCTTGGTGTACTGATCTATTT
+	picea	CAATATTTTAGAAACAAATATAATAAATCCAAGTTTGGTGCTTAGTGTACTGATCTATTT
+	sequoia	CAATATTTTAGAAACAAATATAATAAATCTCAGTGTGGTGCTTGGTGTACTGATCTATTT
+	sequoiadendron	CAATATTTTAGAAACAAATATAATAAATCTCAGTGTGGTGCTTGGTGTACTGATCTATTT
+
+	metasequoia	CGGAAAGGGAGTGTGTGCGAGTTGTATATTTGAATAATCTAGCTGGATCCAACCAACTGC
+	cryptomeria	CGGAAAGGGAGTGTGTGCGAGTTGTATATTTGAATAATCCAGCTGGATCCAACCAACTGC
+	picea	TGGAAAGGGAGTGTGTGCGAGTTGTATATTCGAATAATATGGCTGGGCCCAACCAGCTGC
+	sequoia	CGGAAAGGGAGTGTGTGCGAGTTGTATATTTGAATAATCTAGCTGGATCCAACCAACTGC
+	sequoiadendron	CGGAAAGGGAGTGTGTGCGAGTTGTATATTTGAATAATCTAGCTGGATCCAACCAACTGC
+
+	metasequoia	ACTTTGGAGATAGAAAAGTGCATGATCTCAACGAATTACTTCTAAAAGGGAAAAAAGAAA
+	cryptomeria	ACTTTGTAGATAGAAAAGTGCATGATCTCAACGAATTACTTCTAAAAGGGAAAAA---AA
+	picea	ACTTTGGAGATAGAAAAGTGCATGATCTCAACGAATTACTTCCGAATGGGG-------AA
+	sequoia	ACTTTGTAGATAGAAAAGTGCATGATCTCAACGAATTACTTCTAAAAGGGAAAAAAGAAA
+	sequoiadendron	ACTTTGTAGATAGAAAAGTGCATGATCTCAACGAATTACTTCTAAAAGGGAAAAAAGAAA
+
+	metasequoia	TATGGAAGAACTATAGCATTTCGTAATTGATTGGGAAAT---TTTCTTACCAATCCCAAC
+	cryptomeria	TATGGAAGAACTATAGCATTTCGTAATTGATTGGGAAAT---TTTATTACCAATCCCAAC
+	picea	TAGTGAAGAACTATAGCATTTCGTAATTGATTGGGAAATGAACTCTTAGTTTATACCAAC
+	sequoia	TATGGAAGAACTATAGCATTTCGTAGTTGATTGGAAAAT---TTTATTACCAATCCCAAC
+	sequoiadendron	TATGGAAGAACTATAGCATTTCGTAATTGATTGGGAAAT---TTTCTTACCAATCCCAAC
+
+	metasequoia	CAACAAGAGAAAATCTTTAGAATGGTTAAAGCTAAACTGCTTGAAGTCCAAGCACAA---
+	cryptomeria	CAACAAGAGAAAATCTTTAGAATGGTTAAAGCTAAACTGCTTGAAGTCCAAGCACAA---
+	picea	CAATGAGGGAGGACCATTAGAATGGTTAAAGCTGAACTGTTTGAAGTCTAAGCACAACTA
+	sequoia	CAACAAGAGAAAATCTTTAGAATGGTTAAAGCTAAACTGCTTGAAGTCCAAGCACAA---
+	sequoiadendron	CAACAAGAGAAAATCTTTAGAATGGTTAAAGCTAAACTGCTTGAAGTCCAAGCACAA---
+
+	metasequoia	-CTGGGTACTCTTTCCACCGCTGTGCTAATATGAGATGGGTTCAAAGGCATAGTTGGAGG
+	cryptomeria	-CTGGGTACTCTTTCCACCGCTGTGCTAATATGAGAAGGGTTCAAAGGCATAGTTGGAGG
+	picea	ATTGGGTACTCTTTCCACCGCTGTGTCAAGATGAGATGGATTCAAAGGCATAGTTGGAGA
+	sequoia	-CTGGGTACTCTTTCCACCGCTGTGCTAATATGAGATGGGTTCAAAGGCATAGTTGGAGG
+	sequoiadendron	-CTGGGTACTCTTTCCACCGCTGTGCTAATATGAGATGGGGTCAAAGGCATAGTTGGAGG
+
+	metasequoia	TTCATCCGATATATAACATTCATATCAATGGAATTATTCAATCTATCTACTGAAAAATAG
+	cryptomeria	TTGATCCGATATATAACATTCATATCAATGGAATTATTCAATCTATCTACTGAAAAATAG
+	picea	TTGATTCGATATATAACATTCATATCAATGGAATAATTTGATCTATTTACTTCAAAATAG
+	sequoia	TTCATCCGATATATAACATTCATATCAATGGAATTATTCAATCTATCGACTGAAAAATAG
+	sequoiadendron	TTCATCCGATATATAACATTCATATCAATGGAATTATTCAATCTATCTACTGAAAAATAG
+
+	metasequoia	TCCTAATCTCCCATCCAATTTTTTTTGGTTTAAATGCGGAACCGACGACCTACACAGAAG
+	cryptomeria	TCCTAATCTCCCGTCCAA-TTTTTTGGGTTTAAATGCGGAACCGACGACCTACGCAAAAG
+	picea	TCCCAATCTCCCATCCAA----TTTTAGTTCCAATGCTAAACTGACGACCTACACAGAAG
+	sequoia	TCCTAATCTCCCATCCAAATTTTTTTGGTTTAAATGCGGAACCGGCGACCTGCACAGAAG
+	sequoiadendron	TCCTAATCTCCCATCCAATTTTTTTTGGTTTAAATGCGGAACCGACGACCTACACAGAAG
+
+	metasequoia	TGAATTTATTCAAGAAAA-AGTAAAGAGGAAATACGAA---------TGAAAAGAA----
+	cryptomeria	CGAATTTATTCAAGAAAA-AGTAAATAGGAAATATGAA---------TGAAAAGAA----
+	picea	GGAAATTATTCGATAGAACAAAAAGGAGGAGGCACAAATTAATTGATTGAACGGAACGTA
+	sequoia	CGAAATTATTCAAGAAAA-AGTAAAGAGGAAATACGAA---------TGAAAAGAA----
+	sequoiadendron	CGAATTTATTCAAGAAAA-AGTAAAGAGGAAATACGAA---------TGAAAAAAA----
+
+	metasequoia	----------------AAAAGAAGAAAAAAAGAAGAAAAAAAGAAGAAAAAAAAGAACAA
+	cryptomeria	----------------A-------AAAAGAAGAAAAAGAAAAAAGAAGAAAAAGAAAAAA
+	picea	TTGATTCAAATTTCATGGGGGAAGAAGATGAGAGAAAAGGGGAAACGACAACAAAAACAA
+	sequoia	----------------AAAAGAAGAAAAAAAGAAGAAAAAAAGAAGAAAAAGAAGAACAA
+	sequoiadendron	----------------AGAAGAAGAAAAAAAGAAGAAGAAAAAAAGGAAAAAAAGAACAA
+
+	metasequoia	CAACTTTGTTGATAATAAAAAATCCCTTTTGGCAAAAGAGCCCTTCGTAGATTTCGGTCT
+	cryptomeria	CAACTTTGTTGATAATAAAAAATCCCTTTTGGCAAAAGAGCCCTTCGTAGATTTTGGTCT
+	picea	AAACTTTATTAATAATTGCAAATCCCTTTTGCTGAAAGAGCCCTTCGGAGATATCGGTCT
+	sequoia	CAACTTTGTTGATAATAAAAAATCCCTTTTGGCAAAAGAGCCCTTCGTAGATTTCGGTCT
+	sequoiadendron	CAACTTTGTTGATAATAAAAAATCCCTTTTGGCAAAAGAGCCCTTCGTAGATTTCGGTCT
+
+	metasequoia	TTGATAGATTGATCTTATTTT--TACATAATATGAACGAAAAGGGTAGGCTTGG------
+	cryptomeria	TTGATAGATTGATTTTATTTTTATACATAATATGAACGAAAAGGGCAGGCTCGG------
+	picea	TTTATAGATTGATTCTAATAT--TCCGTAAACGGAACGGAAAGGGCAGGCTTGGTGTTGA
+	sequoia	TTGATAGATTGATCTTATTTT--GACATAATATGAACGAAAAGGGTAGGCTTGG------
+	sequoiadendron	TTGATAGATTGATCTTATTTT--GACATAATATGAACGAAAAGGGTAGGCTTGG------
+
+	metasequoia	--------------------------------TAAAAAAAGAACCGAGCGGGAGAGCCGA
+	cryptomeria	--------------------------------TAAAAAAAAAGCCGAGCGGGAGAGCCGA
+	picea	TGAAGGAAGGGAACGCATATGTTCCTGGGGAATAAACAAAGAACTGAGCAGGAGAGCCGA
+	sequoia	--------------------------------TAAAAAAAGAGCCGAGCGGGAGAGCCGA
+	sequoiadendron	--------------------------------TAAAAAAACAGCCGAGCGGGAGAGCCGA
+
+	metasequoia	ATGAATCGAAAGGTTCGTGTTCGGTTTGGGAAGAGATTATAAATTCGTTTAACTTATGAA
+	cryptomeria	ATGAATCGAAAGGTTCGTGTTCGGTTTGGGAAGAGATTATCCATTCGTTCAACTTATGAA
+	picea	ATGAATCGAAAGATTCGTGTTCGGTTTGGGAAGAGATTATGAATTCGTTCATTTTTTGAA
+	sequoia	ATGAATCGAAAGGTTCGTGTTCGGTTTGGGAAGAGATTCTAAATTCGTTTAACTTATGAA
+	sequoiadendron	ATGAATCGAAAGGTTCGTGTTCGGTTTGGGAAGAGATTATAAATTCGTTTAACTTATGAA
+
+	metasequoia	TAGATAATCTACTTTCATTAAGTAATCTATTAGATAACCGTAAACAGAAAATATTGAGTA
+	cryptomeria	TAGATAATCTACTTTCATTAAGTAATCTATTAGATAACCGTAAACAGAAAATATCGAGTA
+	picea	TAGATAATCTACTTTCATTAAGTAATCTATTAGATAACCGTAAACAGAAAATATTGAATA
+	sequoia	TAGATAATCTACTTTCATTAAGTAATCTATTAGATAATCGTAAACAGAAAATATTGAGTA
+	sequoiadendron	TAGATAATCTACTTTCATTAAGTAATCTATTAGATAACCGTAAACAGAAAATATTGAGTA
+
+	metasequoia	CTATTCAGAATTGTGAAGAATTATGTAAAGGAGCTGCTAATCAGCTTGAGCAAGCCCGAG
+	cryptomeria	CTATTCAGAGTTCTGAAGAACTATGTAAAGGAGCTGCTAATCAACTTGAGCAAGCCCGGG
+	picea	CTATTCGGAATTCGGAAGAACTATGTAAAGGAGCTATCGATCAGCTCGAGAAAGCTCGGG
+	sequoia	CTATTCAGAATTCTGAAGAACTATGTAAAGGAGCTGCTAATCAGCTTGAGCAAGCCCGAG
+	sequoiadendron	CTATTCAGAATTCTGAAGAATTATGTAAAGGAGCTGCTAATCAGCTTGAGCAAGCCCGAG
+
+	metasequoia	TTCGCTTACGGGAAATAGAAATGCGAGCGCGCGAAATTCGGGTAAATGGATACTCTCAAA
+	cryptomeria	CTCGCTTACGGGAAGTAGAAAGGCGGGTACGCGAAATTCGGGTAAATGGATATTCTCAAA
+	picea	CTCGCTTAAGGGAAGTGGAAATGATAGCGGGCGAAATCCGGGTAAATGGAGACTCCCAAA
+	sequoia	CTCGCTTACGGGAAATAGAAATGCGAGCGCGCGAAATTCGCGTAAATGGATACTCTCAAA
+	sequoiadendron	TTCGCTTACGGGAAATAGAAATGCGAGCGCGCGAAATTCGGGTAAATGGATACTCTCAAA
+
+	metasequoia	TACAACAAGAAAAAGAGTATCTTATCGATGTTGCTTCTGTTAATTTGAAACAATTAGAAA
+	cryptomeria	TACAACAAGAAAAAAATGATCTTATCAATGTTGCTTCTATTAATTTGAAACAATTAGAAA
+	picea	TAGAACGAGAGAAAGAGGATCTCATCAATGCTGCTTCTGAGAATTTGGAACAATTAGAGG
+	sequoia	TACAACAAGAAAAAGACTATCTTATCAATGTTGCTTCTGTTAATTTGAAACAATTAGAAA
+	sequoiadendron	TACAACAAGAAAAAGACTATCTTATCAATGTTGCTTCTGTTAATTTAAAACAATTAGAAA
+
+	metasequoia	ATTTAAAGAATGAGACCGTTCACTTTGAACAACAAAGAGTAATTGAACAGGTTCGACAAC
+	cryptomeria	ATTTAAAGAATGAAACCATTCACTTGGAACAAGAAAGAGTAATTGAACTGGTTCAAAAAC
+	picea	ATCCCAAGAATGAGACGGTTTACTCCGAACAGCAAAGAGCAATTGACCAGATCCGACAAC
+	sequoia	ATTCAAAGAATGAGACCGTTCACTTTGAACAACAAAGAGTAATTGAACAGGTTCAACAAC
+	sequoiadendron	ATTCAAAGAATGAGACCATTCACTTTGAACAAGAAAGAGTAATTGAACAGGTTCAACAAC
+
+	metasequoia	AAATTTCTCGCCAAGCTGTACAAAGAGCTCTACGAACTCTGAATAGTCGTTTGAATCACG
+	cryptomeria	AAATTTCTTACCAAGCTGTCCAAAGAGCTCTAGGAACTCTGAATAGTCGTTTGAATAGCG
+	picea	AAGTTTCTCGCCAAGCTTTACGAAGAGCTATAGGAACTTTGAATAGTCGTTTGAATACTG
+	sequoia	AAATTTCTCGCCAAGCTGTACAAAGAGCTCTACGAACTCTGAATAGTCGTTTGAATAATG
+	sequoiadendron	AAATTTCTCGCCAAGCTGTACAAAGAGCTCTACGAACTCTGAATAGTCGTTTGAATAACG
+
+	metasequoia	AGTTACATTTACGTACGATCGAACATAATATCGACCTGCTCCTAGCCATGAAAAACATAA
+	cryptomeria	AGTTACATTTACGTACGATCGAGCATAATATCGACCTGCTCCTAGCCATGAAAAACATAA
+	picea	AGTTACATTTACGTACGATCGATCACAATATTGGCCTGCTTAGAACCATGATGAACACAA
+	sequoia	AGTTACATTTACGTACGATCGAACATAATATCGACCTGCTCCTAGCCATGAAAAACATAA
+	sequoiadendron	AGTTACATTTACGTACGATCGAACATAATATCGACCTGCTCCTAGCCATGAAAAACATAA
+
+	metasequoia	CTGATTAACATTATATATATATATTATATTAATACTACTTATATATTAAGTATAATATAT
+	cryptomeria	CTGATTAACAGTATA-----------------------------------TATAATATAG
+	picea	GTGATTAGTTGT--------------------------------------TATA------
+	sequoia	CTGATTAACATTATATATATATAATATATTAATACTACTTATATATTATATATAATATAG
+	sequoiadendron	CTGATTAACATTCTATATATATATTATATTAATACTAGTTATATATTATATATAGTATAG
+
+	metasequoia	AAGGTCTTATTTTTCAAAAGAGAATTAACTAGCGTTAATGGTAACTATTCGACCCGATGA
+	cryptomeria	TAGGTCTTATTTTTCAAAAGAGAATTAACTAGTGTTAATGGTAACTATTCGACCCGATGA
+	picea	--GGTCCTATTTCTCAACAGAGAATTAATAAGTGCTAATGGGAAATATTCGACTCGACGA
+	sequoia	TAGGTCTTATTTTTCAAAAGAGAATTAACTAGTGTTAATGGTAACTATTCGACCCGATGA
+	sequoiadendron	TAGGTCTTATTTTTCAAAAGAGAATTAACTAGTGTTAATGGTAACTATTCGACCCGATGA
+
+	metasequoia	AATCAGTAGTATGATACGTAAACAGATTGAACAATATAATAACGAGGTTCAAGTTGTTAA
+	cryptomeria	AATCAGTAGTATAATACGTAAACAGATTGAACAATATAATAACGAGGTCCAAGTTGTTAA
+	picea	AATTAGTAGTATTATACGGAAACAGATCGAACAATATAACAACGAAGTAAGAGTTGGTAA
+	sequoia	AATCAGTAGTATGATACGTAAACAGATTGAACAATATAATAACGAGGCTCAAGTTGTGAA
+	sequoiadendron	AATCAGTAGTATGATACGTAAACAGATTGAACAATATAATAACGAGGTTCAAGTTGTTAA
+
+	metasequoia	TATTGGCACTGTACTTCAAGTAGGAGATGGCATTGCTCGTATTCATGGTCTTGATAAAGT
+	cryptomeria	TATTGGTACTGTACTTCAAGTAGGGGATGGCATTGCTCGTATTCATGGTCTTGATAAAGT
+	picea	TCTTGGCACCGTACTTCAAGTAGGAGATGGCATTGCTCGTATTCATGGTCTTGATGAAGT
+	sequoia	TATTGGCACTGTACTTCAAGTAGGAGATGGCATTGCTCGTATTCATGGTCTTGATAAAGT
+	sequoiadendron	TATTGGCACTGTACTTCAAGTAGGAGATGGCATTGCTCGTATTCATGGTCTTGATAAAGT
+
+	metasequoia	AATGGCAGGGGAATTGGTAGAATTTGTAGATGGCACAGTAGGTATTGCCCTAAATTTAGA
+	cryptomeria	AATGGCAGGGGAATTAGTAGAATTCGTAGATGGTACAGTAGGTATTGCCCTAAATCTAGA
+	picea	AATGGCAGGGGAATTAGTTGAATTTGGAGATGGTACAATAGGCATTGCCCTAAATTTGGG
+	sequoia	AATGGCAGGGGAATTAGTAGAATTTGTAGATGGCACAGTAGGTATTGCCCTAAATCTAGA
+	sequoiadendron	AATGGCAGGGGAATTAGTAGAATTTGTAGATGGCACAGTAGGTATTGCCCTAAATCTAGA
+
+	metasequoia	ATCAGATAATGTTGGAGCTGTATTAATGGGTGATGGCTTGATGATACAAGAGGGCAGTTC
+	cryptomeria	ATCAGATAATGTTGGAGCTGTATTAATGGGTGATGGCTTGATGATACAAGAGGGCAGTTC
+	picea	ATCGGATAATGTTGGAGCTGTATTAATGGGCGATGGCTTGATGATACAAGAAGGCAGTTC
+	sequoia	ATCAGATAATGTTGGAGCTGTATTAATGGGTGATGGCTTGATGATACAAGAGGGCAGTTC
+	sequoiadendron	ATCAGATAATGTTGGAGCTGTATTAATGGGTGATGGCTTGATGATACAAGAGGGCAGTTC
+
+	metasequoia	CGTGAGAGCAACAGGAAAAATTGCTCAGATACCAGTAAGTGATGCTTATTTGGGTCGAGT
+	cryptomeria	CGTAAGAGCAACAGGAAAAATTGCTCAGATACCAGTAAGTGATGCTTATTTGGGTCGAGT
+	picea	CGTGAGAGCAACGGGAAAAATTGCTCAGATACCAGTAAGTGATGCGTATTTGGGTCGTGT
+	sequoia	CGTGAGAGCAACAGGAAAAATTGCTCAGATACCAGTAAGTGATGCTTATTTGGGTCGAGT
+	sequoiadendron	CGTGAGAGCAACAGGAAAAATTGCTCAGATACCAGTAAGTGATGCTTATTTGGGTCGAGT
+
+	metasequoia	TGTAAATGCGCTAGCTCGACCTATTGATGGTAAGGGGAAGATTTCATCTTCCGAATCTCG
+	cryptomeria	TGTAAATGCGCTAGCTCGACCTATTGATGGTAAGGGGAAGATTTCATCTTCCGAATCTCG
+	picea	TGTAAATGCTCTAGCCCAACCCATTGATGGCAAGGGTCAAATTTCAGCTTCCGAATTTCG
+	sequoia	TGTAAATGCGCTAGCTCGACCTATTGATGGTAAGGGGAAGATTTCATCTTCCGAATCTCG
+	sequoiadendron	TGTAAATGCGCTAGCTCGACCTATTGATGGTAAGGGTAAGATTTCATCTTCCGAATCTCG
+
+	metasequoia	ATTGATCGAATCGGCCGCCCCAGGTATTATTTCAAGACGTTCTGTATATGAACCTCTTCA
+	cryptomeria	ATTGATCGAATCTCCCGCCCCAGGTATTATTTCAAGACGTTCTGTATATGAACCTCTTCA
+	picea	ACTGATTGAATCTCCCGCCCCAGGTATTATATCAAGACGTTCCGTATATGAACCCCTTCA
+	sequoia	ATTGATCGAATCCGCCGCCCCAGGTATTATTTCAAGACGTTCTGTATATGAACCTCTTCA
+	sequoiadendron	ATTGATCGAATCCGCCGCCCCAGGTATTATTTCAAGACGTTCTGTATATGAACCTCTTCA
+
+	metasequoia	AACGGGTCTTATTGCTATTGATTCTATGATCCCTATAGGACGCGGTCAGCGAGAATTGAT
+	cryptomeria	AACGGGTCTTATTGCTATTGATTCTATGATCCCTATAGGACGCGGTCAGCGAGAATTGAT
+	picea	AACGGGGCTTATTGCTATTGATTCTATGATTCCTATAGGACGTGGTCAGCGAGAATTAAT
+	sequoia	AACGGGTCTTATTGCTATTGATTCTATGATCCCTATAGGACGCGGTCAGCGAGAATTGAT
+	sequoiadendron	AACGGGTCTTATTGCTATTGATTCTATGATCCCTATAGGACGCGGTCAGCGAGAATTGAT
+
+	metasequoia	TATTGGGGACAGACAGACCGGTAAGACGGCAGTAGCTACAGATACGATTATAAATCAAAA
+	cryptomeria	TATTGGGGACAGGCAGACCGGTAAGACGGCAGTAGCTACAGATACGATTATAAATCAAAA
+	picea	TATTGGGGACAGACAGACCGGCAAGACAGCAGTAGCTACAGATACTATTCCTAATCAAAA
+	sequoia	TATTGGAGATAGACAGACCGGTAAGACGGCAGTAGCTACAGATACGATTATAAATCAAAA
+	sequoiadendron	TATTGGGGACAGACAGACCGGTAAGACGGCAGTAGCTACAGATACAATTATAAATCAAAA
+
+	metasequoia	AAATCAGAATGTAATATGTGTTTATGTCGCTATTGGTCAAAAAGCTTCTTCCGTAGCTCA
+	cryptomeria	AAATCAGAATGTAATATGTGTTTATGTCGCTATTGGCCAAAAAGCTTCTTCCGTAGCTCA
+	picea	GAGTCAAAATGTCATCTGTGTCTATGTAGCAATTGGTCAAAAAGCTTCTTCCGTGGCTCA
+	sequoia	AAATCAGAATGTAATATGTGTTTATGTCGCTATTGGTCAAAAAGCTTCTTCCGTAGCTCA
+	sequoiadendron	AAATCAGAATGTAATATGTGTTTATGTCGCTATTGGTCAAAAAGCTTCTTCCGTAGCTCA
+
+	metasequoia	GGTAGTTAATATGTTCCAAGAACGTGGCGCAATGGAGTATACCATTGTGGTAGCGGAAAC
+	cryptomeria	GGTAGTTAATACCTTCGAAGACCGTGGCGCAATGGAGTATACCATTGTGGTAGCGGAAAC
+	picea	GGTAGTTAATACATTCCGAGAACGTGGCGCAATGGAATATACCATTGTGGTAGCGGAAAC
+	sequoia	GGTAGTTAATACGTTCCAAGAACGTGGCGCAATGGAGTATACCATTGTGGTAGCGGAAAC
+	sequoiadendron	GGTAGTTAATACGTTCCAAGAACGTGGCGCAATGGAGTATACCATTGTGGTAGCGGAAAC
+
+	metasequoia	TGCGGATTCTCCTGCGACATTACAATATCTTGCTCCTTATACAGGAGCAGCTTTAGCCGA
+	cryptomeria	TGCGGATTCTCCTGCTACATTACAATATCTTGCTCCTTATACAGGAGCAGCTTTAGCCGA
+	picea	TGCGGATTCTTCCGCTACATTACAATATCTCGCTCCTTATACAGGGGCAGCTTTGGCTGA
+	sequoia	TGCGGATTCTCCTGCTACATTACAATATCTTGCTCCTTATACAGGAGCAGCTTTAGCCGA
+	sequoiadendron	TGCGGATTCTCCTGCTACATTACAATATCTTGCTCCTTATACAGGAGCAGCTTTAGCCGA
+
+	metasequoia	ATACTTTATGTATAAAGAACAACATACATTAATCATTTATGATGATCTTTCCAAACAAGC
+	cryptomeria	ATACTTTATGTATAAAGAACAACATACATTAATCATTTATGATGATCTTTCCAAACAAGC
+	picea	ATACTTCATGTATAAGAAACAACATACATCAATCATTTATGATGATCTCTCCAAACAGGC
+	sequoia	ATACTTTATGTATAAAGAACAGCATACATCAATCATTTATGATGATCTTTCCAAACAAGC
+	sequoiadendron	ATACTTTATGTATAAAGAACAACATACATCAATCATTTATGATGATCTTTCTAAACAAGC
+
+	metasequoia	ACAAGCTTATCGACAAATGTCTCTTCTATTAAGAAGACCACCTGGTCGGGAAGCTTACCC
+	cryptomeria	ACAAGCTTATCGACAAATGTCTCTTCTATTAAGAAGACCCCCTGGCCGGGAAGCTTATCC
+	picea	ACAAGCTTATCGACAAATGTCTCTTCTATTAAGAAGACCACCTGGTCGAGAAGCTTATCC
+	sequoia	ACAAGCTTATCGACAAATGTCTCTTCTATTAAGAAGACCACCTGGCCGGGAAGCTTATCC
+	sequoiadendron	GCAAGCTTATCGACAAATGTCTCTTCTATTAAGAAGACCACCTGGCCGGGAAGCTTATCC
+
+	metasequoia	AGGAGATGTTTTCTATTTACATTCTCGTTTATTAGAAAGAGCAGCTAAATTAAATTCTCA
+	cryptomeria	AGGAGATGTTTTCTATTTACATTCTCGTTTATTAGAAAGAGCAGCTAAATTAAATTCTCA
+	picea	GGGAGATGTTTTCTATTTGCATTCCCGTCTCTCGGAAAGAGCAGCTAAATTAAGTTCCCA
+	sequoia	AGGAGATGTTTTTTATTTACATTCTCGTTTATTGGAAAGAGCAGCTAAATTAAATTCTCA
+	sequoiadendron	AGGAGATGTTTTCTATTTACATTCTCGTTTATTGGAAAGAGCAGCTAAATTAAATTCTCA
+
+	metasequoia	GTTAGGTGGAGGGAGTTTGACTGCTTTACCAATAGTTGAAACTCAAGCTGGAGATGTCTC
+	cryptomeria	GTTAGGTGGAGGGAGTTTGACTGCTTTACCAATAGTGGAGACTCAAGCTGGAGATGTCTC
+	picea	GTTAGGTGAGGGGAGTGTTACTGCTCTACCAATAGTTGAGACTCAAGCTGGAGATGTTTC
+	sequoia	GTTAGGTGGAGGGAGTTTAACTGCTTTACCAATAGTGGAGACTCAAGCTGGAGATGTCTC
+	sequoiadendron	GTTAGGTGGAGGGAGTTTAACTGCTTTACCAATAGTGGAGACTCAAGCTGGAGATGTCTC
+
+	metasequoia	AGCTTATATTCCCACTAACGTAATTTCCATTACCGACGGACAAATCTTCTTATCAGCTGA
+	cryptomeria	AGCTTATATTCCAACTAACGTAATTTCCATTACCGACGGGCAAATCTTCTTATCAGCTGA
+	picea	AGCTTATATTCCCACTAATGCAATTTCCATTACCGATGGACAAATATTTTCATCGGCCGA
+	sequoia	AGCTTATATTCCCACTAACGTAATTTCTATTACCGACGGACAAATCTTCTTATCAGCTGA
+	sequoiadendron	AGCTTATATTCCCACTAACGTAATTTCCATTACCGACGGACAAATCTTCTTATCAGCTGA
+
+	metasequoia	TCTATTCAATGCAGGAATTCAACCTGCCATTAATGTTGGTCTTTCCGTATCTAGAGTAGG
+	cryptomeria	TCTATTCAATGCAGGAATTCAACCTGCCATTAATGTAGGTCTTTCCGTATCTAGAGTAGG
+	picea	TCTATTCAATGCCGGAATCCGACCTGCTATTAATGTGGGTATTTCCGTATCTAGAGTAGG
+	sequoia	TCTCTTCAATGCAGGAATTCAACCTGCCATTAATGTTGGTCTTTCCGTATCCAGAGTAGG
+	sequoiadendron	TCTATTCAATGCAGGAATTCAACCTGCCATTAATGTTGGTCTTTCCGTATCTAGAGTAGG
+
+	metasequoia	ATCCGCAGCTCAGATGAAAGCTATGAAACAAGTAGCTGGAAAATTAAAATTAGAGTTAGC
+	cryptomeria	ATCCGCAGCTCAGATGAAAGCTATGAAACAAGTAGCTGGAAAATTAAAATTAGAATTAGC
+	picea	ATCCGCGGCTCAGATAAAAGCTATGAAAAAGGTAGCTGGAAAATTGAAATTAGAGTTAGC
+	sequoia	ATCCGCAGCTCAGATGAAAGCCATGAAACAAGTAGCTGGAAAATTAAAATTAGAGTTAGC
+	sequoiadendron	ATCCGCAGCTCAGATGAAAGCTATGAAACAAGTAGCTGGAAAATTAAAATTAGAGTTAGC
+
+	metasequoia	TCAACTTGCAGAGTTAGAAGCTTTTGCGCAATTCGCTTCTGATCTTGATAAAACTACGCA
+	cryptomeria	TCAACTTGCAGAGTTAGAAGCTTTTGCACAATTCGCTTCTGATCTTGATAAAGCTACACA
+	picea	TCAATTTGCAGAGTTGGAAGCTTTTGCACAATTTGCTTCCGATCTTGATAAAGCTACTCA
+	sequoia	TCAACTTGCAGAGTTAGAAGCTTTTGCACAATTTGCTTCTGATCTTGATAAAACTACGCA
+	sequoiadendron	TCAACTTGCAGAGTTAGAAGCTTTTGCACAATTCGCTTCTGATCTTGATAAAACTACGCA
+
+	metasequoia	AGATCAATTGGCAAGAGGTCAACGATTACGCGAATTACTCAAACAATCTCAATCAGATCC
+	cryptomeria	AGATCAATTGGCAAGAGGTCAACGATTACGCGAATTGCTCAAACAATCTCAATCGGATCC
+	picea	AGATCAGTTGGCAAGGGGTCAACGATTACGTGAGTTGCTCAAACAATCTCAGGCGGCTCC
+	sequoia	AGACCAATTGGCAAGAGGTCAACGATTACGCGAGTTACTCAAACAATCTCAATCAGATCC
+	sequoiadendron	AGATCAATTGGCAAGAGGTCAACGATTACGCGAATTACTCAAACAATCTCAATCAGATCC
+
+	metasequoia	TTTGACAGTGGAAGAACAAATAGCTATGATTTATACTGGAACGAATGGATATCTAGATGT
+	cryptomeria	TTTAACAGTGGAAGAACAAATAGCTATGATTTATACTGGAACGAATGGATATCTAGATGC
+	picea	TTTGAAAGTAGAAGAACAAATAGCTACTATTTATACCGGAACGAATGGATACCTGGATAT
+	sequoia	TTTGACAGTGGAAGAACAAATAGCTATGATTTATACTGGAACGAATGGATATCTAGATGT
+	sequoiadendron	TTTGACAGTGGAAGAACAAGTAGCTATGATTTATACTGGAACGAATGGATATCTAGATGT
+
+	metasequoia	ATTAGAGATTGTACAAGTGAAAAAATTTATCCTTAAGTTGCGCGAGTATTTAGTAAAAAA
+	cryptomeria	ATTAGATATCGTACAAGTTAAAAAATTTATCCTTAAGTTGCGCGAGTATTTAGTAAAAAA
+	picea	ATTAGAGATAGCACAGGTGAGAAAATTTCTCGTTCGGTTACGCGAGTATTTGATAAAGAA
+	sequoia	ATTAGATATCGTACAAGTGAAAAAATTTATCCTTAAGTTGCGCGAGCATCTCGTCAAAAA
+	sequoiadendron	ATTAGATATCGTACAAGTGAAAAAATTTATACTTAAGTTGCGCGAGTATTTAGTCAAAAA
+
+	metasequoia	TAAACCCCAGTTTGGAGAAATTATACGTTCTACTGGGACATTCACGGAACAAGCAGAAGA
+	cryptomeria	TAAACCCCAGTTTGGAGAAATTATACGTTCTACTGGGATATTGACGGAACAAGCAGAAGG
+	picea	TAAACCTCAGTTCGGAGAAATTATACGTTCTACTGGTACATTTACGGAAGAAGCGAAAGC
+	sequoia	GAAACCCCAGTTTGGAGAAATTATACGTTCTACTGGGACATTCACGGAACAAGCAGAAGA
+	sequoiadendron	TAAACCCCAGTTTGGAGAAATTATACGTTCTACTGGAACATTCACGGAACAAGCAGAAGA
+
+	metasequoia	TCTTTTAAAAGAAGCTATTCAAGAAAATATCCAACTTTTTCTT---------CTAGCAT-
+	cryptomeria	CCTTTTAAAAGAAGCTATTCAAGAAAATATCCAACTTTTTCTTATGTTGGGAATAAGAT-
+	picea	CCTTCTGGAAGAGGCTCTTAAGGAACATACTGAACTTTTTGTACTTCAAGAACAAAAGTG
+	sequoia	TCTGTTAAAAGAAGCTATTGAAGAAAATATCCAACTTTTTCTT---------CTAGCAT-
+	sequoiadendron	TCTGTTAAAAGAAGCTATTCAAGAAAATATCCAACTTTTTCTT---------CTAGCAT-
+
+	metasequoia	-------------------------------------AGAAGAGCTTAATAAT-------
+	cryptomeria	-------------------------------------AAAAGAGTTTAATAAT-------
+	picea	AATATTTGATCATTTGGTGGGATCATTCGGAACAGGAAAAAGAGCTGAAGAATTTGTTCC
+	sequoia	-------------------------------------AGAAAAGCTTTCTAAT-------
+	sequoiadendron	-------------------------------------AGAAGAGCTTAATAAT-------
+
+	metasequoia	----CACTTTGCAACATTTACAAA-TACAACGAAT------TATTACGTCCAATAGGATT
+	cryptomeria	----CATTTTGCAACATTTACAAAGCATAACGCAT------TATTACGTCCAATAGGATT
+	picea	AATACATTGCACAACAATT------TAGAACAATTGAAGAGTATTACGTCCAATAGGATT
+	sequoia	----TGCTTTGCAACATTTACAAA-TACAACGAAT------TATTACGTCCAATAGGATT
+	sequoiadendron	----CACTTTGCAACATTTACAAA-TACAACGAAT------TATTACGTCCAATAGGATT
+
+	metasequoia	TGAACCTATACCTAAGGTTTAGAAGACCTCTGTCCTATCCATTAGACGATGGACGC----
+	cryptomeria	TGAACCTATACTTAAGGTTTAGAAGACCTCTGTCCTATCCATTAGACGATGGACGC----
+	picea	TGAACCTATACCAAAGGTTTAGAAGACCTCTGTCCTATCCATTAGACAATGGACGCTCTC
+	sequoia	TGAACCTATACCTAAGGTTTAGAAGACCTCTGTCCTATCCATTAGACGATGGACGC----
+	sequoiadendron	TGAACCTATACCTAAGGTTTAGAAGACCTCTGTCCTATCCATTAGACGATGGACGC----
+
+	metasequoia	-----------------TTTATTTTCATTATTCCTTGAAATACTTTATCGTTAACAAAAA
+	cryptomeria	-----------------TTTATTTTCATTATTCCTTGAAATACTTTATCGGGAACAAAAA
+	picea	TCTCTCTCTTCCATTTTTTTCTTTTCACT-CTCTTTGGCATACATTATCCCGATC-----
+	sequoia	-----------------TTTATTTTCATTATTCCTTGAAATACTTTATCGTTAACAAAAA
+	sequoiadendron	-----------------TTTATTTTCATTATTCCTTGAAATACTTTATCGTTCACAAAAA
+
+	metasequoia	A-TACGATTTTTTCCTCCGTCCACAACGAGATTCGGGAAAGAAAGAGAAAGAATAGA---
+	cryptomeria	AGTATGATTTTTT-CTCCATCCACAACCAGATTCGGGAAAGAAAGAGAAAGAATAGA---
+	picea	--TACCCCTTTT------ATTCACAATGAGTT------AGGATAGGAAAAGAATGGAATC
+	sequoia	A-TACGATTTTTTTCTCCGTCCACAACGAGGTTCGGGAAAGAAAGAGAAAGAATAGA---
+	sequoiadendron	A-TACGATTTTTTTCTCCGTCCACAACGAGATTCGGGAAAGAAAGAGAAAGAATAGA---
+
+	metasequoia	TATGTAACATGGGCATGAAAAATTCATGT-GAGTGAAAGAGAAGTTTACATGAAAAAATA
+	cryptomeria	TATGTAACATGGGCATAAAAAATTCATGT-GAATGAGAGAGAAGTTGACATGAAAAA---
+	picea	TATTTCAAATTGAAATGGAAATTTGATTTCGAGTGAATCGTGAAATTATGTTATATAATC
+	sequoia	TATGTAACATGGACATGAAAAAATCATGT-GAATGAGTGAGATGTTGACATGAAAAAATA
+	sequoiadendron	TATGTAACATGGACATGAAAAAATCATGT-AAATGAGAGAGAAATTGACATGAAAAAATA
+
+	metasequoia	TTTTGA------------------------ATAAGGAATA--TGAATG------AGCGGG
+	cryptomeria	-TTTGA------------------------ATAAGGAATA--TAAATG------AGCGGG
+	picea	ACTTGATATCTACCTATTCTATCTATATAGATAGATAATAGGTAGATATCTGTTAGCGGG
+	sequoia	TTTTGA------------------------GTAAGGAATA--TGAATG------AGCGGG
+	sequoiadendron	TTTTGA------------------------ATAAGGAATA--TGAATG------AGCGGG
+
+	metasequoia	TAGCGGGAATCGAACCCGCATCGTTAGCTTGGAAGGCTAGGGGTTATAGTCGACGTTGAT
+	cryptomeria	TAGCGGGAATCGAACCCGCATCGTTAGCTTGGAAGGCTAGGGGTTATAGTCGACGTTGAT
+	picea	TAGCGGGAATCGAACCCGCATCGTTAGCTTGGAAGGCTAGGGGTTATAGTCGACATTGAT
+	sequoia	TAGCGGGAATCGAACCCGCATCGTTAGCTTGGAAGGCTAGGGGTTATAGTCGACGCTGAT
+	sequoiadendron	TAGCGGGAATCGAACCCGCATCGTTAGCTTGGAAGGCTAGGGGTTATAGTCGACGTTGAT
+
+	metasequoia	----TAACGCCTCTAATTCAGAACCGAACATGAAAATTTCATTTCATTCGGCTCCTCCAT
+	cryptomeria	----TAACGCCTCTAATTCAGAACCGAACACGAAAATTTCATTTCATTCGGCTCCTCCAT
+	picea	TATTCAATGCCTCTAATTCAGAACCGAACATGAAAATTTCATGTCATTCGGCTCCTTCAT
+	sequoia	----TAACGCCTCTAATTCAGAACCGAACATGAAAATTTCATTTCATTCGGCTCCTCCAT
+	sequoiadendron	----TAACGCCTCTAATTCAGAACCGAACATGAAAATTTCATTTCATTCGGCTCCTCCAT
+
+	metasequoia	G------GGAGAGAGATAGAAAGGGAGGTC-ATTGAAAAATTATTATTCACATAATAAAA
+	cryptomeria	G------GGAGAGAGATAGAATGGGAGGTCTAATGAAAAACGATTATTCAAATAATAATA
+	picea	GGGGGATAGAGAGTGGTATGAGGGAAG---------AAGCGGAGTATTTATATCAAA---
+	sequoia	G------GGAGAGAGATAGAAAGGAAGGTC-GTTGAAAAATGATTATTCACATAAAAAAA
+	sequoiadendron	G------GGAGAGAGATAGAAAGGGAGGTC-GTTGAAAAATGATTATTCACATAAAATAA
+
+	metasequoia	ATCTTCTTTGTGAATAAAAAAAGAAAATTCCA-----------TTTTCCTCTGCT-----
+	cryptomeria	A--ATATTTGTGAATAAAAAAAAAAAAGAAAATTAAAAAATAGTTTTGCTCTGTT-----
+	picea	----TCTTTTTG------AAAGGAGATTTCAAT----------TCTTTCTCTTCTTTCTT
+	sequoia	ATCTTCTTTGTGAATAAAAAAAGAAAATTCAA-----------TTTTTCTCTGCT-----
+	sequoiadendron	ATCTTCTTTGTGAATAAAAAAAGAAAAGGGGA-----------TTTTGCTCTGCT-----
+
+	metasequoia	--------------------------------------------CCATAACATCTATGTT
+	cryptomeria	--------------------------------------------CCATAACATCTATGTT
+	picea	TTTTTTTCTCTCTTTTCTAATAAAACCCTAATTTCTTATCGTACCCATAGCATCTACGTC
+	sequoia	--------------------------------------------CCATAACATCTATGTT
+	sequoiadendron	--------------------------------------------CCATAACATCTATGTT
+
+	metasequoia	AGTTTATTTGTAGTTCTT-TCTTTCCTCTTTACTTCAGGTGAACAACCTTAAATATAGAA
+	cryptomeria	AGTTTATTTGTAGTTCTT-TCTTTCCTCTTAATTTCAGGTGAACAACCTTAAATATAGAA
+	picea	AGTTTATTCTCTTTTCTTCTCTTCTCTCTTTTTTTTTAGAGAAGGGCCCGAATCGTAGAA
+	sequoia	AGTTTATTTGTAGTTCTT-TTTTCCCTCTTTACCTCAGGTGAACAACCTTCAATATAGAA
+	sequoiadendron	AGTTTATTTGTAGTTCTT-TCTTCCCTCTTTACTTCAGGTGAACAACCTTCAATATAGAA
+
+	metasequoia	TACCTATTCACTTGATAGATGATCCCTATAGAAAGATAAGATTCAAAAATATGAATATTG
+	cryptomeria	TACCTATTCACTTTATAGATGATCCCTATAGAAAGATAAGATTGAAAAATCTTAATATTG
+	picea	TACTTACTCACTTTCTAGATGATCCCTCTAGAAAGATAAAATTGAAAAGT-------TTT
+	sequoia	TACCTATTCACTTGATAGATGATCCCTATAGAAAGATCAGATTCAAACATATGAATATTG
+	sequoiadendron	TACCTATTCACTTGATAGATGATCCCTATAGAAAGATCAGATTCAAAAATATGAATATTG
+
+	metasequoia	AAATAACTATATAATCTTTCTAATTACTTCGTTCCCTATTTCTACTGATTGTGATCCTAG
+	cryptomeria	G----GCTAAAAAATCTTTCTAATTACTTCGTTCCCTATTTCTACTGATTGCGATCCTAG
+	picea	CAATAATCACA-AATCTTTCTAGTTACTTCGTTCCCTATTTCTACTGATTCCGATCCCC-
+	sequoia	GAATAACTATATAATCTTTCTAATTACTTCGTTTCCTATTTCTACTGATTGTGATCCTAG
+	sequoiadendron	GAATAACTATATAATCTTTCTAATTACTTCGTTCCCTATTTCTACTGATTGGGATCCTAG
+
+	metasequoia	AGGAAATCAAATTCCACCGAGCTCAAACAAAATAACGGTGACTCAAGTAAACCAAAGTCA
+	cryptomeria	AGGAAATCAAATTCCACCGAGCTCAAACAAAATAACGGTGACTCAAGTAAACCAAAGTCA
+	picea	AGGAGAACAAATTCCACCGAGCTCGAACGAAATGCTGATAACCCAAGTAAACCAAAGTCA
+	sequoia	AGGAAATCAAATTCCACCGAGCTCAAACAAAATAACGGTGACTCAAGTAAACCAAAGTCA
+	sequoiadendron	AGGAAATCAAATTCCACCGAGCTCAAACAAAATAACGGTGACTCAAGTAAACCAAAGTCA
+
+	metasequoia	CTGTTTTCTAGCTATTTGACTCCAACTTTTGCTGTTCTAGCAGTTGAACATTTAGTTACG
+	cryptomeria	TTGTTATCTAGCTATTTGGCTCCAACTTTTGCTATTCTAGCAGTTGAACATTTAGTTACG
+	picea	TCGTTCTATAGCTATTCGGCTTCAACTGGATCC-TTCCATAAGTTGAAGGTTTAGTCACG
+	sequoia	CTGTTTTCTAGCTATTTTACTCCAACTTTTGCTGTTCTAGCAGTCGAACATTTAGTTACG
+	sequoiadendron	CTGTTTTCTAGCTATTTTACTCCAACTTTTGCTGTTCTAGCAGTCGAACATTTAGTTACG
+
+	metasequoia	ATGAAAAAGAATCTTTTGATATCCATGGATCTTTGATTGATTCGATTAGATAGATCGGTC
+	cryptomeria	ATGAAAAATAATCTTTTGATATCCATGGATCTTTAATTGATCTGATTAGATAGATCGGTC
+	picea	ATGAAAAAAGATCTTTGGATCTCCATAGATATGTTATT----------------TC--TC
+	sequoia	ATGAAAAAGAATCTTTTGATATCCATGGATCTTTGATTGATTCGATTAGATAGATCGGTC
+	sequoiadendron	ATGAAAAAGAATCTTTTGATATCCATGGATCTTTGATTGATTCGATTAGATAGATCGGTC
+
+	metasequoia	TAATCCTTGAAAACATTCTACATTCTGTTTCGCTATCTTGGATGGAATGGAAAATATGGT
+	cryptomeria	TAATCCTTGAAAACATTCTACATTCTGTTTCGCCATCTTGGATGGAATGGAAAATAGGGT
+	picea	TAACCTTTAAA--------ATATTCTGTGTCGCTATCT----CGGAACCAAAAATGTGTT
+	sequoia	TAATCCTTGAAAATATTCTACATTCTGTTTCGCTATCTTGGATGGAATGGAAAATATGGT
+	sequoiadendron	TAATCCTTGAAAACATTCTACATTCTGTTTCGCTATCTTGGATGGAATGGAAAATATGGT
+
+	metasequoia	--CCTTTTCTGATTTCAGATCCAAATTACGAGAATGTGTACAATTCCTTTCCTGAACCAG
+	cryptomeria	---TTTTTATCATTCCAAATCCAAATTACGAGAATGTGCACAATTCCTTTCCTGAACCAG
+	picea	TCTCTTTCATCATTTCAGATCCAGATTACGAGAAGGTATGCTA-----TTCCTGAACCAT
+	sequoia	--CCTTTTATCATTCCAGATCCAAATTACGAGAATGTGTACAATTCCTTTCCTGAACCAG
+	sequoiadendron	--CCTTTTATCATTCCAGATCCAAATTACGAGAATGTGTACAATTCCTTTCCTGAACCAG
+
+	metasequoia	GGTATTCATAGGAGAGGT
+	cryptomeria	GGTATTCATAGGAGAGGT
+	picea	AGCATTCATAGGGGAGGT
+	sequoia	GGTATTCATAGGAGAGGT
+	sequoiadendron	GGTATTCATAGGAGAGGT
+
+;
+end;

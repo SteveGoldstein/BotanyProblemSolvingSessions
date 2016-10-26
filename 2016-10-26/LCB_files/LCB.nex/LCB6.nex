@@ -1,0 +1,24 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=5;
+	taxlabels
+	metasequoia[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	cryptomeria[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	picea[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	sequoia[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+	sequoiadendron[&Created=Sat Aug 20 09:47:53 CDT 2016,description=null]
+;
+end;
+
+begin characters;
+	dimensions nchar=60;
+	format datatype=dna missing=? gap=- interleave=yes;
+	matrix
+	metasequoia	CGTTATTCCTCAGTAGCTCAGTGGTAGAGCGGTCGGCTGTTAACCGATTGGTCGTAGGTT
+	cryptomeria	CGTTATTCCTCAGTAGCTCAGTGGTAGAGCGGTCGGCTGTTAACCGATTGGTCGTAGGTT
+	picea	CGTTGTTCCTCAATAGCTCAGTGGTAGAGCGGTCGGCTGTTAACTGACTGGTCGTAGGTT
+	sequoia	CGTTATTCCTCAGTAGCTCAGTGGTAGAGCGGTCGGCTGTTAACCGATTGGTCGTAGGTT
+	sequoiadendron	CGTTATTCCTCAGTAGCTCAGTGGTAGAGCGGTCGGCTGTTAACCGATTGGTCGTAGGTT
+
+;
+end;

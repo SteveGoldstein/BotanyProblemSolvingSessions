@@ -1,0 +1,13 @@
+
+The outline looks like this:
+- Start with lcb.fa files created at the end of your last workshop
+- Somehow (up to you) create versions of those files where sequence names are consistent. So instead of "1:4-6467 - /Users/metasequoia/Downloads/BotanyProblemSolvingSessions-master/data/Picea_abies.fa", the sequence would be called simply "Picea" in all of the lcb.fa files
+- Convert .fa files to .nex (I did this in Geneious but could be done many ways)
+- Run all .nex files through MrBayes
+- Using Bucky, run mbsum to summarize MrBayes output per locus (from different runs)
+- Run Bucky on the 21 lcbs & evaluate the output
+
+Attached here are two directories: 
+- one has the .nex files (after being renamed)
+- one has the .in files that serve as input for Bucky (these are created during the mbsum step)
+

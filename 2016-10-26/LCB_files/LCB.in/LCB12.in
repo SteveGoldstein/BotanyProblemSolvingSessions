@@ -1,0 +1,9 @@
+translate
+       1 metasequoia,
+       2 cryptomeria,
+       3 picea,
+       4 sequoia,
+       5 sequoiadendron;
+((1,(2,3)),4,5); 2923
+((1,4),(2,3),5); 578
+(1,((2,3),4),5); 1
