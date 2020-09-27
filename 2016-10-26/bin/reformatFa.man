@@ -1,0 +1,2 @@
+cat data/lcbBlock1.fa|perl -F/ -plae 'next unless (/^>/); $F[-1]=~s/\.fa$//; $F[-1]=~s/_.*$//; print ">$F[-1]";' 
+
